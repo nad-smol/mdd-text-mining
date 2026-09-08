@@ -1,0 +1,141 @@
+{
+  "stage": "graphs",
+  "n_nodes": 60,
+  "n_edges": 560,
+  "n_normalized_nodes": 54,
+  "filters": {
+    "predicates": null,
+    "max_nodes": 60,
+    "min_confidence": 0.3,
+    "normalized_only": false,
+    "keep_multi_edges": false
+  },
+  "outputs": {
+    "xgmml": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\graphs\\fig10_bdnf.xgmml",
+    "html": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\graphs\\fig10_bdnf.html"
+  },
+  "predicate_edge_styles": {
+    "affects": {
+      "color": "#4682B4",
+      "line_style": "dashed",
+      "arrow": "tee"
+    },
+    "alters level of": {
+      "color": "#C45C26",
+      "line_style": "solid",
+      "arrow": "diamond"
+    },
+    "decreases level of": {
+      "color": "#708090",
+      "line_style": "solid",
+      "arrow": "triangle"
+    },
+    "has beneficial effect on": {
+      "color": "#20B2AA",
+      "line_style": "solid",
+      "arrow": "tee"
+    },
+    "increases level of": {
+      "color": "#6A5ACD",
+      "line_style": "dotted",
+      "arrow": "triangle"
+    },
+    "increases risk of": {
+      "color": "#556B2F",
+      "line_style": "dotted",
+      "arrow": "triangle"
+    },
+    "interacts with": {
+      "color": "#D2691E",
+      "line_style": "dotted",
+      "arrow": "diamond"
+    },
+    "is a biomarker of": {
+      "color": "#CD5C5C",
+      "line_style": "dashed",
+      "arrow": "diamond"
+    },
+    "is a risk factor for": {
+      "color": "#4A6FA5",
+      "line_style": "solid",
+      "arrow": "triangle"
+    },
+    "is a therapeutic target in": {
+      "color": "#D2691E",
+      "line_style": "dotted",
+      "arrow": "diamond"
+    },
+    "is associated with": {
+      "color": "#708090",
+      "line_style": "solid",
+      "arrow": "triangle"
+    },
+    "is associated with susceptibility to": {
+      "color": "#8B4513",
+      "line_style": "solid",
+      "arrow": "circle"
+    },
+    "is coadministered with": {
+      "color": "#20B2AA",
+      "line_style": "solid",
+      "arrow": "tee"
+    },
+    "is comorbid with": {
+      "color": "#CD5C5C",
+      "line_style": "dashed",
+      "arrow": "diamond"
+    },
+    "is investigated regarding": {
+      "color": "#6A5ACD",
+      "line_style": "dotted",
+      "arrow": "triangle"
+    },
+    "is part of": {
+      "color": "#2E8B57",
+      "line_style": "dashed",
+      "arrow": "triangle"
+    },
+    "is transformed into": {
+      "color": "#8B4513",
+      "line_style": "solid",
+      "arrow": "circle"
+    },
+    "is used in therapy of": {
+      "color": "#4682B4",
+      "line_style": "dashed",
+      "arrow": "tee"
+    },
+    "leads to": {
+      "color": "#C45C26",
+      "line_style": "solid",
+      "arrow": "diamond"
+    },
+    "manifests as": {
+      "color": "#DAA520",
+      "line_style": "dashed",
+      "arrow": "circle"
+    },
+    "modulates response to": {
+      "color": "#8B4513",
+      "line_style": "solid",
+      "arrow": "circle"
+    },
+    "negatively regulates": {
+      "color": "#20B2AA",
+      "line_style": "solid",
+      "arrow": "tee"
+    },
+    "positively regulates": {
+      "color": "#B22222",
+      "line_style": "solid",
+      "arrow": "circle"
+    },
+    "prevents": {
+      "color": "#708090",
+      "line_style": "solid",
+      "arrow": "triangle"
+    }
+  },
+  "input": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\associations\\unique_associations.tsv",
+  "updated_at_utc": "2026-09-08T19:43:07.361874+00:00"
+}

@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<graph label="MDD associations | predicates=is comorbid with | max_nodes=40 | min_cs=0.5 | normalized_only | collapsed_edges" directed="1"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cy="http://www.cytoscape.org"
+  xmlns="http://www.cs.rpi.edu/XGMML">
+  <node id="1" label="anxiety" name="base">
+    <att name="name" value="anxiety" type="string"/>
+    <att name="shared name" value="anxiety" type="string"/>
+    <att name="canonicalName" value="anxiety" type="string"/>
+    <att name="entity_key" value="Disease|0000412" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="0000412" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="anxiety" type="string"/>
+    <att name="text_synonyms" value="anxiety; Anxiety; anxiety symptoms; Anxiety symptoms" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="92.4" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A neurological and physiological symptom that is characterized by a painful or apprehensive uneasiness of mind usually over an impending or anticipated ill." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/SYMP_0000412" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:0000412" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="92.4" h="36.0" x="747.22" y="531.62" width="1.5"/>
+  </node>
+  <node id="2" label="major depressive disorder" name="base">
+    <att name="name" value="major depressive disorder" type="string"/>
+    <att name="shared name" value="major depressive disorder" type="string"/>
+    <att name="canonicalName" value="major depressive disorder" type="string"/>
+    <att name="entity_key" value="Disease|1470" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="1470" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="major depressive disorder" type="string"/>
+    <att name="text_synonyms" value="MDD; major depressive disorder; depression; major depression; depressive; MD; unipolar depression; depressed; Major depressive disorder; Major Depressive Disorder; depressive symptoms; Depression" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="222.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="Xref MGI." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_1470" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:1470" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="222.0" h="36.0" x="619.17" y="427.85" width="1.5"/>
+  </node>
+  <node id="3" label="generalized anxiety disorder" name="base">
+    <att name="name" value="generalized anxiety disorder" type="string"/>
+    <att name="shared name" value="generalized anxiety disorder" type="string"/>
+    <att name="canonicalName" value="generalized anxiety disorder" type="string"/>
+    <att name="entity_key" value="Disease|14320" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="14320" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="generalized anxiety disorder" type="string"/>
+    <att name="text_synonyms" value="GAD; anxiety disorders; generalized anxiety disorder; Generalized Anxiety Disorder; Generalized anxiety disorder; Anxiety disorders; generalized anxiety; Anxiety Disorders; general anxiety disorder; generalized anxiety disorders; Generalized Anxiety; ANXIETY DISORDERS" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="243.6" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="An anxiety disorder that is characterized by long-lasting anxiety that is not focused on any one object or situation." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_14320" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:14320" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="243.6" h="36.0" x="702.77" y="627.59" width="1.5"/>
+  </node>
+  <node id="4" label="post-traumatic stress disorder" name="base">
+    <att name="name" value="post-traumatic stress disorder" type="string"/>
+    <att name="shared name" value="post-traumatic stress disorder" type="string"/>
+    <att name="canonicalName" value="post-traumatic stress disorder" type="string"/>
+    <att name="entity_key" value="Disease|2055" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="2055" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="post-traumatic stress disorder" type="string"/>
+    <att name="text_synonyms" value="PTSD; post-traumatic stress disorder; Post-traumatic stress disorder; Post-Traumatic Stress Disorder; post traumatic stress disorder; post-traumatic stress; Post-traumatic Stress Disorder; POST-TRAUMATIC STRESS DISORDER; post-traumatic stress disorders" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="258.0" type="real"/>
+    <att name="node_height" value="48.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="An anxiety disorder which results from a traumatic experience that results in psychological trauma." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_2055" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:2055" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="258.0" h="48.0" x="374.06" y="88.25" width="1.5"/>
+  </node>
+  <node id="5" label="insomnia" name="base">
+    <att name="name" value="insomnia" type="string"/>
+    <att name="shared name" value="insomnia" type="string"/>
+    <att name="canonicalName" value="insomnia" type="string"/>
+    <att name="entity_key" value="Disease|0000571" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="0000571" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="insomnia" type="string"/>
+    <att name="text_synonyms" value="insomnia; Insomnia; insomnia-only" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="99.6" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="Insomnia is a sleep disturbance characterized by prolonged and usually abnormal inability to obtain adequate sleep." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/SYMP_0000571" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:0000571" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="99.6" h="36.0" x="534.10" y="754.86" width="1.5"/>
+  </node>
+  <node id="6" label="borderline personality disorder" name="base">
+    <att name="name" value="borderline personality disorder" type="string"/>
+    <att name="shared name" value="borderline personality disorder" type="string"/>
+    <att name="canonicalName" value="borderline personality disorder" type="string"/>
+    <att name="entity_key" value="Disease|10930" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="10930" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="borderline personality disorder" type="string"/>
+    <att name="text_synonyms" value="BPD; borderline personality disorder; Borderline personality disorder; Borderline Personality Disorder; borderline personality disorders; borderline personality; functional disorders" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="265.2" type="real"/>
+    <att name="node_height" value="48.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A personality disorder that involves a prolonged disturbance of personality function characterized by depth and variability of moods." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_10930" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:10930" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="265.2" h="48.0" x="730.64" y="582.13" width="1.5"/>
+  </node>
+  <node id="7" label="bipolar disorder" name="base">
+    <att name="name" value="bipolar disorder" type="string"/>
+    <att name="shared name" value="bipolar disorder" type="string"/>
+    <att name="canonicalName" value="bipolar disorder" type="string"/>
+    <att name="entity_key" value="Disease|3312" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="3312" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="bipolar disorder" type="string"/>
+    <att name="text_synonyms" value="bipolar disorder; BD; bipolar depression; depressive disorders; bipolar; Bipolar Disorder; Bipolar disorder; bipolar disorders; bipolarity; BIP; bipolar affective disorder; bipolar I" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="157.2" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A mood disorder that involves alternating periods of mania and depression." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_3312" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:3312" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="157.2" h="36.0" x="755.56" y="479.75" width="1.5"/>
+  </node>
+  <node id="8" label="type 2 diabetes mellitus" name="base">
+    <att name="name" value="type 2 diabetes mellitus" type="string"/>
+    <att name="shared name" value="type 2 diabetes mellitus" type="string"/>
+    <att name="canonicalName" value="type 2 diabetes mellitus" type="string"/>
+    <att name="entity_key" value="Disease|9352" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="9352" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="type 2 diabetes mellitus" type="string"/>
+    <att name="text_synonyms" value="diabetes; type 2 diabetes; type 2 diabetes mellitus; Diabetes; Type 2 diabetes; Type 2 Diabetes Mellitus; Type 2 Diabetes; type 2 diabetic; type II diabetes mellitus; diabetics; TYPE 2 DIABETES; type I diabetes mellitus" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="214.8" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="Xref MGI. OMIM mapping confirmed by DO. [SN]." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_9352" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:9352" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="214.8" h="36.0" x="734.21" y="271.75" width="1.5"/>
+  </node>
+  <node id="9" label="mild cognitive impairment" name="base">
+    <att name="name" value="mild cognitive impairment" type="string"/>
+    <att name="shared name" value="mild cognitive impairment" type="string"/>
+    <att name="canonicalName" value="mild cognitive impairment" type="string"/>
+    <att name="entity_key" value="Disease|0080832" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="0080832" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="mild cognitive impairment" type="string"/>
+    <att name="text_synonyms" value="cognitive impairment; cognitive impairments; Cognitive impairment; mild cognitive impairment; Cognitive Impairment; Cognitive impairments; impaired cognition; Mild Cognitive Impairment; Mild cognitive impairment; Impairment; cognitive deterioration; Cognitively Impaired" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="222.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A cognitive disorder that is characterized by objective impairment in cognition with minimal impairment of their capacity to undertake the instrumental activities of daily living." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_0080832" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:0080832" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="222.0" h="36.0" x="374.06" y="767.45" width="1.5"/>
+  </node>
+  <node id="10" label="pain" name="base">
+    <att name="name" value="pain" type="string"/>
+    <att name="shared name" value="pain" type="string"/>
+    <att name="canonicalName" value="pain" type="string"/>
+    <att name="entity_key" value="Disease|0000099" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="0000099" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="pain" type="string"/>
+    <att name="text_synonyms" value="pain; Pain" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="70.8" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A sensation perception that is characterized by an unpleasant sensation that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual, confined to one area or spread over the entire body." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/SYMP_0000099" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:0000099" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="70.8" h="36.0" x="583.95" y="734.21" width="1.5"/>
+  </node>
+  <node id="11" label="anxiety disorder" name="base">
+    <att name="name" value="anxiety disorder" type="string"/>
+    <att name="shared name" value="anxiety disorder" type="string"/>
+    <att name="canonicalName" value="anxiety disorder" type="string"/>
+    <att name="entity_key" value="Disease|2030" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="2030" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="anxiety disorder" type="string"/>
+    <att name="text_synonyms" value="anxiety disorder; ANX; anxiety (; Anxiety Disorder; state anxiety; anx; anxiety.2; and anxiety; anxiety and; Anxiety disorder; anxiety-anxiety; anxiety/" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="157.2" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A cognitive disorder that involves an excessive, irrational dread of everyday situations." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_2030" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:2030" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="157.2" h="36.0" x="321.60" y="100.84" width="1.5"/>
+  </node>
+  <node id="12" label="substance dependence" name="base">
+    <att name="name" value="substance dependence" type="string"/>
+    <att name="shared name" value="substance dependence" type="string"/>
+    <att name="canonicalName" value="substance dependence" type="string"/>
+    <att name="entity_key" value="Disease|9973" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="9973" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="substance dependence" type="string"/>
+    <att name="text_synonyms" value="substance use disorders; substance use disorder; substance dependence; Substance use disorder; Substance Use Disorder; Substance Use Disorders; alcohol dependency disorder; Substance use disorders; and/or substance dependence; substance dependent; substance-use disorder" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="186.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A substance-related disorder that involves the continued use of alcohol or other drugs despite problems related to use of the substance." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_9973" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:9973" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="186.0" h="36.0" x="767.45" y="374.06" width="1.5"/>
+  </node>
+  <node id="13" label="panic disorder" name="base">
+    <att name="name" value="panic disorder" type="string"/>
+    <att name="shared name" value="panic disorder" type="string"/>
+    <att name="canonicalName" value="panic disorder" type="string"/>
+    <att name="entity_key" value="Disease|594" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="594" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="panic disorder" type="string"/>
+    <att name="text_synonyms" value="panic disorder; panic; Panic disorder; Panic Disorder; anxiety distress; panic disorders; panic symptoms; Panic; Panic (; panic disorder-on; panics disorder" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="142.8" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="Xref MGI." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_594" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:594" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="142.8" h="36.0" x="583.95" y="121.49" width="1.5"/>
+  </node>
+  <node id="14" label="inflammation" name="base">
+    <att name="name" value="inflammation" type="string"/>
+    <att name="shared name" value="inflammation" type="string"/>
+    <att name="canonicalName" value="inflammation" type="string"/>
+    <att name="entity_key" value="Disease|0000061" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="0000061" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="inflammation" type="string"/>
+    <att name="text_synonyms" value="inflammation; Inflammation" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="128.4" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="MONDO" type="string"/>
+    <att name="description" value="Orgasm is the sudden discharge of accumulated sexual tension during the sexual response cycle, resulting in rhythmic muscular contractions in the pelvic region characterized by sexual pleasure.
+
+http://en.wikipedia.org/wiki/Orgasm" type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/MF_0000061" type="string"/>
+    <att name="ontology" value="mondo" type="string"/>
+    <att name="obo_id" value="MONDO:0000061" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="128.4" h="36.0" x="629.95" y="706.02" width="1.5"/>
+  </node>
+  <node id="15" label="PDE6A-related retinopathy" name="base">
+    <att name="name" value="PDE6A-related retinopathy" type="string"/>
+    <att name="shared name" value="PDE6A-related retinopathy" type="string"/>
+    <att name="canonicalName" value="PDE6A-related retinopathy" type="string"/>
+    <att name="entity_key" value="Disease|0700224" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="0700224" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="PDE6A-related retinopathy" type="string"/>
+    <att name="text_synonyms" value="PD" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="222.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="MONDO" type="string"/>
+    <att name="description" value="This term captures the disease spectrum. At the time of creation (January 2024), this term is the ontological parent to only one term, but other clinical disease terms could be added in the future. If no additional ontological children are discovered, it is possible that this term might be merged with its single child. (https://clinicalgenome.org/working-groups/clinical-domain/ocular-cdwg/)" type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/MONDO_0700224" type="string"/>
+    <att name="ontology" value="mondo" type="string"/>
+    <att name="obo_id" value="MONDO:0700224" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="222.0" h="36.0" x="225.75" y="706.02" width="1.5"/>
+  </node>
+  <node id="16" label="obesity" name="base">
+    <att name="name" value="obesity" type="string"/>
+    <att name="shared name" value="obesity" type="string"/>
+    <att name="canonicalName" value="obesity" type="string"/>
+    <att name="entity_key" value="Disease|9970" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="9970" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="obesity" type="string"/>
+    <att name="text_synonyms" value="obesity; Obesity; obese; Obesity-related; OBE; obesity-related" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="92.4" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="OMIM mapping confirmed by DO. [SN]." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_9970" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:9970" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="92.4" h="36.0" x="754.86" y="321.60" width="1.5"/>
+  </node>
+  <node id="17" label="delusional disorder" name="base">
+    <att name="name" value="delusional disorder" type="string"/>
+    <att name="shared name" value="delusional disorder" type="string"/>
+    <att name="canonicalName" value="delusional disorder" type="string"/>
+    <att name="entity_key" value="Disease|778" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="778" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="delusional disorder" type="string"/>
+    <att name="text_synonyms" value="psychiatric disorders; psychiatric disorder; delusions; Psychiatric disorders; non-mood disorder; delusional; delusional disorder; Psychiatric Disorders; psychiatric disorders-by; thought disorder" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="178.8" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A psychotic disorder that involves an uncommon psychiatric condition in which patients present with circumscribed symptoms of non-bizarre delusions, but with the absence of prominent hallucinations and no thought disorder, mood disorder, or significant flattening effect." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_778" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:778" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="178.8" h="36.0" x="670.98" y="184.72" width="1.5"/>
+  </node>
+  <node id="18" label="Alzheimer's disease 3" name="base">
+    <att name="name" value="Alzheimer's disease 3" type="string"/>
+    <att name="shared name" value="Alzheimer's disease 3" type="string"/>
+    <att name="canonicalName" value="Alzheimer's disease 3" type="string"/>
+    <att name="entity_key" value="Disease|0110042" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="0110042" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Alzheimer's disease 3" type="string"/>
+    <att name="text_synonyms" value="AD; Alzheimer's disease; Alzheimer's Disease; Alzheimer disease" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="193.2" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="An Alzheimer's disease that has_material_basis_in mutation in the presenilin-1 gene (PSEN1) on chromosome 14q24." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_0110042" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:0110042" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="193.2" h="36.0" x="321.60" y="754.86" width="1.5"/>
+  </node>
+  <node id="19" label="attention deficit hyperactivity disorder" name="base">
+    <att name="name" value="attention deficit hyperactivity disorder" type="string"/>
+    <att name="shared name" value="attention deficit hyperactivity disorder" type="string"/>
+    <att name="canonicalName" value="attention deficit hyperactivity disorder" type="string"/>
+    <att name="entity_key" value="Disease|1094" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="1094" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="attention deficit hyperactivity disorder" type="string"/>
+    <att name="text_synonyms" value="ADHD; attention-deficit/hyperactivity disorder; attention deficit hyperactivity disorder; attention-deficit hyperactivity disorder; Attention Deficit Hyperactivity Disorder; attention deficit/hyperactivity disorder; attentional deficits; attention deficits; Attention deficit and hyperactivity disorder; attention deficit and hyperactivity disorder; attention deficit hyperactivity disorders; attent…" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="320.0" type="real"/>
+    <att name="node_height" value="48.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="Xref MGI." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_1094" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:1094" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="320.0" h="48.0" x="88.25" y="481.64" width="1.5"/>
+  </node>
+  <node id="20" label="schizophrenia" name="base">
+    <att name="name" value="schizophrenia" type="string"/>
+    <att name="shared name" value="schizophrenia" type="string"/>
+    <att name="canonicalName" value="schizophrenia" type="string"/>
+    <att name="entity_key" value="Disease|5419" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="5419" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="schizophrenia" type="string"/>
+    <att name="text_synonyms" value="schizophrenia; Schizophrenia; SCHIZOPHRENIA" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="135.6" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="Xref MGI. OMIM mapping confirmed by DO. [SN]." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_5419" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:5419" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="135.6" h="36.0" x="668.14" y="668.14" width="1.5"/>
+  </node>
+  <node id="21" label="auditory system disease" name="base">
+    <att name="name" value="auditory system disease" type="string"/>
+    <att name="shared name" value="auditory system disease" type="string"/>
+    <att name="canonicalName" value="auditory system disease" type="string"/>
+    <att name="entity_key" value="Disease|2742" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="2742" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="auditory system disease" type="string"/>
+    <att name="text_synonyms" value="AUD" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="207.6" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A sensory system disease that is characterized by auditory dysfunction located_in the auditory system." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_2742" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:2742" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="207.6" h="36.0" x="481.64" y="88.25" width="1.5"/>
+  </node>
+  <node id="22" label="chronic pain" name="base">
+    <att name="name" value="chronic pain" type="string"/>
+    <att name="shared name" value="chronic pain" type="string"/>
+    <att name="canonicalName" value="chronic pain" type="string"/>
+    <att name="entity_key" value="Disease|0000837" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="0000837" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="chronic pain" type="string"/>
+    <att name="text_synonyms" value="chronic pain; Chronic pain" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="128.4" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A pain that is characterized by ranging from mild to severe and which continues beyond the expected healing phase." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/SYMP_0000837" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:0000837" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="128.4" h="36.0" x="481.64" y="767.45" width="1.5"/>
+  </node>
+  <node id="23" label="alcohol dependence" name="base">
+    <att name="name" value="alcohol dependence" type="string"/>
+    <att name="shared name" value="alcohol dependence" type="string"/>
+    <att name="canonicalName" value="alcohol dependence" type="string"/>
+    <att name="entity_key" value="Disease|0050741" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="0050741" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="alcohol dependence" type="string"/>
+    <att name="text_synonyms" value="alcohol dependence; dependence; Alcohol dependence; Alcohol Dependence; alcohol dependency; alcohol dependent; alcohol symptoms; dependence on alcohol and/" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="171.6" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A substance dependence that is characterized by tolerance, withdrawal symptoms, increasing use, persistent desire to decrease consumption, time spent obtaining or recovering from alcohol caused by a physical and psychological dependence on alcohol." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_0050741" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:0050741" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="171.6" h="36.0" x="427.85" y="771.69" width="1.5"/>
+  </node>
+  <node id="24" label="alcohol use disorder" name="base">
+    <att name="name" value="alcohol use disorder" type="string"/>
+    <att name="shared name" value="alcohol use disorder" type="string"/>
+    <att name="canonicalName" value="alcohol use disorder" type="string"/>
+    <att name="entity_key" value="Disease|1574" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="1574" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="alcohol use disorder" type="string"/>
+    <att name="text_synonyms" value="alcohol use disorder; alcohol use disorders; alcohol abuse; Alcohol Use Disorder; alcohol-use disorders; Alcohol use disorder; alcohol disorders; use disorders; alcohol disorder; alcohol-use disorder; abuse of or; Alcohol abuse" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="186.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A substance abuse that involves the recurring use of alcoholic beverages despite negative consequences." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_1574" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:1574" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="186.0" h="36.0" x="225.75" y="149.68" width="1.5"/>
+  </node>
+  <node id="25" label="obsessive-compulsive disorder" name="base">
+    <att name="name" value="obsessive-compulsive disorder" type="string"/>
+    <att name="shared name" value="obsessive-compulsive disorder" type="string"/>
+    <att name="canonicalName" value="obsessive-compulsive disorder" type="string"/>
+    <att name="entity_key" value="Disease|10933" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="10933" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="obsessive-compulsive disorder" type="string"/>
+    <att name="text_synonyms" value="obsessive-compulsive disorder; obsessive compulsive disorder; Obsessive Compulsive Disorder; compulsions; obsessive-compulsive; Obsessive-Compulsive Disorder; OB; obsessions; Obsessive-compulsive disorder; obsessive-compulsive disorders; obsessive–compulsive disorder; Compulsive Behavior" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="250.8" type="real"/>
+    <att name="node_height" value="48.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="An anxiety disorder that involves unwanted and repeated thoughts, feelings, ideas, sensations (obsessions), or behaviors that make them feel driven to do something (compulsions)." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_10933" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:10933" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="250.8" h="48.0" x="121.49" y="583.95" width="1.5"/>
+  </node>
+  <node id="26" label="sudden infant death syndrome" name="base">
+    <att name="name" value="sudden infant death syndrome" type="string"/>
+    <att name="shared name" value="sudden infant death syndrome" type="string"/>
+    <att name="canonicalName" value="sudden infant death syndrome" type="string"/>
+    <att name="entity_key" value="Disease|9007" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="9007" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="sudden infant death syndrome" type="string"/>
+    <att name="text_synonyms" value="SUD; sudden death" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="243.6" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A syndrome that is characterized by the sudden death of an infant that is not predicted by medical history and remains unexplained after a thorough forensic autopsy and detailed death scene investigation." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_9007" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:9007" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="243.6" h="36.0" x="706.02" y="225.75" width="1.5"/>
+  </node>
+  <node id="27" label="migraine" name="base">
+    <att name="name" value="migraine" type="string"/>
+    <att name="shared name" value="migraine" type="string"/>
+    <att name="canonicalName" value="migraine" type="string"/>
+    <att name="entity_key" value="Disease|6364" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="6364" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="migraine" type="string"/>
+    <att name="text_synonyms" value="migraine; Migraine; migraines; Migraines" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="99.6" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="Xref MGI. OMIM mapping confirmed by DO. [SN]." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_6364" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:6364" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="99.6" h="36.0" x="629.95" y="149.68" width="1.5"/>
+  </node>
+  <node id="28" label="SADDAN" name="base">
+    <att name="name" value="SADDAN" type="string"/>
+    <att name="shared name" value="SADDAN" type="string"/>
+    <att name="canonicalName" value="SADDAN" type="string"/>
+    <att name="entity_key" value="Disease|0111158" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="0111158" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="SADDAN" type="string"/>
+    <att name="text_synonyms" value="SAD; sadness; sad; Sadness" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="85.2" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A syndrome characterized by severe achondroplasia, developmental delay and acanthosis nigricans that has_material_basis_in heterozygous mutation in the FGFR3 gene on chromosome 4p16." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_0111158" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:0111158" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="85.2" h="36.0" x="271.75" y="734.21" width="1.5"/>
+  </node>
+  <node id="29" label="social phobia" name="base">
+    <att name="name" value="social phobia" type="string"/>
+    <att name="shared name" value="social phobia" type="string"/>
+    <att name="canonicalName" value="social phobia" type="string"/>
+    <att name="entity_key" value="Disease|11257" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="11257" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="social phobia" type="string"/>
+    <att name="text_synonyms" value="social phobia; social anxiety; Social phobia; Social Anxiety; Social; Social Phobia; social, and specific phobias; socially phobic" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="135.6" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A phobic disorder that involves social anxiety occurring only in specific public or social situations, interactions with others or being evaluated or scrutinized by other people." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_11257" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:11257" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="135.6" h="36.0" x="84.01" y="427.85" width="1.5"/>
+  </node>
+  <node id="30" label="dysthymic disorder" name="base">
+    <att name="name" value="dysthymic disorder" type="string"/>
+    <att name="shared name" value="dysthymic disorder" type="string"/>
+    <att name="canonicalName" value="dysthymic disorder" type="string"/>
+    <att name="entity_key" value="Disease|12139" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="12139" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="dysthymic disorder" type="string"/>
+    <att name="text_synonyms" value="dysthymia; dysthymic disorder; Dysthymia; dysthymic; Dysthymic Mood Disorder" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="171.6" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A mood disorder that involves the presence of a low mood almost daily over a span of at least two years." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_12139" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:12139" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="171.6" h="36.0" x="121.49" y="271.75" width="1.5"/>
+  </node>
+  <node id="31" label="inflammatory spondylopathy" name="base">
+    <att name="name" value="inflammatory spondylopathy" type="string"/>
+    <att name="shared name" value="inflammatory spondylopathy" type="string"/>
+    <att name="canonicalName" value="inflammatory spondylopathy" type="string"/>
+    <att name="entity_key" value="Disease|12105" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="12105" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="inflammatory spondylopathy" type="string"/>
+    <att name="text_synonyms" value="inflammatory; Inflammatory" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="229.2" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_12105" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:12105" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="229.2" h="36.0" x="100.84" y="321.60" width="1.5"/>
+  </node>
+  <node id="32" label="arteriosclerotic cardiovascular disease" name="base">
+    <att name="name" value="arteriosclerotic cardiovascular disease" type="string"/>
+    <att name="shared name" value="arteriosclerotic cardiovascular disease" type="string"/>
+    <att name="canonicalName" value="arteriosclerotic cardiovascular disease" type="string"/>
+    <att name="entity_key" value="Disease|2348" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="2348" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="arteriosclerotic cardiovascular disease" type="string"/>
+    <att name="text_synonyms" value="cardiovascular disease; cardiovascular diseases; Cardiovascular disease; Cardiovascular Disease" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="320.0" type="real"/>
+    <att name="node_height" value="48.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="An arteriosclerosis that results in cardiovascular disease." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_2348" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:2348" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="320.0" h="48.0" x="427.85" y="84.01" width="1.5"/>
+  </node>
+  <node id="33" label="dementia" name="base">
+    <att name="name" value="dementia" type="string"/>
+    <att name="shared name" value="dementia" type="string"/>
+    <att name="canonicalName" value="dementia" type="string"/>
+    <att name="entity_key" value="Disease|1307" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="1307" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="dementia" type="string"/>
+    <att name="text_synonyms" value="dementia; Dementia" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="99.6" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A cognitive disorder resulting from a loss of brain function affecting memory, thinking, language, judgement and behavior." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_1307" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:1307" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="99.6" h="36.0" x="149.68" y="225.75" width="1.5"/>
+  </node>
+  <node id="34" label="schizotypal personality disorder" name="base">
+    <att name="name" value="schizotypal personality disorder" type="string"/>
+    <att name="shared name" value="schizotypal personality disorder" type="string"/>
+    <att name="canonicalName" value="schizotypal personality disorder" type="string"/>
+    <att name="entity_key" value="Disease|10646" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="10646" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="schizotypal personality disorder" type="string"/>
+    <att name="text_synonyms" value="social anxiety disorder; Social anxiety disorder; Social Anxiety Disorder; schizotypal" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="272.4" type="real"/>
+    <att name="node_height" value="48.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A personality disorder that involves a need for social isolation, anxiety in social situations, odd behavior and thinking, and often unconventional beliefs." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_10646" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:10646" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="272.4" h="48.0" x="184.72" y="670.98" width="1.5"/>
+  </node>
+  <node id="35" label="personality disorder" name="base">
+    <att name="name" value="personality disorder" type="string"/>
+    <att name="shared name" value="personality disorder" type="string"/>
+    <att name="canonicalName" value="personality disorder" type="string"/>
+    <att name="entity_key" value="Disease|1510" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="1510" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="personality disorder" type="string"/>
+    <att name="text_synonyms" value="personality disorder; Personality disorder; character disorder" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="186.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A disease of mental health that involve long-term patterns of thoughts and behaviors that cause serious problems with relationships and work." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_1510" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:1510" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="186.0" h="36.0" x="184.72" y="184.72" width="1.5"/>
+  </node>
+  <node id="36" label="cancer" name="base">
+    <att name="name" value="cancer" type="string"/>
+    <att name="shared name" value="cancer" type="string"/>
+    <att name="canonicalName" value="cancer" type="string"/>
+    <att name="entity_key" value="Disease|162" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="162" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="cancer" type="string"/>
+    <att name="text_synonyms" value="cancer; Cancer" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="85.2" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="Updating out dated UMLS CUI." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_162" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:162" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="85.2" h="36.0" x="271.75" y="121.49" width="1.5"/>
+  </node>
+  <node id="37" label="drug-induced mental disorder" name="base">
+    <att name="name" value="drug-induced mental disorder" type="string"/>
+    <att name="shared name" value="drug-induced mental disorder" type="string"/>
+    <att name="canonicalName" value="drug-induced mental disorder" type="string"/>
+    <att name="entity_key" value="Disease|1203" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="1203" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="drug-induced mental disorder" type="string"/>
+    <att name="text_synonyms" value="mental disorders; mental disorder; Mental Disorders; drug disorders; Mental disorders; Mental Disorder; of Mental Disorders" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="243.6" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_1203" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:1203" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="243.6" h="36.0" x="88.25" y="374.06" width="1.5"/>
+  </node>
+  <node id="38" label="coronary artery disease" name="base">
+    <att name="name" value="coronary artery disease" type="string"/>
+    <att name="shared name" value="coronary artery disease" type="string"/>
+    <att name="canonicalName" value="coronary artery disease" type="string"/>
+    <att name="entity_key" value="Disease|3393" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="3393" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="coronary artery disease" type="string"/>
+    <att name="text_synonyms" value="coronary heart disease; coronary artery disease; ischemic heart disease; Coronary Artery Disease; coronary disease; Coronary heart disease" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="207.6" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="Xref MGI." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_3393" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:3393" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="207.6" h="36.0" x="534.10" y="100.84" width="1.5"/>
+  </node>
+  <node id="39" label="antisocial personality disorder" name="base">
+    <att name="name" value="antisocial personality disorder" type="string"/>
+    <att name="shared name" value="antisocial personality disorder" type="string"/>
+    <att name="canonicalName" value="antisocial personality disorder" type="string"/>
+    <att name="entity_key" value="Disease|10939" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="10939" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="antisocial personality disorder" type="string"/>
+    <att name="text_synonyms" value="personality disorders; antisocial personality disorder; Personality disorders; Personality Disorders; antisocial; antisocial personality; Antisocial Personality Disorder; antisocial personality disorders; ) personality disorder; personality; personality (p; personality-disordered" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="265.2" type="real"/>
+    <att name="node_height" value="48.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="A personality disorder that involves a pervasive pattern of disregard for, and violation of, the rights of others that begins in childhood or early adolescence and continues into adulthood." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_10939" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:10939" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="265.2" h="48.0" x="100.84" y="534.10" width="1.5"/>
+  </node>
+  <node id="40" label="hypertension" name="base">
+    <att name="name" value="hypertension" type="string"/>
+    <att name="shared name" value="hypertension" type="string"/>
+    <att name="canonicalName" value="hypertension" type="string"/>
+    <att name="entity_key" value="Disease|10763" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="10763" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="hypertension" type="string"/>
+    <att name="text_synonyms" value="hypertension" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="128.4" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="An artery disease characterized by chronic elevated blood pressure in the arteries." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_10763" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:10763" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="128.4" h="36.0" x="149.68" y="629.95" width="1.5"/>
+  </node>
+  <edge id="1" label="is comorbid with, 0.580" source="14" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.580" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.579759" type="real"/>
+    <att name="n_sentences" value="248" type="integer"/>
+    <att name="n_pmids" value="150" type="integer"/>
+    <att name="support_pmids" value="11020087; 15589561; 15625217; 15784782; 16204423; 17196057; 17434456; 17716746; 18391129; 18514165; 20073117; 20156411; 21130233; 21358389; 21448457; 21597031; 21665007; 21945535; 22166399; 22410503" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="4.10" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="4.10" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="2" label="is comorbid with, 0.583" source="10" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.583" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.582542" type="real"/>
+    <att name="n_sentences" value="341" type="integer"/>
+    <att name="n_pmids" value="144" type="integer"/>
+    <att name="support_pmids" value="10593634; 10696501; 11060514; 11294041; 11882770; 12097786; 12611753; 14506088; 15728754; 15812099; 16061323; 16086612; 16731724; 16732464; 16927578; 16965201; 17592922; 17670998; 17904643; 17932958" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="4.20" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="4.20" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="3" label="is comorbid with, 0.515" source="1" target="3" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.515" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.515309" type="real"/>
+    <att name="n_sentences" value="88" type="integer"/>
+    <att name="n_pmids" value="71" type="integer"/>
+    <att name="support_pmids" value="10708824; 11196007; 12559484; 12606017; 15544576; 15684911; 15860023; 16009431; 16492105; 17062320; 17084380; 17697853; 17941097; 18158005; 18180430; 18275630; 18294614; 18608149; 18819774; 19414616" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="1.74" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="1.74" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="4" label="is comorbid with, 0.692" source="1" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.692" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.692118" type="real"/>
+    <att name="n_sentences" value="1523" type="integer"/>
+    <att name="n_pmids" value="753" type="integer"/>
+    <att name="support_pmids" value="5942829; 9400876; 9501247; 9513185; 9515190; 9694029; 9789209; 10087690; 10367613; 10378109; 10403147; 10431682; 10708824; 10714046; 11019930; 11091930; 11143832; 11196007; 11270909; 11294041" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="8.20" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="8.20" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="5" label="is comorbid with, 0.501" source="1" target="7" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.501" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.501464" type="real"/>
+    <att name="n_sentences" value="66" type="integer"/>
+    <att name="n_pmids" value="47" type="integer"/>
+    <att name="support_pmids" value="11543849; 15572566; 16335330; 16669723; 16844885; 17401042; 17435917; 17870184; 18000451; 18052573; 18495250; 18806921; 19012815; 19797434; 20048222; 20160211; 20344882; 20797795; 21496930; 21632648" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="1.24" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="1.24" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="6" label="is comorbid with, 0.610" source="5" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.610" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.609942" type="real"/>
+    <att name="n_sentences" value="381" type="integer"/>
+    <att name="n_pmids" value="149" type="integer"/>
+    <att name="support_pmids" value="10733688; 11022398; 11882770; 11910258; 15324335; 16478812; 16978649; 17037463; 17270576; 17557453; 17658614; 18457234; 18457236; 18781665; 19128840; 19269539; 19388002; 19439363; 19505198; 19616140" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="5.20" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="5.20" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="7" label="is comorbid with, 0.556" source="22" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.556" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.556127" type="real"/>
+    <att name="n_sentences" value="117" type="integer"/>
+    <att name="n_pmids" value="60" type="integer"/>
+    <att name="support_pmids" value="11275378; 11882770; 12975715; 14996237; 16061323; 16554392; 17084143; 17537506; 17786890; 17993924; 18981339; 19252047; 19450883; 19573472; 19798766; 20332288; 20699727; 20825269; 21241528; 22560805" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="3.23" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="3.23" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="8" label="is comorbid with, 0.552" source="23" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.552" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.552336" type="real"/>
+    <att name="n_sentences" value="90" type="integer"/>
+    <att name="n_pmids" value="41" type="integer"/>
+    <att name="support_pmids" value="9504699; 10718161; 10770449; 10795957; 12606017; 14506400; 14763676; 15084901; 15956269; 16276858; 16415699; 16472362; 16502406; 16917682; 17102704; 17478085; 18348597; 18834506; 19346004; 20231324" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="3.10" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="3.10" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="9" label="is comorbid with, 0.592" source="9" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.592" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.591932" type="real"/>
+    <att name="n_sentences" value="266" type="integer"/>
+    <att name="n_pmids" value="156" type="integer"/>
+    <att name="support_pmids" value="10322243; 10471439; 11009071; 11069271; 11351138; 14673883; 15184238; 15354182; 15467969; 15514410; 15683192; 15746484; 16078960; 16461855; 16461857; 17117331; 17209146; 17481591; 17506910; 17537745" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="4.54" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="4.54" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="10" label="is comorbid with, 0.573" source="18" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.573" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.572893" type="real"/>
+    <att name="n_sentences" value="431" type="integer"/>
+    <att name="n_pmids" value="141" type="integer"/>
+    <att name="support_pmids" value="10322243; 10657891; 11280340; 11351138; 11481132; 12381494; 12563537; 14763676; 15169699; 15353387; 16217697; 16263848; 16390369; 16461859; 16480167; 16870038; 17097277; 17102704; 17117963; 17164030" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="3.85" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="3.85" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="11" label="is comorbid with, 0.545" source="28" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.545" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.545355" type="real"/>
+    <att name="n_sentences" value="248" type="integer"/>
+    <att name="n_pmids" value="77" type="integer"/>
+    <att name="support_pmids" value="14593433; 15311984; 15590040; 17188365; 17679635; 18079427; 18342954; 18676121; 18974677; 19175807; 19413415; 19414617; 20934220; 23056309; 23880381; 24534564; 24727363; 24767007; 24983794; 25038225" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="2.84" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="2.84" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="12" label="is comorbid with, 0.576" source="15" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.576" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.575772" type="real"/>
+    <att name="n_sentences" value="335" type="integer"/>
+    <att name="n_pmids" value="106" type="integer"/>
+    <att name="support_pmids" value="9401337; 12853236; 14558483; 14586165; 14736842; 15465584; 15639176; 15709834; 15816058; 15830828; 16091291; 16175757; 16245304; 16304504; 16309810; 16700966; 16793143; 16850413; 16879293; 17133656" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="3.95" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="3.95" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="13" label="is comorbid with, 0.532" source="34" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.532" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.531852" type="real"/>
+    <att name="n_sentences" value="126" type="integer"/>
+    <att name="n_pmids" value="59" type="integer"/>
+    <att name="support_pmids" value="12185388; 12820174; 15207929; 15709834; 16036241; 17679635; 17697853; 17984773; 18676121; 18794669; 18833417; 18974677; 19394088; 19963338; 20160004; 20921116; 21939615; 22029732; 22206877; 23227908" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="2.35" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="2.35" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="14" label="is comorbid with, 0.518" source="40" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.518" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.518478" type="real"/>
+    <att name="n_sentences" value="103" type="integer"/>
+    <att name="n_pmids" value="48" type="integer"/>
+    <att name="support_pmids" value="11818580; 15555705; 17545450; 17886512; 18617864; 18774423; 19933507; 20073117; 20108126; 21192808; 22401707; 23056466; 23121858; 23261141; 24793895; 25697585; 26106530; 27500920; 27935392; 29492960" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="1.86" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="1.86" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="15" label="is comorbid with, 0.608" source="6" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.608" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.608035" type="real"/>
+    <att name="n_sentences" value="538" type="integer"/>
+    <att name="n_pmids" value="157" type="integer"/>
+    <att name="support_pmids" value="11575622; 11740978; 12506264; 12650739; 12923705; 14521180; 14687954; 15514409; 15572186; 15625216; 15777364; 15898463; 15899721; 15911903; 16176438; 16199015; 16483121; 16563079; 16585437; 16623961" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="5.13" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="5.13" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="16" label="is comorbid with, 0.500" source="6" target="7" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.500" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.500402" type="real"/>
+    <att name="n_sentences" value="77" type="integer"/>
+    <att name="n_pmids" value="50" type="integer"/>
+    <att name="support_pmids" value="11313079; 12650739; 15625216; 15960564; 16176438; 17042829; 17406171; 17547585; 17845281; 18637749; 19246955; 19646366; 21158598; 22858216; 22938168; 22956711; 23057759; 23273550; 23379930; 23402737" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="1.20" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="1.20" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="17" label="is comorbid with, 0.551" source="25" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.551" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.550610" type="real"/>
+    <att name="n_sentences" value="180" type="integer"/>
+    <att name="n_pmids" value="98" type="integer"/>
+    <att name="support_pmids" value="10545660; 11351112; 11513814; 11950407; 11994838; 12375729; 12391467; 12523869; 12655903; 14990764; 15006440; 15123393; 15389622; 15390211; 15390212; 15643633; 15697056; 15893825; 15982746; 16309706" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="3.03" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="3.03" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="18" label="is comorbid with, 0.520" source="39" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.520" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.519641" type="real"/>
+    <att name="n_sentences" value="110" type="integer"/>
+    <att name="n_pmids" value="62" type="integer"/>
+    <att name="support_pmids" value="9604561; 9874007; 10403144; 10759031; 11236815; 11926086; 12112723; 12506264; 15590042; 15898463; 16166411; 16175757; 16203955; 16268772; 16275209; 16309810; 16669723; 16845662; 17117963; 17335315" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="1.90" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="1.90" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="19" label="is comorbid with, 0.570" source="19" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.570" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.569706" type="real"/>
+    <att name="n_sentences" value="403" type="integer"/>
+    <att name="n_pmids" value="158" type="integer"/>
+    <att name="support_pmids" value="10372793; 10408264; 10570768; 10714051; 11321630; 11430846; 11772687; 11999912; 12014785; 12120855; 14614336; 14706947; 15100558; 15207929; 15322414; 15365895; 16165305; 16633159; 17098256; 17276513" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="3.73" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="3.73" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="20" label="is comorbid with, 0.544" source="29" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.544" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.544187" type="real"/>
+    <att name="n_sentences" value="147" type="integer"/>
+    <att name="n_pmids" value="79" type="integer"/>
+    <att name="support_pmids" value="10378109; 10936633; 11236815; 11270446; 11321630; 11559864; 12744913; 12820174; 14702253; 14706947; 15390211; 15488251; 16249971; 16309706; 16343641; 16490566; 16633297; 17010931; 17367554; 17877867" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="2.80" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="2.80" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="21" label="is comorbid with, 0.522" source="37" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.522" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.521536" type="real"/>
+    <att name="n_sentences" value="179" type="integer"/>
+    <att name="n_pmids" value="116" type="integer"/>
+    <att name="support_pmids" value="459064; 10431682; 11681551; 11765288; 11894799; 12014785; 12192743; 12744913; 14692011; 14730200; 15144513; 15369538; 16453336; 16502406; 17098256; 17292480; 17292703; 18302208; 18517287; 18552492" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="1.97" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="1.97" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="22" label="is comorbid with, 0.542" source="31" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.542" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.542242" type="real"/>
+    <att name="n_sentences" value="206" type="integer"/>
+    <att name="n_pmids" value="136" type="integer"/>
+    <att name="support_pmids" value="10760560; 11408785; 11418279; 11814536; 14677209; 14754776; 16098601; 16136019; 16204423; 16648531; 16868265; 17196755; 17201994; 17434456; 17526950; 17716746; 18063934; 18283240; 18514165; 18579238" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="2.73" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="2.73" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="23" label="is comorbid with, 0.543" source="30" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.543" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.543344" type="real"/>
+    <att name="n_sentences" value="140" type="integer"/>
+    <att name="n_pmids" value="81" type="integer"/>
+    <att name="support_pmids" value="10357032; 10690579; 10760553; 10854637; 11321630; 11376915; 11727946; 12422062; 15185272; 15365895; 15385686; 15390211; 16038984; 16085788; 16091291; 16249971; 16458976; 16790005; 16899969; 17200793" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="2.77" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="2.77" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="24" label="is comorbid with, 0.536" source="33" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.536" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.535780" type="real"/>
+    <att name="n_sentences" value="169" type="integer"/>
+    <att name="n_pmids" value="72" type="integer"/>
+    <att name="support_pmids" value="10434153; 10960885; 11008674; 11802230; 12611753; 12801162; 12876552; 15018694; 15207411; 15354182; 15715360; 15845757; 15852433; 15956263; 15999950; 16024880; 16323252; 16461857; 16670181; 17017823" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="2.49" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="2.49" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="25" label="is comorbid with, 0.673" source="3" target="2" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.673" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.673287" type="real"/>
+    <att name="n_sentences" value="1734" type="integer"/>
+    <att name="n_pmids" value="579" type="integer"/>
+    <att name="support_pmids" value="9400876; 9506251; 9854280; 10512600; 10708269; 10708824; 10936633; 10941992; 11154720; 11196007; 11221492; 11236815; 11496019; 11754129; 12185388; 12207106; 12214791; 12236627; 12411233; 12422062" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="7.51" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="7.51" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="26" label="is comorbid with, 0.529" source="2" target="35" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.529" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.529367" type="real"/>
+    <att name="n_sentences" value="79" type="integer"/>
+    <att name="n_pmids" value="43" type="integer"/>
+    <att name="support_pmids" value="727903; 10357035; 10708269; 12112723; 12296491; 15276660; 15514409; 15590042; 15709834; 16091291; 16563079; 16893571; 17086540; 17972295; 17984772; 19394088; 20079331; 20160004; 20562783; 20579743" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="2.26" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="2.26" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="27" label="is comorbid with, 0.551" source="2" target="24" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.551" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.550922" type="real"/>
+    <att name="n_sentences" value="138" type="integer"/>
+    <att name="n_pmids" value="74" type="integer"/>
+    <att name="support_pmids" value="12221156; 14572182; 15142389; 15385686; 16480167; 16917682; 17941097; 18422397; 19321268; 20399077; 21440383; 21530092; 21939615; 22464008; 22521329; 22747513; 23137143; 23606190; 23916323; 24117756" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="3.04" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="3.04" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="28" label="is comorbid with, 0.529" source="2" target="36" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.529" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.528930" type="real"/>
+    <att name="n_sentences" value="123" type="integer"/>
+    <att name="n_pmids" value="62" type="integer"/>
+    <att name="support_pmids" value="11408785; 11607923; 15569898; 16087949; 16684544; 17263056; 17324687; 18050260; 18077261; 18097778; 18502246; 19410103; 19472294; 19636024; 20336636; 21242002; 21341891; 21807767; 21983854; 23756124" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="2.24" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="2.24" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="29" label="is comorbid with, 0.582" source="2" target="11" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.582" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.581529" type="real"/>
+    <att name="n_sentences" value="251" type="integer"/>
+    <att name="n_pmids" value="142" type="integer"/>
+    <att name="support_pmids" value="9400876; 10378109; 11727946; 11926716; 12095901; 12214791; 12221156; 12236627; 12650739; 12724111; 14994356; 15016921; 15207929; 15317653; 15832068; 16043128; 16175757; 16426099; 16733071; 16844230" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="4.16" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="4.16" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="30" label="is comorbid with, 0.672" source="2" target="4" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.672" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.671723" type="real"/>
+    <att name="n_sentences" value="1444" type="integer"/>
+    <att name="n_pmids" value="441" type="integer"/>
+    <att name="support_pmids" value="9511947; 9613021; 9789209; 10363664; 10443762; 10657891; 10710169; 10936633; 11301926; 11578665; 11681551; 11775048; 11860162; 12154150; 12207109; 12392230; 12450961; 12476477; 12629542; 12708942" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="7.46" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="7.46" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="31" label="is comorbid with, 0.542" source="2" target="32" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.542" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.541529" type="real"/>
+    <att name="n_sentences" value="119" type="integer"/>
+    <att name="n_pmids" value="69" type="integer"/>
+    <att name="support_pmids" value="11408785; 15644982; 15705000; 15939843; 16204427; 16319917; 16899969; 17481591; 18333704; 18929445; 19290707; 19300291; 19321850; 19729203; 19776749; 20034674; 20073117; 20951370; 21208589; 21336568" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="2.70" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="2.70" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="32" label="is comorbid with, 0.556" source="2" target="21" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.556" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.556464" type="real"/>
+    <att name="n_sentences" value="207" type="integer"/>
+    <att name="n_pmids" value="65" type="integer"/>
+    <att name="support_pmids" value="12536066; 15142389; 16917682; 17935644; 17941097; 18422397; 19321268; 21530092; 22464008; 22747513; 23260381; 23916323; 24246605; 24428168; 24928545; 24995667; 25484178; 25548143; 25950244; 27327217" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="3.25" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="3.25" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="33" label="is comorbid with, 0.607" source="2" target="7" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.607" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.607496" type="real"/>
+    <att name="n_sentences" value="1458" type="integer"/>
+    <att name="n_pmids" value="636" type="integer"/>
+    <att name="support_pmids" value="11032979; 11313080; 11772699; 11903208; 11926937; 12027038; 12075862; 12238740; 12448837; 12479664; 12650739; 12880512; 14550937; 15003066; 15093955; 15104001; 15625205; 15691526; 15708415; 15708421" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="5.11" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="5.11" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="34" label="is comorbid with, 0.520" source="2" target="38" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.520" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.520345" type="real"/>
+    <att name="n_sentences" value="81" type="integer"/>
+    <att name="n_pmids" value="53" type="integer"/>
+    <att name="support_pmids" value="11818580; 12476477; 12587507; 15231445; 15911903; 15939843; 15956001; 16009431; 16449416; 16899969; 17942842; 18188512; 18245176; 18434491; 18434493; 18725428; 19232230; 19281925; 19593177; 19652125" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="1.93" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="1.93" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="35" label="is comorbid with, 0.568" source="2" target="20" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.568" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.567860" type="real"/>
+    <att name="n_sentences" value="562" type="integer"/>
+    <att name="n_pmids" value="335" type="integer"/>
+    <att name="support_pmids" value="10504009; 10858910; 10954394; 10974360; 11278133; 11502079; 12448837; 12581820; 12583641; 12614990; 14306582; 14646606; 14656452; 14720317; 15003066; 15144513; 15152337; 15332195; 15590042; 15625205" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="3.66" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="3.66" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="36" label="is comorbid with, 0.581" source="2" target="13" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.581" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.580863" type="real"/>
+    <att name="n_sentences" value="353" type="integer"/>
+    <att name="n_pmids" value="164" type="integer"/>
+    <att name="support_pmids" value="984238; 9583327; 9854280; 10357036; 10360411; 10570768; 10593634; 10600047; 10671827; 10936633; 11091930; 11125724; 11236815; 11351112; 11754129; 11754133; 12112723; 12185388; 12230596; 13678503" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="4.14" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="4.14" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="37" label="is comorbid with, 0.549" source="2" target="27" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.549" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.549111" type="real"/>
+    <att name="n_sentences" value="188" type="integer"/>
+    <att name="n_pmids" value="48" type="integer"/>
+    <att name="support_pmids" value="12230596; 12662185; 12707434; 15708421; 15740467; 16030133; 16396663; 16483117; 16618265; 17876737; 18655858; 18774423; 19122127; 19167091; 19216892; 19695709; 20713558; 21683174; 22084834; 22250605" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="2.98" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="2.98" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="38" label="is comorbid with, 0.573" source="2" target="17" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.573" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.573055" type="real"/>
+    <att name="n_sentences" value="332" type="integer"/>
+    <att name="n_pmids" value="215" type="integer"/>
+    <att name="support_pmids" value="10854637; 11063974; 11175925; 11301926; 11430846; 11775048; 12415533; 12448837; 12649635; 12707563; 14672251; 15003066; 15128456; 15641870; 15816058; 15816792; 15893825; 15894381; 15961434; 16091291" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="3.85" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="3.85" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="39" label="is comorbid with, 0.550" source="2" target="26" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.550" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.549544" type="real"/>
+    <att name="n_sentences" value="176" type="integer"/>
+    <att name="n_pmids" value="52" type="integer"/>
+    <att name="support_pmids" value="10372793; 10673833; 12898573; 15003066; 15723023; 16309810; 18162025; 19339144; 21885210; 22480900; 22495941; 23158758; 23273550; 23972697; 24091763; 25017608; 26846198; 26892569; 26921044; 27611843" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="2.99" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="2.99" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="40" label="is comorbid with, 0.605" source="2" target="8" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.605" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.605213" type="real"/>
+    <att name="n_sentences" value="415" type="integer"/>
+    <att name="n_pmids" value="180" type="integer"/>
+    <att name="support_pmids" value="11728507; 11818580; 12502665; 12547872; 15047648; 15550802; 15567208; 16249537; 16814629; 17088162; 17138485; 17257286; 17324687; 17545450; 17966124; 18037497; 18188512; 18370573; 19067994; 19289958" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="5.03" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="5.03" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="41" label="is comorbid with, 0.574" source="2" target="16" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.574" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.573636" type="real"/>
+    <att name="n_sentences" value="128" type="integer"/>
+    <att name="n_pmids" value="57" type="integer"/>
+    <att name="support_pmids" value="16260047; 17241618; 18793398; 19394088; 20878292; 22687640; 23799719; 23850431; 23933215; 24705730; 24751319; 25462895; 26863554; 27230675; 28765304; 29049554; 30268003; 30467656; 30620759; 31280076" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="3.87" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="3.87" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="42" label="is comorbid with, 0.581" source="2" target="12" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.581" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.580956" type="real"/>
+    <att name="n_sentences" value="178" type="integer"/>
+    <att name="n_pmids" value="106" type="integer"/>
+    <att name="support_pmids" value="11886024; 12444356; 12470129; 12544183; 12606017; 14511795; 14994356; 15610962; 15723023; 16098679; 16203955; 16276858; 16309810; 16426099; 16502406; 16867922; 17151166; 17320312; 17690799; 18058288" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="4.14" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="4.14" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="43" label="is comorbid with, 0.539" source="7" target="20" cy:directed="0">
+    <att name="name" value="is comorbid with, 0.539" type="string"/>
+    <att name="interaction" value="is comorbid with" type="string"/>
+    <att name="predicate" value="is comorbid with" type="string"/>
+    <att name="direction" value="&lt;-&gt;" type="string"/>
+    <att name="confidence" value="0.539135" type="real"/>
+    <att name="n_sentences" value="321" type="integer"/>
+    <att name="n_pmids" value="205" type="integer"/>
+    <att name="support_pmids" value="10978870; 11576762; 12448837; 15003066; 15625205; 15691526; 16176438; 16890384; 17267786; 18201871; 18346999; 19269692; 19422760; 19447584; 19672135; 19833481; 20202795; 20346192; 20438166; 20713499" type="string"/>
+    <att name="edge_color" value="#CD5C5C" type="string"/>
+    <att name="edge_width" value="2.61" type="real"/>
+    <att name="edge_line_style" value="dashed" type="string"/>
+    <att name="target_arrow_shape" value="NONE" type="string"/>
+    <graphics width="2.61" fill="#CD5C5C">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="NONE"/>
+        <att name="sourceArrowColor" value="#CD5C5C"/>
+        <att name="targetArrowColor" value="#CD5C5C"/>
+        <att name="edgeLineType" value="EQUAL_DASH"/>
+      </att>
+    </graphics>
+  </edge>
+</graph>

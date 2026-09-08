@@ -1,0 +1,28 @@
+{
+  "stage": "graphs",
+  "n_nodes": 80,
+  "n_edges": 1192,
+  "n_normalized_nodes": 80,
+  "filters": {
+    "predicates": [
+      "is comorbid with"
+    ],
+    "max_nodes": 80,
+    "min_confidence": null,
+    "normalized_only": true,
+    "keep_multi_edges": false
+  },
+  "outputs": {
+    "xgmml": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\graphs\\fig07_comorbid.xgmml",
+    "html": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\graphs\\fig07_comorbid.html"
+  },
+  "predicate_edge_styles": {
+    "is comorbid with": {
+      "color": "#CD5C5C",
+      "line_style": "dashed",
+      "arrow": "diamond"
+    }
+  },
+  "input": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\associations\\unique_associations.tsv",
+  "updated_at_utc": "2026-09-08T19:43:05.461750+00:00"
+}

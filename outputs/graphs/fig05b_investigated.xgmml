@@ -1,0 +1,1962 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<graph label="MDD associations | predicates=is investigated regarding | max_nodes=45 | min_cs=0.4 | normalized_only | collapsed_edges" directed="1"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cy="http://www.cytoscape.org"
+  xmlns="http://www.cs.rpi.edu/XGMML">
+  <node id="1" label="Escitalopram" name="base">
+    <att name="name" value="Escitalopram" type="string"/>
+    <att name="shared name" value="Escitalopram" type="string"/>
+    <att name="canonicalName" value="Escitalopram" type="string"/>
+    <att name="entity_key" value="Chemical|146570" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="146570" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Escitalopram" type="string"/>
+    <att name="text_synonyms" value="escitalopram; Escitalopram" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="128.4" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C20H21FN2O" type="string"/>
+    <att name="mw" value="324.4" type="string"/>
+    <att name="iupac_name" value="(1S)-1-[3-(dimethylamino)propyl]-1-(4-fluorophenyl)-3H-2-benzofuran-5-carbonitrile" type="string"/>
+    <att name="inchikey" value="WSEQXVZVJXJVFP-FQEVSTJZSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="128.4" h="36.0" x="561.77" y="796.17" width="1.5"/>
+  </node>
+  <node id="2" label="major depressive disorder" name="base">
+    <att name="name" value="major depressive disorder" type="string"/>
+    <att name="shared name" value="major depressive disorder" type="string"/>
+    <att name="canonicalName" value="major depressive disorder" type="string"/>
+    <att name="entity_key" value="Disease|1470" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="1470" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="major depressive disorder" type="string"/>
+    <att name="text_synonyms" value="depression; MDD; major depressive disorder; Depression; depressed; depressive symptoms; depressive; Major Depressive Disorder; major depressive episode; Depressed; Depressive; Depressive symptoms" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="222.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="DOID" type="string"/>
+    <att name="description" value="Xref MGI." type="string"/>
+    <att name="iri" value="http://purl.obolibrary.org/obo/DOID_1470" type="string"/>
+    <att name="ontology" value="doid" type="string"/>
+    <att name="obo_id" value="DOID:1470" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="222.0" h="36.0" x="651.87" y="448.95" width="1.5"/>
+  </node>
+  <node id="3" label="Ketamine" name="base">
+    <att name="name" value="Ketamine" type="string"/>
+    <att name="shared name" value="Ketamine" type="string"/>
+    <att name="canonicalName" value="Ketamine" type="string"/>
+    <att name="entity_key" value="Chemical|3821" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="3821" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Ketamine" type="string"/>
+    <att name="text_synonyms" value="ketamine; Ketamine" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="99.6" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C13H16ClNO" type="string"/>
+    <att name="mw" value="237.72" type="string"/>
+    <att name="iupac_name" value="2-(2-chlorophenyl)-2-(methylamino)cyclohexan-1-one" type="string"/>
+    <att name="inchikey" value="YQEZLKZALYSWHR-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="99.6" h="36.0" x="806.66" y="499.22" width="1.5"/>
+  </node>
+  <node id="4" label="Fluoxetine" name="base">
+    <att name="name" value="Fluoxetine" type="string"/>
+    <att name="shared name" value="Fluoxetine" type="string"/>
+    <att name="canonicalName" value="Fluoxetine" type="string"/>
+    <att name="entity_key" value="Chemical|3386" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="3386" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Fluoxetine" type="string"/>
+    <att name="text_synonyms" value="fluoxetine; Fluoxetine; fluox" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="114.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C17H18F3NO" type="string"/>
+    <att name="mw" value="309.33" type="string"/>
+    <att name="iupac_name" value="N-methyl-3-phenyl-3-[4-(trifluoromethyl)phenoxy]propan-1-amine" type="string"/>
+    <att name="inchikey" value="RTHCYVBBDHJXIQ-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="114.0" h="36.0" x="312.19" y="787.46" width="1.5"/>
+  </node>
+  <node id="5" label="Sertraline" name="base">
+    <att name="name" value="Sertraline" type="string"/>
+    <att name="shared name" value="Sertraline" type="string"/>
+    <att name="canonicalName" value="Sertraline" type="string"/>
+    <att name="entity_key" value="Chemical|68617" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="68617" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Sertraline" type="string"/>
+    <att name="text_synonyms" value="sertraline; Sertraline" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="114.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C17H17Cl2N" type="string"/>
+    <att name="mw" value="306.2" type="string"/>
+    <att name="iupac_name" value="(1S,4S)-4-(3,4-dichlorophenyl)-N-methyl-1,2,3,4-tetrahydronaphthalen-1-amine" type="string"/>
+    <att name="inchikey" value="VGKDLMBJGBXTGI-SJCJKPOMSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="114.0" h="36.0" x="512.35" y="89.41" width="1.5"/>
+  </node>
+  <node id="6" label="Duloxetine" name="base">
+    <att name="name" value="Duloxetine" type="string"/>
+    <att name="shared name" value="Duloxetine" type="string"/>
+    <att name="canonicalName" value="Duloxetine" type="string"/>
+    <att name="entity_key" value="Chemical|60835" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="60835" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Duloxetine" type="string"/>
+    <att name="text_synonyms" value="duloxetine; Duloxetine" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="114.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C18H19NOS" type="string"/>
+    <att name="mw" value="297.4" type="string"/>
+    <att name="iupac_name" value="(3S)-N-methyl-3-naphthalen-1-yloxy-3-thiophen-2-ylpropan-1-amine" type="string"/>
+    <att name="inchikey" value="ZEUITGRIYCTCEM-KRWDZBQOSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="114.0" h="36.0" x="410.79" y="85.86" width="1.5"/>
+  </node>
+  <node id="7" label="Antidepressant agent 1" name="base">
+    <att name="name" value="Antidepressant agent 1" type="string"/>
+    <att name="shared name" value="Antidepressant agent 1" type="string"/>
+    <att name="canonicalName" value="Antidepressant agent 1" type="string"/>
+    <att name="entity_key" value="Chemical|2882138" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="2882138" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Antidepressant agent 1" type="string"/>
+    <att name="text_synonyms" value="antidepressant medication; antidepressants; antidepressant; antidepressant drugs; antidepressant drug; antidepressant medications; tricyclic antidepressants; tricyclic antidepressant; Antidepressant drugs; Antidepressant; Antidepressant medication; Antidepressants" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="200.4" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C16H19BrN2" type="string"/>
+    <att name="mw" value="319.24" type="string"/>
+    <att name="iupac_name" value="12-bromo-4-ethyl-1,4-diazatetracyclo[7.6.1.05,16.010,15]hexadeca-9(16),10(15),11,13-tetraene" type="string"/>
+    <att name="inchikey" value="VRTKXFMWBVSAET-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="200.4" h="36.0" x="360.63" y="803.20" width="1.5"/>
+  </node>
+  <node id="8" label="N8CG9437DN" name="base">
+    <att name="name" value="N8CG9437DN" type="string"/>
+    <att name="shared name" value="N8CG9437DN" type="string"/>
+    <att name="canonicalName" value="N8CG9437DN" type="string"/>
+    <att name="entity_key" value="Chemical|46194816" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="46194816" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="N8CG9437DN" type="string"/>
+    <att name="text_synonyms" value="SSRI; SSRIs" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="114.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C21H19ClN4O2" type="string"/>
+    <att name="mw" value="393.9" type="string"/>
+    <att name="iupac_name" value="2-(7-chloro-5-(111C)methyl-4-oxo-3-phenylpyridazino[4,5-b]indol-1-yl)-N,N-dimethylacetamide" type="string"/>
+    <att name="inchikey" value="HJSQVJOROCIILI-KTXUZGJCSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="114.0" h="36.0" x="84.75" y="474.42" width="1.5"/>
+  </node>
+  <node id="9" label="Venlafaxine" name="base">
+    <att name="name" value="Venlafaxine" type="string"/>
+    <att name="shared name" value="Venlafaxine" type="string"/>
+    <att name="canonicalName" value="Venlafaxine" type="string"/>
+    <att name="entity_key" value="Chemical|5656" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="5656" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Venlafaxine" type="string"/>
+    <att name="text_synonyms" value="venlafaxine; Venlafaxine" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="121.2" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C17H27NO2" type="string"/>
+    <att name="mw" value="277.4" type="string"/>
+    <att name="iupac_name" value="1-[2-(dimethylamino)-1-(4-methoxyphenyl)ethyl]cyclohexan-1-ol" type="string"/>
+    <att name="inchikey" value="PNVNVHUZROJLTJ-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="121.2" h="36.0" x="266.41" y="132.77" width="1.5"/>
+  </node>
+  <node id="10" label="Paroxetine" name="base">
+    <att name="name" value="Paroxetine" type="string"/>
+    <att name="shared name" value="Paroxetine" type="string"/>
+    <att name="canonicalName" value="Paroxetine" type="string"/>
+    <att name="entity_key" value="Chemical|43815" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="43815" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Paroxetine" type="string"/>
+    <att name="text_synonyms" value="paroxetine; Paroxetine" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="114.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C19H20FNO3" type="string"/>
+    <att name="mw" value="329.4" type="string"/>
+    <att name="iupac_name" value="(3S,4R)-3-(1,3-benzodioxol-5-yloxymethyl)-4-(4-fluorophenyl)piperidine" type="string"/>
+    <att name="inchikey" value="AHOUBRCZNHFOSL-YOEHRIQHSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="114.0" h="36.0" x="153.59" y="663.55" width="1.5"/>
+  </node>
+  <node id="11" label="Vortioxetine" name="base">
+    <att name="name" value="Vortioxetine" type="string"/>
+    <att name="shared name" value="Vortioxetine" type="string"/>
+    <att name="canonicalName" value="Vortioxetine" type="string"/>
+    <att name="entity_key" value="Chemical|9966051" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="9966051" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Vortioxetine" type="string"/>
+    <att name="text_synonyms" value="vortioxetine; Vortioxetine; Lu AA21004" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="128.4" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C18H22N2S" type="string"/>
+    <att name="mw" value="298.4" type="string"/>
+    <att name="iupac_name" value="1-[2-(2,4-dimethylphenyl)sulfanylphenyl]piperazine" type="string"/>
+    <att name="inchikey" value="YQNWZWMKLDQSAC-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="128.4" h="36.0" x="799.90" y="348.32" width="1.5"/>
+  </node>
+  <node id="12" label="Citalopram" name="base">
+    <att name="name" value="Citalopram" type="string"/>
+    <att name="shared name" value="Citalopram" type="string"/>
+    <att name="canonicalName" value="Citalopram" type="string"/>
+    <att name="entity_key" value="Chemical|2771" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="2771" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Citalopram" type="string"/>
+    <att name="text_synonyms" value="citalopram; Citalopram" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="114.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C20H21FN2O" type="string"/>
+    <att name="mw" value="324.4" type="string"/>
+    <att name="iupac_name" value="1-[3-(dimethylamino)propyl]-1-(4-fluorophenyl)-3H-2-benzofuran-5-carbonitrile" type="string"/>
+    <att name="inchikey" value="WSEQXVZVJXJVFP-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="114.0" h="36.0" x="410.79" y="812.04" width="1.5"/>
+  </node>
+  <node id="13" label="Mirtazapine" name="base">
+    <att name="name" value="Mirtazapine" type="string"/>
+    <att name="shared name" value="Mirtazapine" type="string"/>
+    <att name="canonicalName" value="Mirtazapine" type="string"/>
+    <att name="entity_key" value="Chemical|4205" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="4205" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Mirtazapine" type="string"/>
+    <att name="text_synonyms" value="mirtazapine; Mirtazapine" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="121.2" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C17H19N3" type="string"/>
+    <att name="mw" value="265.35" type="string"/>
+    <att name="iupac_name" value="5-methyl-2,5,19-triazatetracyclo[13.4.0.02,7.08,13]nonadeca-1(15),8,10,12,16,18-hexaene" type="string"/>
+    <att name="inchikey" value="RONZAEMNMFQXRA-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="121.2" h="36.0" x="186.33" y="702.56" width="1.5"/>
+  </node>
+  <node id="14" label="Serba-2" name="base">
+    <att name="name" value="Serba-2" type="string"/>
+    <att name="shared name" value="Serba-2" type="string"/>
+    <att name="canonicalName" value="Serba-2" type="string"/>
+    <att name="entity_key" value="Chemical|9925763" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="9925763" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Serba-2" type="string"/>
+    <att name="text_synonyms" value="selective serotonin reuptake inhibitors; selective serotonin reuptake inhibitor; Selective serotonin reuptake inhibitors; selective serotonin-reuptake inhibitors; selective serotonergic reuptake inhibitors; Selective serotonin re-uptake inhibitors; selective serotonin reuptake inhibitor antidepressants; Selective Serotonin Reuptake Inhibitor-Resistant; Selective Serotonin Reuptake Inhibitors; Sel…" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="92.4" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C18H18O3" type="string"/>
+    <att name="mw" value="282.3" type="string"/>
+    <att name="iupac_name" value="(3aR,4S,9bS)-4-(4-hydroxyphenyl)-1,2,3,3a,4,9b-hexahydrocyclopenta[c]chromen-8-ol" type="string"/>
+    <att name="inchikey" value="XIESSJVMWNJCGZ-HDMKZQKVSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="92.4" h="36.0" x="782.48" y="300.46" width="1.5"/>
+  </node>
+  <node id="15" label="Thiocarbamizine" name="base">
+    <att name="name" value="Thiocarbamizine" type="string"/>
+    <att name="shared name" value="Thiocarbamizine" type="string"/>
+    <att name="canonicalName" value="Thiocarbamizine" type="string"/>
+    <att name="entity_key" value="Chemical|7063" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="7063" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Thiocarbamizine" type="string"/>
+    <att name="text_synonyms" value="cognitive therapy; therapy; cognitive-behavioral therapy; Therapy; Cognitive Behavioral Therapy; cognitive-behavioural therapy; Music Therapy; cognitive behavior therapy; Cognitive Behavior Therapy; cognitive behavioral therapy; cognitive-behavior therapy; Cognitive-behavioral therapy" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="150.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C21H17AsN2O5S2" type="string"/>
+    <att name="mw" value="516.4" type="string"/>
+    <att name="iupac_name" value="2-[[4-(carbamoylamino)phenyl]-(2-carboxyphenyl)sulfanylarsanyl]sulfanylbenzoic acid" type="string"/>
+    <att name="inchikey" value="HVHVTGIAAGQNOB-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="150.0" h="36.0" x="693.24" y="177.64" width="1.5"/>
+  </node>
+  <node id="16" label="Cortisol" name="base">
+    <att name="name" value="Cortisol" type="string"/>
+    <att name="shared name" value="Cortisol" type="string"/>
+    <att name="canonicalName" value="Cortisol" type="string"/>
+    <att name="entity_key" value="Chemical|5754" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="5754" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Cortisol" type="string"/>
+    <att name="text_synonyms" value="cortisol; Cortisol; cortisolaemia" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="99.6" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C21H30O5" type="string"/>
+    <att name="mw" value="362.5" type="string"/>
+    <att name="iupac_name" value="(8S,9S,10R,11S,13S,14S,17R)-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-2,6,7,8,9,11,12,14,15,16-decahydro-1H-cyclopenta[a]phenanthren-3-one" type="string"/>
+    <att name="inchikey" value="JYGXADMDTFJGBT-VWUMJDOOSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="99.6" h="36.0" x="312.19" y="110.45" width="1.5"/>
+  </node>
+  <node id="17" label="Serotonin" name="base">
+    <att name="name" value="Serotonin" type="string"/>
+    <att name="shared name" value="Serotonin" type="string"/>
+    <att name="canonicalName" value="Serotonin" type="string"/>
+    <att name="entity_key" value="Chemical|5202" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="5202" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Serotonin" type="string"/>
+    <att name="text_synonyms" value="serotonin; 5-HT; Serotonin; 5-hydroxytryptamine" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="106.8" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C10H12N2O" type="string"/>
+    <att name="mw" value="176.21" type="string"/>
+    <att name="iupac_name" value="3-(2-aminoethyl)-1H-indol-5-ol" type="string"/>
+    <att name="inchikey" value="QZAYGJVTTNCVMB-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="106.8" h="36.0" x="91.84" y="373.04" width="1.5"/>
+  </node>
+  <node id="18" label="Agomelatine" name="base">
+    <att name="name" value="Agomelatine" type="string"/>
+    <att name="shared name" value="Agomelatine" type="string"/>
+    <att name="canonicalName" value="Agomelatine" type="string"/>
+    <att name="entity_key" value="Chemical|82148" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="82148" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Agomelatine" type="string"/>
+    <att name="text_synonyms" value="agomelatine; Agomelatine" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="121.2" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C15H17NO2" type="string"/>
+    <att name="mw" value="243.30" type="string"/>
+    <att name="iupac_name" value="N-[2-(7-methoxynaphthalen-1-yl)ethyl]acetamide" type="string"/>
+    <att name="inchikey" value="YJYPHIXNFHFHND-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="121.2" h="36.0" x="758.57" y="255.48" width="1.5"/>
+  </node>
+  <node id="19" label="Desvenlafaxine" name="base">
+    <att name="name" value="Desvenlafaxine" type="string"/>
+    <att name="shared name" value="Desvenlafaxine" type="string"/>
+    <att name="canonicalName" value="Desvenlafaxine" type="string"/>
+    <att name="entity_key" value="Chemical|125017" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="125017" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Desvenlafaxine" type="string"/>
+    <att name="text_synonyms" value="desvenlafaxine; Desvenlafaxine; DESV; ODV" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="142.8" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C16H25NO2" type="string"/>
+    <att name="mw" value="263.37" type="string"/>
+    <att name="iupac_name" value="4-[2-(dimethylamino)-1-(1-hydroxycyclohexyl)ethyl]phenol" type="string"/>
+    <att name="inchikey" value="KYYIDSXMWOZKMP-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="142.8" h="36.0" x="653.11" y="751.62" width="1.5"/>
+  </node>
+  <node id="20" label="Santonox" name="base">
+    <att name="name" value="Santonox" type="string"/>
+    <att name="shared name" value="Santonox" type="string"/>
+    <att name="canonicalName" value="Santonox" type="string"/>
+    <att name="entity_key" value="Chemical|7308" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="7308" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Santonox" type="string"/>
+    <att name="text_synonyms" value="MBCT; MBCT-TS" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="99.6" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C22H30O2S" type="string"/>
+    <att name="mw" value="358.5" type="string"/>
+    <att name="iupac_name" value="2-tert-butyl-4-(5-tert-butyl-4-hydroxy-2-methylphenyl)sulfanyl-5-methylphenol" type="string"/>
+    <att name="inchikey" value="HXIQYSLFEXIOAV-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="99.6" h="36.0" x="728.63" y="214.28" width="1.5"/>
+  </node>
+  <node id="21" label="Ethanol" name="base">
+    <att name="name" value="Ethanol" type="string"/>
+    <att name="shared name" value="Ethanol" type="string"/>
+    <att name="canonicalName" value="Ethanol" type="string"/>
+    <att name="entity_key" value="Chemical|702" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="702" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Ethanol" type="string"/>
+    <att name="text_synonyms" value="alcohol; Alcohol; alcohol-related symptoms; advanced; alcohol use; alcohol-use" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="92.4" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C2H6O" type="string"/>
+    <att name="mw" value="46.07" type="string"/>
+    <att name="iupac_name" value="ethanol" type="string"/>
+    <att name="inchikey" value="LFQSCWFLJHTTHZ-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="92.4" h="36.0" x="653.11" y="146.28" width="1.5"/>
+  </node>
+  <node id="22" label="Esketamine" name="base">
+    <att name="name" value="Esketamine" type="string"/>
+    <att name="shared name" value="Esketamine" type="string"/>
+    <att name="canonicalName" value="Esketamine" type="string"/>
+    <att name="entity_key" value="Chemical|182137" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="182137" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Esketamine" type="string"/>
+    <att name="text_synonyms" value="esketamine; Esketamine; S-ketamine; (S)-ketamine; ESK" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="114.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C13H16ClNO" type="string"/>
+    <att name="mw" value="237.72" type="string"/>
+    <att name="iupac_name" value="(2S)-2-(2-chlorophenyl)-2-(methylamino)cyclohexan-1-one" type="string"/>
+    <att name="inchikey" value="YQEZLKZALYSWHR-ZDUSSCGKSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="114.0" h="36.0" x="512.35" y="808.49" width="1.5"/>
+  </node>
+  <node id="23" label="Bupropion" name="base">
+    <att name="name" value="Bupropion" type="string"/>
+    <att name="shared name" value="Bupropion" type="string"/>
+    <att name="canonicalName" value="Bupropion" type="string"/>
+    <att name="entity_key" value="Chemical|444" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="444" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Bupropion" type="string"/>
+    <att name="text_synonyms" value="bupropion; Bupropion; bupropion SR; Bupropion SR" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="106.8" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C13H18ClNO" type="string"/>
+    <att name="mw" value="239.74" type="string"/>
+    <att name="iupac_name" value="2-(tert-butylamino)-1-(3-chlorophenyl)propan-1-one" type="string"/>
+    <att name="inchikey" value="SNPPWIUOZRMYNY-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="106.8" h="36.0" x="126.60" y="620.35" width="1.5"/>
+  </node>
+  <node id="24" label="Aripiprazole" name="base">
+    <att name="name" value="Aripiprazole" type="string"/>
+    <att name="shared name" value="Aripiprazole" type="string"/>
+    <att name="canonicalName" value="Aripiprazole" type="string"/>
+    <att name="entity_key" value="Chemical|60795" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="60795" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Aripiprazole" type="string"/>
+    <att name="text_synonyms" value="aripiprazole; Aripiprazole" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="128.4" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C23H27Cl2N3O2" type="string"/>
+    <att name="mw" value="448.4" type="string"/>
+    <att name="iupac_name" value="7-[4-[4-(2,3-dichlorophenyl)piperazin-1-yl]butoxy]-3,4-dihydro-1H-quinolin-2-one" type="string"/>
+    <att name="inchikey" value="CEUORZQYGODEFX-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="128.4" h="36.0" x="360.63" y="94.71" width="1.5"/>
+  </node>
+  <node id="25" label="S-Adenosylmethionine" name="base">
+    <att name="name" value="S-Adenosylmethionine" type="string"/>
+    <att name="shared name" value="S-Adenosylmethionine" type="string"/>
+    <att name="canonicalName" value="S-Adenosylmethionine" type="string"/>
+    <att name="entity_key" value="Chemical|34755" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="34755" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="S-Adenosylmethionine" type="string"/>
+    <att name="text_synonyms" value="SAMe; S-adenosyl methionine; S-adenosyl-L-methionine; acylcarnitine; MSI-195; S-Adenosyl Methionine; s-adenosyl methionine; S-Adenosyl-Methionine; SAM" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="186.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C15H22N6O5S" type="string"/>
+    <att name="mw" value="398.4" type="string"/>
+    <att name="iupac_name" value="(2S)-2-amino-4-[[(2S,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl-methylsulfonio]butanoate" type="string"/>
+    <att name="inchikey" value="MEFKEPWMEQBLKI-AIRLBKTGSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="186.0" h="36.0" x="266.41" y="765.13" width="1.5"/>
+  </node>
+  <node id="26" label="Venlafaxine Hydrochloride" name="base">
+    <att name="name" value="Venlafaxine Hydrochloride" type="string"/>
+    <att name="shared name" value="Venlafaxine Hydrochloride" type="string"/>
+    <att name="canonicalName" value="Venlafaxine Hydrochloride" type="string"/>
+    <att name="entity_key" value="Chemical|62923" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="62923" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Venlafaxine Hydrochloride" type="string"/>
+    <att name="text_synonyms" value="venlafaxine XR; venlafaxine hydrochloride; Venlafaxine XR" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="222.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C17H28ClNO2" type="string"/>
+    <att name="mw" value="313.9" type="string"/>
+    <att name="iupac_name" value="1-[2-(dimethylamino)-1-(4-methoxyphenyl)ethyl]cyclohexan-1-ol;hydrochloride" type="string"/>
+    <att name="inchikey" value="QYRYFNHXARDNFZ-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="222.0" h="36.0" x="461.69" y="84.08" width="1.5"/>
+  </node>
+  <node id="27" label="Vitamin D3" name="base">
+    <att name="name" value="Vitamin D3" type="string"/>
+    <att name="shared name" value="Vitamin D3" type="string"/>
+    <att name="canonicalName" value="Vitamin D3" type="string"/>
+    <att name="entity_key" value="Chemical|5280795" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="5280795" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Vitamin D3" type="string"/>
+    <att name="text_synonyms" value="vitamin D; vitamin D3; cholecalciferol; Vitamin D; Vitamin d; Vitamin D deficiency" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="114.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C27H44O" type="string"/>
+    <att name="mw" value="384.6" type="string"/>
+    <att name="iupac_name" value="(1S,3Z)-3-[(2E)-2-[(1R,3aS,7aR)-7a-methyl-1-[(2R)-6-methylheptan-2-yl]-2,3,3a,5,6,7-hexahydro-1H-inden-4-ylidene]ethylidene]-4-methylidenecyclohexan-1-ol" type="string"/>
+    <att name="inchikey" value="QYSXJUFSXHHAJI-YRZJJWOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="114.0" h="36.0" x="105.88" y="324.08" width="1.5"/>
+  </node>
+  <node id="28" label="Imipramine" name="base">
+    <att name="name" value="Imipramine" type="string"/>
+    <att name="shared name" value="Imipramine" type="string"/>
+    <att name="canonicalName" value="Imipramine" type="string"/>
+    <att name="entity_key" value="Chemical|3696" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="3696" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Imipramine" type="string"/>
+    <att name="text_synonyms" value="imipramine; Imipramine" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="114.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C19H24N2" type="string"/>
+    <att name="mw" value="280.4" type="string"/>
+    <att name="iupac_name" value="3-(5,6-dihydrobenzo[b][1]benzazepin-11-yl)-N,N-dimethylpropan-1-amine" type="string"/>
+    <att name="inchikey" value="BCGWQEUPMDMJNV-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="114.0" h="36.0" x="224.18" y="736.65" width="1.5"/>
+  </node>
+  <node id="29" label="Psilocybin" name="base">
+    <att name="name" value="Psilocybin" type="string"/>
+    <att name="shared name" value="Psilocybin" type="string"/>
+    <att name="canonicalName" value="Psilocybin" type="string"/>
+    <att name="entity_key" value="Chemical|10624" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="10624" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Psilocybin" type="string"/>
+    <att name="text_synonyms" value="psilocybin; Psilocybin" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="114.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C12H17N2O4P" type="string"/>
+    <att name="mw" value="284.25" type="string"/>
+    <att name="iupac_name" value="[3-[2-(dimethylamino)ethyl]-1H-indol-4-yl] dihydrogen phosphate" type="string"/>
+    <att name="inchikey" value="QVDSEJDULKLHCG-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="114.0" h="36.0" x="799.90" y="549.58" width="1.5"/>
+  </node>
+  <node id="30" label="Icosapent" name="base">
+    <att name="name" value="Icosapent" type="string"/>
+    <att name="shared name" value="Icosapent" type="string"/>
+    <att name="canonicalName" value="Icosapent" type="string"/>
+    <att name="entity_key" value="Chemical|446284" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="446284" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Icosapent" type="string"/>
+    <att name="text_synonyms" value="EPA; PUFAs; n3-PUFA; LC-PUFAs; n-3PUFAs; n-6 PUFA; PUFA; ω-3 PUFA" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="106.8" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C20H30O2" type="string"/>
+    <att name="mw" value="302.5" type="string"/>
+    <att name="iupac_name" value="(5Z,8Z,11Z,14Z,17Z)-icosa-5,8,11,14,17-pentaenoic acid" type="string"/>
+    <att name="inchikey" value="JAZBEHYOTPTENJ-JLNKQSITSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="106.8" h="36.0" x="105.88" y="573.82" width="1.5"/>
+  </node>
+  <node id="31" label="1-Pentanol, DMTBS" name="base">
+    <att name="name" value="1-Pentanol, DMTBS" type="string"/>
+    <att name="shared name" value="1-Pentanol, DMTBS" type="string"/>
+    <att name="canonicalName" value="1-Pentanol, DMTBS" type="string"/>
+    <att name="entity_key" value="Chemical|529180" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="529180" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="1-Pentanol, DMTBS" type="string"/>
+    <att name="text_synonyms" value="iTBS" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="164.4" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C11H26OSi" type="string"/>
+    <att name="mw" value="202.41" type="string"/>
+    <att name="iupac_name" value="tert-butyl-dimethyl-pentoxysilane" type="string"/>
+    <att name="inchikey" value="JZZUDMZDKGREBV-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="164.4" h="36.0" x="153.59" y="234.36" width="1.5"/>
+  </node>
+  <node id="32" label="Nortriptyline" name="base">
+    <att name="name" value="Nortriptyline" type="string"/>
+    <att name="shared name" value="Nortriptyline" type="string"/>
+    <att name="canonicalName" value="Nortriptyline" type="string"/>
+    <att name="entity_key" value="Chemical|4543" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="4543" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Nortriptyline" type="string"/>
+    <att name="text_synonyms" value="nortriptyline; Nortriptyline" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="135.6" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C19H21N" type="string"/>
+    <att name="mw" value="263.4" type="string"/>
+    <att name="iupac_name" value="N-methyl-3-(2-tricyclo[9.4.0.03,8]pentadeca-1(15),3,5,7,11,13-hexaenylidene)propan-1-amine" type="string"/>
+    <att name="inchikey" value="PHVGLTMQBUFIQQ-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="135.6" h="36.0" x="91.84" y="524.86" width="1.5"/>
+  </node>
+  <node id="33" label="Brexpiprazole" name="base">
+    <att name="name" value="Brexpiprazole" type="string"/>
+    <att name="shared name" value="Brexpiprazole" type="string"/>
+    <att name="canonicalName" value="Brexpiprazole" type="string"/>
+    <att name="entity_key" value="Chemical|11978813" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="11978813" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Brexpiprazole" type="string"/>
+    <att name="text_synonyms" value="brexpiprazole; Brexpiprazole" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="135.6" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C25H27N3O2S" type="string"/>
+    <att name="mw" value="433.6" type="string"/>
+    <att name="iupac_name" value="7-[4-[4-(1-benzothiophen-4-yl)piperazin-1-yl]butoxy]-1H-quinolin-2-one" type="string"/>
+    <att name="inchikey" value="ZKIAIYBUSXZPLP-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="135.6" h="36.0" x="728.63" y="683.63" width="1.5"/>
+  </node>
+  <node id="34" label="TRDN" name="base">
+    <att name="name" value="TRDN" type="string"/>
+    <att name="shared name" value="TRDN" type="string"/>
+    <att name="canonicalName" value="TRDN" type="string"/>
+    <att name="entity_key" value="Disease|12261" type="string"/>
+    <att name="entity_type" value="Disease" type="string"/>
+    <att name="db_id" value="12261" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="TRDN" type="string"/>
+    <att name="text_synonyms" value="TRD" type="string"/>
+    <att name="node_fill" value="#E8A0A0" type="string"/>
+    <att name="node_width" value="70.8" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="MONDO" type="string"/>
+    <att name="iri" value="http://identifiers.org/hgnc/12261" type="string"/>
+    <att name="ontology" value="mondo" type="string"/>
+    <att name="obo_id" value="MONDO:12261" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#E8A0A0" outline="#666666" w="70.8" h="36.0" x="810.49" y="398.14" width="1.5"/>
+  </node>
+  <node id="35" label="Lumateperone" name="base">
+    <att name="name" value="Lumateperone" type="string"/>
+    <att name="shared name" value="Lumateperone" type="string"/>
+    <att name="canonicalName" value="Lumateperone" type="string"/>
+    <att name="entity_key" value="Chemical|21302490" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="21302490" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Lumateperone" type="string"/>
+    <att name="text_synonyms" value="lumateperone; Lumateperone" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="128.4" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C24H28FN3O" type="string"/>
+    <att name="mw" value="393.5" type="string"/>
+    <att name="iupac_name" value="1-(4-fluorophenyl)-4-[(10R,15S)-4-methyl-1,4,12-triazatetracyclo[7.6.1.05,16.010,15]hexadeca-5,7,9(16)-trien-12-yl]butan-1-one" type="string"/>
+    <att name="inchikey" value="HOIIHACBCFLJET-SFTDATJTSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="128.4" h="36.0" x="461.69" y="813.82" width="1.5"/>
+  </node>
+  <node id="36" label="alpha-D-Glucopyranose, 2-deoxy-2-(((3R)-3-hydroxy-1-oxotetradecyl)amino)-, 1-(dihydrogen phosphate) 3-((3R)-3-hydroxytetradecanoate)" name="base">
+    <att name="name" value="alpha-D-Glucopyranose, 2-deoxy-2-(((3R)-3-hydroxy-1-oxotetradecyl)amino)-, 1-(dihydrogen phosphate) 3-((3R)-3-hydroxytetradecanoate)" type="string"/>
+    <att name="shared name" value="alpha-D-Glucopyranose, 2-deoxy-2-(((3R)-3-hydroxy-1-oxotetradecyl)amino)-, 1-(dihydrogen phosphate) 3-((3R)-3-hydroxytetradecanoate)" type="string"/>
+    <att name="canonicalName" value="alpha-D-Glucopyranose, 2-deoxy-2-(((3R)-3-hydroxy-1-oxotetradecyl)amino)-, 1-(dihydrogen phosphate) 3-((3R)-3-hydroxytetradecanoate)" type="string"/>
+    <att name="entity_key" value="Chemical|123907" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="123907" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="alpha-D-Glucopyranose, 2-deoxy-2-(((3R)-3-hydroxy-1-oxotetradecyl)amino)-, 1-(dihydrogen phosphate) 3-((3R)-3-hydroxytetradecanoate)" type="string"/>
+    <att name="text_synonyms" value="lipid" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="320.0" type="real"/>
+    <att name="node_height" value="56.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C34H66NO12P" type="string"/>
+    <att name="mw" value="711.9" type="string"/>
+    <att name="iupac_name" value="[(2R,3S,4R,5R,6R)-3-hydroxy-2-(hydroxymethyl)-5-[[(3R)-3-hydroxytetradecanoyl]amino]-6-phosphonooxyoxan-4-yl] (3R)-3-hydroxytetradecanoate" type="string"/>
+    <att name="inchikey" value="HEHQDWUWJVPREQ-XQJZMFRCSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="320.0" h="56.0" x="693.24" y="720.27" width="1.5"/>
+  </node>
+  <node id="37" label="Flx475" name="base">
+    <att name="name" value="Flx475" type="string"/>
+    <att name="shared name" value="Flx475" type="string"/>
+    <att name="canonicalName" value="Flx475" type="string"/>
+    <att name="entity_key" value="Chemical|134210715" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="134210715" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Flx475" type="string"/>
+    <att name="text_synonyms" value="FLX; Flx" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="85.2" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C24H27Cl2F3N6O" type="string"/>
+    <att name="mw" value="543.4" type="string"/>
+    <att name="iupac_name" value="2-[(3R)-3-[1-[1-[(1R)-1-(2,4-dichlorophenyl)ethyl]-3-(trifluoromethyl)pyrazolo[3,4-b]pyrazin-6-yl]azetidin-3-yl]piperidin-1-yl]ethanol" type="string"/>
+    <att name="inchikey" value="AKSVALRPYDVQBS-CABCVRRESA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="85.2" h="36.0" x="609.00" y="777.09" width="1.5"/>
+  </node>
+  <node id="38" label="Trazodone" name="base">
+    <att name="name" value="Trazodone" type="string"/>
+    <att name="shared name" value="Trazodone" type="string"/>
+    <att name="canonicalName" value="Trazodone" type="string"/>
+    <att name="entity_key" value="Chemical|5533" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="5533" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Trazodone" type="string"/>
+    <att name="text_synonyms" value="trazodone; Trazodone" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="106.8" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C19H22ClN5O" type="string"/>
+    <att name="mw" value="371.9" type="string"/>
+    <att name="iupac_name" value="2-[3-[4-(3-chlorophenyl)piperazin-1-yl]propyl]-[1,2,4]triazolo[4,3-a]pyridin-3-one" type="string"/>
+    <att name="inchikey" value="PHLBKPHSAVXXEF-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="106.8" h="36.0" x="224.18" y="161.26" width="1.5"/>
+  </node>
+  <node id="39" label="Fluvoxamine" name="base">
+    <att name="name" value="Fluvoxamine" type="string"/>
+    <att name="shared name" value="Fluvoxamine" type="string"/>
+    <att name="canonicalName" value="Fluvoxamine" type="string"/>
+    <att name="entity_key" value="Chemical|5324346" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="5324346" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Fluvoxamine" type="string"/>
+    <att name="text_synonyms" value="fluvoxamine; Fluvoxamine" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="121.2" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C15H21F3N2O2" type="string"/>
+    <att name="mw" value="318.33" type="string"/>
+    <att name="iupac_name" value="2-[(E)-[5-methoxy-1-[4-(trifluoromethyl)phenyl]pentylidene]amino]oxyethanamine" type="string"/>
+    <att name="inchikey" value="CJOFXWAVKWHTFT-XSFVSMFZSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="121.2" h="36.0" x="186.33" y="195.34" width="1.5"/>
+  </node>
+  <node id="40" label="12,15-Epoxy-13-methyleicosa-12,14-dienoic acid" name="base">
+    <att name="name" value="12,15-Epoxy-13-methyleicosa-12,14-dienoic acid" type="string"/>
+    <att name="shared name" value="12,15-Epoxy-13-methyleicosa-12,14-dienoic acid" type="string"/>
+    <att name="canonicalName" value="12,15-Epoxy-13-methyleicosa-12,14-dienoic acid" type="string"/>
+    <att name="entity_key" value="Chemical|11056824" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="11056824" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="12,15-Epoxy-13-methyleicosa-12,14-dienoic acid" type="string"/>
+    <att name="text_synonyms" value="fatty acid; n-3 polyunsaturated fatty acids; omega-3 fatty acid; omega-3 fatty acids; fatty acids; n-3 Polyunsaturated Fatty Acids; Omega-3 fatty acids; polyunsaturated fatty acids; trans fatty acid; Omega-3 fatty acid; Omega-3 Fatty Acids; omega-3 fatty-acid" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="320.0" type="real"/>
+    <att name="node_height" value="56.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C21H36O3" type="string"/>
+    <att name="mw" value="336.5" type="string"/>
+    <att name="iupac_name" value="11-(3-methyl-5-pentylfuran-2-yl)undecanoic acid" type="string"/>
+    <att name="inchikey" value="QDTBMEGPXZUECM-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="320.0" h="56.0" x="782.48" y="597.45" width="1.5"/>
+  </node>
+  <node id="41" label="Cariprazine" name="base">
+    <att name="name" value="Cariprazine" type="string"/>
+    <att name="shared name" value="Cariprazine" type="string"/>
+    <att name="canonicalName" value="Cariprazine" type="string"/>
+    <att name="entity_key" value="Chemical|11154555" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="11154555" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Cariprazine" type="string"/>
+    <att name="text_synonyms" value="cariprazine; Cariprazine" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="121.2" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C21H32Cl2N4O" type="string"/>
+    <att name="mw" value="427.4" type="string"/>
+    <att name="iupac_name" value="3-[4-[2-[4-(2,3-dichlorophenyl)piperazin-1-yl]ethyl]cyclohexyl]-1,1-dimethylurea" type="string"/>
+    <att name="inchikey" value="KPWSJANDNDDRMB-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="121.2" h="36.0" x="758.57" y="642.42" width="1.5"/>
+  </node>
+  <node id="42" label="Vilazodone" name="base">
+    <att name="name" value="Vilazodone" type="string"/>
+    <att name="shared name" value="Vilazodone" type="string"/>
+    <att name="canonicalName" value="Vilazodone" type="string"/>
+    <att name="entity_key" value="Chemical|6918314" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="6918314" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Vilazodone" type="string"/>
+    <att name="text_synonyms" value="vilazodone; Vilazodone" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="114.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C26H27N5O2" type="string"/>
+    <att name="mw" value="441.5" type="string"/>
+    <att name="iupac_name" value="5-[4-[4-(5-cyano-1H-indol-3-yl)butyl]piperazin-1-yl]-1-benzofuran-2-carboxamide" type="string"/>
+    <att name="inchikey" value="SGEGOXDYSFKCPT-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="114.0" h="36.0" x="609.00" y="120.81" width="1.5"/>
+  </node>
+  <node id="43" label="Myricetin" name="base">
+    <att name="name" value="Myricetin" type="string"/>
+    <att name="shared name" value="Myricetin" type="string"/>
+    <att name="canonicalName" value="Myricetin" type="string"/>
+    <att name="entity_key" value="Chemical|5281672" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="5281672" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Myricetin" type="string"/>
+    <att name="text_synonyms" value="cannabis; Cannabis" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="106.8" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C15H10O8" type="string"/>
+    <att name="mw" value="318.23" type="string"/>
+    <att name="iupac_name" value="3,5,7-trihydroxy-2-(3,4,5-trihydroxyphenyl)chromen-4-one" type="string"/>
+    <att name="inchikey" value="IKMDFBPHZNJCSN-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="106.8" h="36.0" x="126.60" y="277.55" width="1.5"/>
+  </node>
+  <node id="44" label="Levomilnacipran" name="base">
+    <att name="name" value="Levomilnacipran" type="string"/>
+    <att name="shared name" value="Levomilnacipran" type="string"/>
+    <att name="canonicalName" value="Levomilnacipran" type="string"/>
+    <att name="entity_key" value="Chemical|6917779" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="6917779" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Levomilnacipran" type="string"/>
+    <att name="text_synonyms" value="levomilnacipran; Levomilnacipran" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="150.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C15H22N2O" type="string"/>
+    <att name="mw" value="246.35" type="string"/>
+    <att name="iupac_name" value="cis-(1S,2R)-2-(aminomethyl)-N,N-diethyl-1-phenylcyclopropane-1-carboxamide" type="string"/>
+    <att name="inchikey" value="GJJFMKBJSRMPLA-DZGCQCFKSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="150.0" h="36.0" x="561.77" y="101.73" width="1.5"/>
+  </node>
+  <node id="45" label="Quetiapine" name="base">
+    <att name="name" value="Quetiapine" type="string"/>
+    <att name="shared name" value="Quetiapine" type="string"/>
+    <att name="canonicalName" value="Quetiapine" type="string"/>
+    <att name="entity_key" value="Chemical|5002" type="string"/>
+    <att name="entity_type" value="Chemical" type="string"/>
+    <att name="db_id" value="5002" type="string"/>
+    <att name="normalized" value="true" type="boolean"/>
+    <att name="pref_name" value="Quetiapine" type="string"/>
+    <att name="text_synonyms" value="quetiapine; Quetiapine" type="string"/>
+    <att name="node_fill" value="#7EB6D9" type="string"/>
+    <att name="node_width" value="114.0" type="real"/>
+    <att name="node_height" value="36.0" type="real"/>
+    <att name="db_source" value="PubChem" type="string"/>
+    <att name="formula" value="C21H25N3O2S" type="string"/>
+    <att name="mw" value="383.5" type="string"/>
+    <att name="iupac_name" value="2-[2-(4-benzo[b][1,4]benzothiazepin-6-ylpiperazin-1-yl)ethoxy]ethanol" type="string"/>
+    <att name="inchikey" value="URKOMYMAXPYINW-UHFFFAOYSA-N" type="string"/>
+    <att name="record_kind" value="compound" type="string"/>
+    <graphics type="ROUNDED_RECTANGLE" fill="#7EB6D9" outline="#666666" w="114.0" h="36.0" x="84.75" y="423.48" width="1.5"/>
+  </node>
+  <edge id="1" label="is investigated regarding, 0.433" source="29" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.433" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.432746" type="real"/>
+    <att name="n_sentences" value="30" type="integer"/>
+    <att name="n_pmids" value="19" type="integer"/>
+    <att name="support_pmids" value="33146667; 33852780; 34750350; 34983261; 35411074; 36314881; 37264950; 37302533; 37443386; 37585245; 38055270; 38359838; 38423367; 38483940; 38956594; 40245934; 40554997; 41546918; 42138922" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="2.40" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="2.40" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="2" label="is investigated regarding, 0.416" source="40" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.416" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.416204" type="real"/>
+    <att name="n_sentences" value="30" type="integer"/>
+    <att name="n_pmids" value="23" type="integer"/>
+    <att name="support_pmids" value="14992986; 18206247; 18370571; 18485485; 18640689; 20060277; 20518726; 21037490; 21185973; 21208589; 22488258; 30902738; 31785112; 32056759; 32434488; 32504049; 36005883; 36536364; 36764567; 38432599" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="1.67" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="1.67" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="3" label="is investigated regarding, 0.416" source="41" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.416" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.415778" type="real"/>
+    <att name="n_sentences" value="20" type="integer"/>
+    <att name="n_pmids" value="10" type="integer"/>
+    <att name="support_pmids" value="26956157; 27046309; 30045066; 32942346; 36789515; 37585254; 38277187; 39413884; 40315101; 40445745" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="1.65" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="1.65" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="4" label="is investigated regarding, 0.423" source="33" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.423" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.423271" type="real"/>
+    <att name="n_sentences" value="24" type="integer"/>
+    <att name="n_pmids" value="14" type="integer"/>
+    <att name="support_pmids" value="26301701; 26301771; 27208498; 27322768; 29055257; 30508090; 30802696; 35970327; 36649966; 36921501; 37099968; 37933521; 38421922; 41055581" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="1.98" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="1.98" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="5" label="is investigated regarding, 0.420" source="36" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.420" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.419796" type="real"/>
+    <att name="n_sentences" value="41" type="integer"/>
+    <att name="n_pmids" value="27" type="integer"/>
+    <att name="support_pmids" value="11221492; 11292519; 18940224; 21422769; 22283499; 22840610; 24495778; 24679391; 25451444; 26609167; 28365467; 28867391; 29736827; 29945617; 32329708; 34171401; 36585419; 36696101; 37207542; 37302507" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="1.83" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="1.83" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="6" label="is investigated regarding, 0.467" source="19" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.467" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.466657" type="real"/>
+    <att name="n_sentences" value="72" type="integer"/>
+    <att name="n_pmids" value="39" type="integer"/>
+    <att name="support_pmids" value="16642541; 17503976; 17917552; 18545056; 18703933; 19127490; 19698901; 19752839; 20473066; 20539246; 20631558; 20797382; 20830664; 21869698; 22883315; 23334675; 23517291; 23881185; 24229754; 24448103" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="3.91" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="3.91" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="7" label="is investigated regarding, 0.420" source="37" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.420" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.419610" type="real"/>
+    <att name="n_sentences" value="21" type="integer"/>
+    <att name="n_pmids" value="13" type="integer"/>
+    <att name="support_pmids" value="17135984; 17135985; 17135986; 18391133; 19877976; 20571180; 25045908; 26098793; 27104803; 30145512; 30768414; 34050856; 35963583" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="1.82" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="1.82" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="8" label="is investigated regarding, 0.563" source="1" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.563" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.562958" type="real"/>
+    <att name="n_sentences" value="251" type="integer"/>
+    <att name="n_pmids" value="160" type="integer"/>
+    <att name="support_pmids" value="15107657; 15107719; 15320956; 15748090; 15786487; 15812262; 16478291; 16540812; 16754413; 16834832; 16937393; 17041922; 17149753; 17230032; 17559729; 17559755; 17563128; 17627739; 17853268; 18158074" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="8.20" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="8.20" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="9" label="is investigated regarding, 0.455" source="22" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.455" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.454989" type="real"/>
+    <att name="n_sentences" value="45" type="integer"/>
+    <att name="n_pmids" value="29" type="integer"/>
+    <att name="support_pmids" value="32664038; 32724131; 32804743; 32861217; 33261932; 33427015; 33957360; 35212235; 35727083; 36044154; 36218274; 36662417; 36949323; 37019044; 37414272; 37422104; 37439961; 37539643; 38194244; 38355723" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="3.39" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="3.39" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="10" label="is investigated regarding, 0.420" source="35" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.420" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.420025" type="real"/>
+    <att name="n_sentences" value="23" type="integer"/>
+    <att name="n_pmids" value="10" type="integer"/>
+    <att name="support_pmids" value="34551584; 36549907; 36640735; 37103915; 39946099; 40245260; 40694062; 41017591; 41740754; 41880832" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="1.84" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="1.84" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="11" label="is investigated regarding, 0.508" source="12" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.508" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.507542" type="real"/>
+    <att name="n_sentences" value="120" type="integer"/>
+    <att name="n_pmids" value="75" type="integer"/>
+    <att name="support_pmids" value="11260764; 11926717; 12399946; 14702268; 14728100; 15107657; 15320956; 15470798; 15526307; 15763612; 15812262; 15910207; 15993860; 16390886; 16449416; 16465456; 16478291; 16633139; 16702897; 16996140" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="5.73" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="5.73" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="12" label="is investigated regarding, 0.522" source="7" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.522" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.522219" type="real"/>
+    <att name="n_sentences" value="85" type="integer"/>
+    <att name="n_pmids" value="69" type="integer"/>
+    <att name="support_pmids" value="12583641; 15096073; 15667434; 15706460; 15708423; 15997604; 16050922; 16154547; 16703602; 16958571; 18245176; 18280581; 18474203; 18511076; 18832427; 18935799; 19192466; 19490744; 19556947; 19968383" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="6.39" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="6.39" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="13" label="is investigated regarding, 0.545" source="4" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.545" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.545116" type="real"/>
+    <att name="n_sentences" value="193" type="integer"/>
+    <att name="n_pmids" value="133" type="integer"/>
+    <att name="support_pmids" value="9315986; 9565715; 10512601; 10710164; 10795957; 11138997; 11850046; 11910258; 12172339; 12203668; 12369275; 12404675; 12523877; 12524634; 12707557; 12839429; 12858325; 14604448; 14971864; 15142389" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="7.41" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="7.41" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="14" label="is investigated regarding, 0.442" source="25" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.442" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.441847" type="real"/>
+    <att name="n_sentences" value="36" type="integer"/>
+    <att name="n_pmids" value="19" type="integer"/>
+    <att name="support_pmids" value="12418499; 14550683; 15538131; 20595412; 21665441; 21911258; 22687580; 24500245; 24856557; 26011569; 28135835; 30108159; 30115553; 30368163; 31712971; 31733455; 31812110; 32056779; 36411659" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="2.81" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="2.81" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="15" label="is investigated regarding, 0.435" source="28" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.435" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.435012" type="real"/>
+    <att name="n_sentences" value="22" type="integer"/>
+    <att name="n_pmids" value="16" type="integer"/>
+    <att name="support_pmids" value="9316174; 10714046; 11352337; 11578669; 15243735; 16458976; 16566622; 22252094; 23800419; 26376805; 26887424; 27662279; 28425449; 28478653; 30516574; 30925498" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="2.50" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="2.50" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="16" label="is investigated regarding, 0.422" source="3" target="34" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.422" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.421626" type="real"/>
+    <att name="n_sentences" value="27" type="integer"/>
+    <att name="n_pmids" value="24" type="integer"/>
+    <att name="support_pmids" value="25374095; 25539512; 28666206; 29727073; 30597688; 30858518; 31494365; 32664031; 32871688; 32948309; 33298225; 34137095; 34507101; 34890909; 35179810; 35728680; 35940087; 36966411; 37422104; 38293803" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="1.91" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="1.91" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="17" label="is investigated regarding, 0.551" source="3" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.551" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.550783" type="real"/>
+    <att name="n_sentences" value="198" type="integer"/>
+    <att name="n_pmids" value="121" type="integer"/>
+    <att name="support_pmids" value="18822408; 21466832; 22676966; 22847373; 22858219; 22871531; 24374115; 24821196; 25374095; 25539512; 27362845; 27604566; 27929610; 28397841; 28441895; 28477497; 28666206; 28939975; 29039254; 29487402" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="7.66" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="7.66" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="18" label="is investigated regarding, 0.491" source="13" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.491" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.491267" type="real"/>
+    <att name="n_sentences" value="52" type="integer"/>
+    <att name="n_pmids" value="39" type="integer"/>
+    <att name="support_pmids" value="11578669; 12606843; 14561437; 15319015; 15677428; 15811165; 16758243; 17285095; 17618721; 17640790; 18299900; 18609420; 19345072; 19382113; 20146649; 20218794; 20571433; 20868630; 21314870; 21601287" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="5.01" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="5.01" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="19" label="is investigated regarding, 0.514" source="10" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.514" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.514472" type="real"/>
+    <att name="n_sentences" value="84" type="integer"/>
+    <att name="n_pmids" value="67" type="integer"/>
+    <att name="support_pmids" value="10653220; 10910421; 11691690; 11739069; 11910258; 12057029; 12640217; 14716708; 15232330; 15252820; 15579788; 15879583; 16013901; 16035957; 16083521; 16319918; 16497334; 16553529; 16697153; 16721321" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="6.04" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="6.04" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="20" label="is investigated regarding, 0.453" source="23" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.453" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.453349" type="real"/>
+    <att name="n_sentences" value="45" type="integer"/>
+    <att name="n_pmids" value="31" type="integer"/>
+    <att name="support_pmids" value="10363731; 11739069; 11816866; 12839429; 14566216; 14603988; 17645195; 18449185; 18635695; 19164492; 19939870; 21284135; 21447539; 21993207; 23228340; 24107760; 24163386; 24352716; 25393889; 30460996" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="3.32" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="3.32" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="21" label="is investigated regarding, 0.432" source="30" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.432" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.431760" type="real"/>
+    <att name="n_sentences" value="34" type="integer"/>
+    <att name="n_pmids" value="23" type="integer"/>
+    <att name="support_pmids" value="18206247; 18247193; 19720401; 21696635; 23733443; 25802980; 28135835; 28410668; 28536068; 28552045; 28949340; 31163106; 31488809; 32434488; 32504049; 33316626; 36635595; 37301235; 37802905; 37960195" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="2.36" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="2.36" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="22" label="is investigated regarding, 0.427" source="32" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.427" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.426983" type="real"/>
+    <att name="n_sentences" value="23" type="integer"/>
+    <att name="n_pmids" value="20" type="integer"/>
+    <att name="support_pmids" value="10360414; 10910421; 10936631; 11392345; 12524634; 12544371; 12544380; 12724111; 14604448; 15856721; 17562523; 19284932; 20360315; 21388237; 22933451; 25017001; 28657697; 29306690; 31318184; 36510237" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="2.15" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="2.15" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="23" label="is investigated regarding, 0.518" source="8" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.518" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.517935" type="real"/>
+    <att name="n_sentences" value="158" type="integer"/>
+    <att name="n_pmids" value="107" type="integer"/>
+    <att name="support_pmids" value="10622345; 10867963; 11019930; 11270909; 11292519; 11704969; 12393314; 12399946; 12452535; 12501480; 14624185; 15377745; 15802083; 16142045; 17017823; 17050507; 17149753; 17196057; 18037817; 18055956" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="6.20" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="6.20" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="24" label="is investigated regarding, 0.406" source="45" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.406" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.405715" type="real"/>
+    <att name="n_sentences" value="22" type="integer"/>
+    <att name="n_pmids" value="14" type="integer"/>
+    <att name="support_pmids" value="18452345; 19358791; 20691481; 20734365; 20814317; 22550279; 22753280; 23485955; 24048387; 24275013; 24504819; 29016993; 37143128; 40900110" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="1.20" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="1.20" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="25" label="is investigated regarding, 0.477" source="17" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.477" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.476665" type="real"/>
+    <att name="n_sentences" value="93" type="integer"/>
+    <att name="n_pmids" value="54" type="integer"/>
+    <att name="support_pmids" value="9690691; 10451906; 10572339; 10622345; 10974357; 11270909; 11840315; 11926722; 12585696; 12921906; 12921916; 15296821; 15504423; 15555692; 15589385; 15664793; 15728754; 16713589; 16890384; 17610668" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="4.36" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="4.36" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="26" label="is investigated regarding, 0.437" source="27" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.437" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.436957" type="real"/>
+    <att name="n_sentences" value="27" type="integer"/>
+    <att name="n_pmids" value="15" type="integer"/>
+    <att name="support_pmids" value="25457684; 26609167; 28135835; 28636576; 31036776; 31488809; 31836995; 32823218; 34737282; 34879260; 35843459; 37201897; 37267732; 37364656; 40218925" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="2.59" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="2.59" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="27" label="is investigated regarding, 0.415" source="43" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.415" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.414587" type="real"/>
+    <att name="n_sentences" value="64" type="integer"/>
+    <att name="n_pmids" value="27" type="integer"/>
+    <att name="support_pmids" value="17314727; 17345601; 19892406; 23082832; 23297841; 24365805; 25979680; 27786514; 28750823; 29607801; 29764217; 30260680; 30883274; 31177831; 31684805; 31797462; 32811625; 33588323; 34156452; 34666638" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="1.59" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="1.59" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="28" label="is investigated regarding, 0.430" source="31" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.430" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.429594" type="real"/>
+    <att name="n_sentences" value="13" type="integer"/>
+    <att name="n_pmids" value="10" type="integer"/>
+    <att name="support_pmids" value="31761447; 36682694; 37406605; 37516823; 39387918; 39529199; 39892751; 39905763; 41967364; 42418203" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="2.26" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="2.26" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="29" label="is investigated regarding, 0.417" source="39" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.417" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.416875" type="real"/>
+    <att name="n_sentences" value="17" type="integer"/>
+    <att name="n_pmids" value="14" type="integer"/>
+    <att name="support_pmids" value="11817517; 12057029; 12672171; 12858325; 14624182; 15243735; 16160624; 17356306; 17610668; 19444001; 21889802; 22504727; 25393889; 34117140" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="1.70" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="1.70" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="30" label="is investigated regarding, 0.419" source="38" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.419" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.418704" type="real"/>
+    <att name="n_sentences" value="23" type="integer"/>
+    <att name="n_pmids" value="11" type="integer"/>
+    <att name="support_pmids" value="9315986; 16083521; 16968574; 22251024; 22338428; 25376160; 29081313; 30353201; 33078017; 37013426; 38484384" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="1.78" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="1.78" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="31" label="is investigated regarding, 0.515" source="9" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.515" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.514794" type="real"/>
+    <att name="n_sentences" value="120" type="integer"/>
+    <att name="n_pmids" value="87" type="integer"/>
+    <att name="support_pmids" value="9790160; 10434160; 10718161; 11704969; 12203668; 12393314; 12452535; 12544371; 14571350; 15096071; 15488964; 15526307; 15538131; 15748090; 15763612; 15933485; 16259546; 16398952; 16426091; 16436938" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="6.06" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="6.06" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="32" label="is investigated regarding, 0.483" source="16" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.483" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.483174" type="real"/>
+    <att name="n_sentences" value="177" type="integer"/>
+    <att name="n_pmids" value="107" type="integer"/>
+    <att name="support_pmids" value="10913510; 11543738; 11922880; 11963343; 12439628; 12573305; 12606843; 12629542; 12706961; 14561437; 14644068; 14662557; 15019795; 15231442; 15261710; 15296821; 15312811; 15514410; 15677428; 15694120" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="4.65" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="4.65" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="33" label="is investigated regarding, 0.449" source="24" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.449" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.448967" type="real"/>
+    <att name="n_sentences" value="47" type="integer"/>
+    <att name="n_pmids" value="24" type="integer"/>
+    <att name="support_pmids" value="18832427; 19192475; 19656577; 20606247; 20633759; 20827794; 21284136; 21586149; 21869699; 21939613; 22216750; 22286203; 22550279; 23325372; 24766999; 24933746; 24965202; 27138080; 28975710; 33225492" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="3.13" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="3.13" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="34" label="is investigated regarding, 0.536" source="6" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.536" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.535781" type="real"/>
+    <att name="n_sentences" value="145" type="integer"/>
+    <att name="n_pmids" value="93" type="integer"/>
+    <att name="support_pmids" value="11926722; 12858150; 14658974; 15232330; 15457467; 15504423; 15589385; 15728754; 15960560; 16000678; 16298061; 16678205; 16697153; 16700869; 16732464; 16877897; 16877900; 16934840; 17257478; 17445831" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="6.99" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="6.99" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="35" label="is investigated regarding, 0.441" source="26" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.441" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.440666" type="real"/>
+    <att name="n_sentences" value="34" type="integer"/>
+    <att name="n_pmids" value="20" type="integer"/>
+    <att name="support_pmids" value="15748090; 16820257; 16856215; 16974189; 19668123; 19996754; 23511776; 24090228; 25527253; 25607727; 25650503; 26035199; 26288246; 26859610; 27088461; 27109856; 30642308; 31990207; 32568399; 38685594" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="2.76" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="2.76" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="36" label="is investigated regarding, 0.541" source="5" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.541" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.541359" type="real"/>
+    <att name="n_sentences" value="184" type="integer"/>
+    <att name="n_pmids" value="116" type="integer"/>
+    <att name="support_pmids" value="10363731; 11352337; 11354235; 11561046; 11728614; 11777121; 11816866; 11910258; 11999914; 12063159; 12169073; 12691786; 12832242; 12941675; 14624183; 14758580; 15252820; 15353387; 15747035; 16160624" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="7.24" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="7.24" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="37" label="is investigated regarding, 0.407" source="44" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.407" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.407341" type="real"/>
+    <att name="n_sentences" value="30" type="integer"/>
+    <att name="n_pmids" value="17" type="integer"/>
+    <att name="support_pmids" value="23561229; 23656841; 23999912; 24144196; 24172160; 24902007; 26256429; 26584326; 26773906; 27292817; 27455513; 28068615; 28521846; 29195487; 31332902; 38700708; 40875503" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="1.27" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="1.27" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="38" label="is investigated regarding, 0.415" source="42" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.415" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.415359" type="real"/>
+    <att name="n_sentences" value="20" type="integer"/>
+    <att name="n_pmids" value="12" type="integer"/>
+    <att name="support_pmids" value="19284933; 21527122; 21869687; 22106941; 24247740; 24978955; 25396353; 25470094; 25500685; 29608461; 32460523; 32565594" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="1.63" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="1.63" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="39" label="is investigated regarding, 0.462" source="21" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.462" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.462283" type="real"/>
+    <att name="n_sentences" value="148" type="integer"/>
+    <att name="n_pmids" value="96" type="integer"/>
+    <att name="support_pmids" value="11147234; 11441781; 11449015; 11582825; 12183993; 12536066; 14511795; 17090834; 17297199; 17414239; 17884180; 18245176; 18298230; 18299769; 18557666; 18834506; 19573034; 20079331; 20813505; 21223306" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="3.72" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="3.72" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="40" label="is investigated regarding, 0.483" source="15" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.483" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.483374" type="real"/>
+    <att name="n_sentences" value="64" type="integer"/>
+    <att name="n_pmids" value="37" type="integer"/>
+    <att name="support_pmids" value="10936631; 12707557; 15548462; 16050922; 16703602; 17963493; 18391133; 19723787; 20080305; 20233959; 20362978; 22260713; 22409097; 22776534; 24166937; 24184427; 24661263; 25782761; 26389597; 26432173" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="4.66" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="4.66" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="41" label="is investigated regarding, 0.464" source="20" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.464" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.463618" type="real"/>
+    <att name="n_sentences" value="27" type="integer"/>
+    <att name="n_pmids" value="17" type="integer"/>
+    <att name="support_pmids" value="10965637; 14756612; 19045965; 20961444; 21093925; 22878133; 24595511; 24916319; 26371617; 26371618; 26379122; 26808973; 29265831; 38101069; 39405311; 39418459; 40226644" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="3.78" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="3.78" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="42" label="is investigated regarding, 0.476" source="18" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.476" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.475994" type="real"/>
+    <att name="n_sentences" value="49" type="integer"/>
+    <att name="n_pmids" value="32" type="integer"/>
+    <att name="support_pmids" value="12177586; 16249073; 16436936; 16436938; 17477888; 17690597; 20193645; 20361916; 20520286; 21382280; 21829106; 23023074; 23165412; 23532747; 23823799; 23842010; 24530273; 24655622; 26708320; 27054610" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="4.33" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="4.33" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="43" label="is investigated regarding, 0.490" source="14" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.490" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.490205" type="real"/>
+    <att name="n_sentences" value="62" type="integer"/>
+    <att name="n_pmids" value="50" type="integer"/>
+    <att name="support_pmids" value="10622345; 11292519; 12374640; 12393314; 12452535; 14624185; 15377745; 15538131; 17017823; 17062320; 17149753; 17196057; 18159016; 18251622; 18794646; 19065121; 19291077; 19341509; 19668123; 19738403" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="4.96" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="4.96" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+  <edge id="44" label="is investigated regarding, 0.512" source="11" target="2" cy:directed="1">
+    <att name="name" value="is investigated regarding, 0.512" type="string"/>
+    <att name="interaction" value="is investigated regarding" type="string"/>
+    <att name="predicate" value="is investigated regarding" type="string"/>
+    <att name="direction" value="-&gt;" type="string"/>
+    <att name="confidence" value="0.512454" type="real"/>
+    <att name="n_sentences" value="157" type="integer"/>
+    <att name="n_pmids" value="77" type="integer"/>
+    <att name="support_pmids" value="21767441; 22572889; 22901346; 23252878; 24169027; 24257717; 24311349; 24524096; 25562777; 25575488; 25650503; 25687662; 26020712; 26035185; 26035186; 26346592; 26575433; 26641142; 26864543; 27780334" type="string"/>
+    <att name="edge_color" value="#6A5ACD" type="string"/>
+    <att name="edge_width" value="5.95" type="real"/>
+    <att name="edge_line_style" value="dotted" type="string"/>
+    <att name="target_arrow_shape" value="DELTA" type="string"/>
+    <graphics width="5.95" fill="#6A5ACD">
+      <att name="cytoscapeEdgeGraphicsAttributes">
+        <att name="sourceArrow" value="NONE"/>
+        <att name="targetArrow" value="DELTA"/>
+        <att name="sourceArrowColor" value="#6A5ACD"/>
+        <att name="targetArrowColor" value="#6A5ACD"/>
+        <att name="edgeLineType" value="DOTS"/>
+      </att>
+    </graphics>
+  </edge>
+</graph>

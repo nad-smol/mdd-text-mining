@@ -1,0 +1,41 @@
+{
+  "stage": "graphs",
+  "n_nodes": 80,
+  "n_edges": 1938,
+  "n_normalized_nodes": 65,
+  "filters": {
+    "predicates": [
+      "causes",
+      "increases risk of",
+      "is associated with",
+      "leads to"
+    ],
+    "max_nodes": 80,
+    "min_confidence": null,
+    "normalized_only": false,
+    "keep_multi_edges": false
+  },
+  "outputs": {
+    "xgmml": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\graphs\\fig09_infections.xgmml",
+    "html": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\graphs\\fig09_infections.html"
+  },
+  "predicate_edge_styles": {
+    "increases risk of": {
+      "color": "#556B2F",
+      "line_style": "dotted",
+      "arrow": "triangle"
+    },
+    "is associated with": {
+      "color": "#708090",
+      "line_style": "solid",
+      "arrow": "triangle"
+    },
+    "leads to": {
+      "color": "#C45C26",
+      "line_style": "solid",
+      "arrow": "diamond"
+    }
+  },
+  "input": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\associations\\unique_associations.tsv",
+  "updated_at_utc": "2026-09-08T19:43:06.522828+00:00"
+}

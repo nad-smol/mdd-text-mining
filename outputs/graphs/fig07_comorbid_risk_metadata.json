@@ -1,0 +1,28 @@
+{
+  "stage": "graphs",
+  "n_nodes": 40,
+  "n_edges": 43,
+  "n_normalized_nodes": 40,
+  "filters": {
+    "predicates": [
+      "is comorbid with"
+    ],
+    "max_nodes": 40,
+    "min_confidence": 0.5,
+    "normalized_only": true,
+    "keep_multi_edges": false
+  },
+  "outputs": {
+    "xgmml": "..\\outputs\\graphs\\discussion\\fig07_comorbid_risk.xgmml",
+    "html": "..\\outputs\\graphs\\discussion\\fig07_comorbid_risk.html"
+  },
+  "predicate_edge_styles": {
+    "is comorbid with": {
+      "color": "#CD5C5C",
+      "line_style": "dashed",
+      "arrow": "diamond"
+    }
+  },
+  "input": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\outputs\\associations\\unique_associations.tsv",
+  "updated_at_utc": "2026-07-21T13:13:33.328961+00:00"
+}

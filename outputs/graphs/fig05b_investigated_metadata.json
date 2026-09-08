@@ -1,0 +1,28 @@
+{
+  "stage": "graphs",
+  "n_nodes": 45,
+  "n_edges": 44,
+  "n_normalized_nodes": 45,
+  "filters": {
+    "predicates": [
+      "is investigated regarding"
+    ],
+    "max_nodes": 45,
+    "min_confidence": 0.4,
+    "normalized_only": true,
+    "keep_multi_edges": false
+  },
+  "outputs": {
+    "xgmml": "..\\outputs\\graphs\\discussion\\fig05b_investigated.xgmml",
+    "html": "..\\outputs\\graphs\\discussion\\fig05b_investigated.html"
+  },
+  "predicate_edge_styles": {
+    "is investigated regarding": {
+      "color": "#6A5ACD",
+      "line_style": "dotted",
+      "arrow": "triangle"
+    }
+  },
+  "input": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\outputs\\associations\\unique_associations.tsv",
+  "updated_at_utc": "2026-07-21T12:46:23.304611+00:00"
+}

@@ -1,0 +1,151 @@
+Object1ID	Object1Type	Object1PrefName	Object1TextSynonyms	Object2ID	Object2Type	Object2PrefName	Object2TextSynonyms	Predicate	Direction	ConfidenceScore	n_sentences	n_pmids	SupportPMIDs
+3052230	Species	Orthohepacivirus hominis	HCV	1470	Disease	major depressive disorder	depression; depressive symptoms; major depression; MDD	leads to	->	0.404618	11	7	15136661; 19061674; 20683942; 20833939; 22701688; 28365538; 31059806
+12721	Species	Human immunodeficiency virus	HIV	1470	Disease	major depressive disorder	MDD; depression; major depressive disorder; major depressive episode; depressive; depressive episodes; depressive symptoms	increases risk of	->	0.402903	21	12	18045694; 20230095; 22208452; 22614744; 23417876; 26358261; 26727907; 27115565; 29064168; 33888003; 34981438; 39581904
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19; SARS-CoV-2	1470	Disease	major depressive disorder	MDE; major depressive disorder; MDD; major depressive episode	leads to	->	0.380314	8	4	34529543; 35185890; 35439468; 39056357
+1470	Disease	major depressive disorder	depression; major depressive disorder; MDD	12721	Species	Human immunodeficiency virus	HIV	is associated with	<->	0.360648	7	6	25892152; 26724694; 26896120; 33888003; 36048403; 40633520
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19	1470	Disease	major depressive disorder	depression; MDE; depressive symptoms; major depressive disorder; MDD	increases risk of	->	0.343417	8	5	35135505; 36496170; 38801921; 39019647; 39454249
+3052230	Species	Orthohepacivirus hominis	HCV	1883	Disease	hepatitis C	hepatitis C virus	leads to	->	0.333222	4	3	19061674; 20833939; 22701688
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19	0002025	Disease	psychiatric disorder	psychiatric illness; psychological distress	causes	->	0.311545	2	2	34281040; 35185890
+12721	Species	Human immunodeficiency virus	HIV	1470	Disease	major depressive disorder	MDD; major depressive disorder; major depression	leads to	->	0.309121	43	6	9672736; 16764941; 18045694; 26358261; 28365538; 29424787
+12721	Species	Human immunodeficiency virus	HIV	0005109	Disease	HIV infectious disease	HIV-infected	increases risk of	->	0.308146	4	3	18045694; 20230095; 28449629
+12721	Species	Human immunodeficiency virus	HIV	526	Disease	human immunodeficiency virus infectious disease	immunodeficiency virus	increases risk of	->	0.296753	2	2	23417876; 27115565
+12721	Species	Human immunodeficiency virus	HIV	0005798	Disease	HIV-associated nephropathy	HIV	increases risk of	->	0.288461	3	3	21749242; 26358261; 40633520
+12721	Species	Human immunodeficiency virus	HIV	2055	Disease	post-traumatic stress disorder	PTSD	increases risk of	->	0.275948	4	2	23417876; 39581904
+3052230	Species	Orthohepacivirus hominis	HCV; hepatitis C virus	1470	Disease	major depressive disorder	depression; depressive symptoms; major depression	increases risk of	->	0.275439	7	2	20683942; 25868672
+160	Species	Treponema pallidum	Treponema pallidum	2789	Disease	parasitic protozoa infectious disease	infectious disease	causes	->	0.271597	1	1	25634568
+778	Disease	delusional disorder	psychiatric disorders	2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19	is associated with	<->	0.268887	2	1	35185890
+12721	Species	Human immunodeficiency virus	HIV	778	Disease	delusional disorder	psychiatric disorders	causes	->	0.268233	1	1	31297682
+3052230	Species	Orthohepacivirus hominis	HCV	1470	Disease	major depressive disorder	depression; major depression	causes	->	0.257821	3	2	20683942; 21907062
+12721	Species	Human immunodeficiency virus	HIV	4	Disease	disease	disease	increases risk of	->	0.257071	3	1	29064168
+1470	Disease	major depressive disorder	depression	853	Species	Faecalibacterium prausnitzii	Faecalibacterium prausnitzii	is associated with	<->	0.256436	1	1	38003647
+3052230	Species	Orthohepacivirus hominis	HCV	3312	Disease	bipolar disorder	bipolar disorder; depressive disorders	leads to	->	0.247829	3	2	19061674; 22701688
+12721	Species	Human immunodeficiency virus	HIV	3312	Disease	bipolar disorder	BD; bipolar disorder	increases risk of	->	0.245978	4	1	22614744
+1883	Disease	hepatitis C	hepatitis C virus	3052230	Species	Orthohepacivirus hominis	HCV	is associated with	<->	0.245239	3	2	17292481; 19855036
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19; SARS-CoV-2	14692	Disease	Smith-Lemli-Opitz syndrome	SMI	increases risk of	->	0.244369	5	1	41160025
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19	1060178	Disease	pediatric acute-onset neuropsychiatric syndrome	psychiatric symptoms	causes	->	0.243274	1	1	35436280
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	SARS-CoV-2; COVID-19	778	Disease	delusional disorder	psychiatric disorders	causes	->	0.241703	3	1	35185890
+12721	Species	Human immunodeficiency virus	HIV		Disease	IPV	IPV	increases risk of	->	0.239048	1	1	39581904
+12721	Species	Human immunodeficiency virus	HIV		Disease	mental illness	mental illness	increases risk of	->	0.238598	3	1	19543974
+12721	Species	Human immunodeficiency virus	human immunodeficiency virus	1470	Disease	major depressive disorder	Major depressive disorder; MDD	causes	->	0.238321	2	1	20726698
+160	Species	Treponema pallidum	Treponema pallidum	4166	Disease	syphilis	Syphilis	causes	->	0.238274	1	1	25634568
+837	Species	Porphyromonas gingivalis	Porphyromonas gingivalis	824	Disease	periodontitis	periodontitis	causes	->	0.235544	1	1	37735127
+12721	Species	Human immunodeficiency virus	HIV	14692	Disease	Smith-Lemli-Opitz syndrome	SMI	increases risk of	->	0.232632	2	1	19543974
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19	0002025	Disease	psychiatric disorder	Psychiatric illness	increases risk of	->	0.229409	1	1	34910966
+10376	Species	human gammaherpesvirus 4	EBV	1470	Disease	major depressive disorder	MDD	increases risk of	->	0.22429	1	1	32056754
+	Disease	psychiatric comorbidity	psychiatric comorbidity	12721	Species	Human immunodeficiency virus	HIV	is associated with	<->	0.221929	2	2	25892152; 31297682
+10359	Species	Human betaherpesvirus 5	Human cytomegalovirus	0002283	Disease	decreased mobility	neuropathology	causes	->	0.221866	1	1	34493708
+12721	Species	Human immunodeficiency virus	HIV	5154	Disease	borna disease	mood disturbance	leads to	->	0.219993	2	1	35914113
+12721	Species	Human immunodeficiency virus	HIV	0090012	Disease	severe combined immunodeficiency with sensitivity to ionizing radiation	severe	increases risk of	->	0.218369	1	1	19543974
+9973	Disease	substance dependence	substance use disorders	3052230	Species	Orthohepacivirus hominis	HCV	is associated with	<->	0.218166	2	1	19855036
+32604	Species	Human betaherpesvirus 6B	Human herpesvirus 6B	1470	Disease	major depressive disorder	depression	causes	->	0.213309	1	1	41101770
+3052230	Species	Orthohepacivirus hominis	HCV	1742	Disease	drug psychosis	psychosis	leads to	->	0.21313	2	1	19061674
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19	14320	Disease	generalized anxiety disorder	GAD	increases risk of	->	0.213	1	1	39019647
+0005798	Disease	HIV-associated nephropathy	HIV	12721	Species	Human immunodeficiency virus	HIV	is associated with	<->	0.212322	2	2	26724694; 31933016
+1680	Species	Bifidobacterium adolescentis	Bifidobacterium adolescentis	1470	Disease	major depressive disorder	MDD	increases risk of	->	0.212044	1	1	40552978
+3052230	Species	Orthohepacivirus hominis	HCV	5419	Disease	schizophrenia	schizophrenia	leads to	->	0.211976	2	1	19061674
+11206	Disease	opioid abuse	Drug abusers	12721	Species	Human immunodeficiency virus	HIV	is associated with	<->	0.211414	1	1	10759035
+1470	Disease	major depressive disorder	depression	3052230	Species	Orthohepacivirus hominis	HCV	is associated with	<->	0.209304	1	1	17292481
+0000602	Disease	apathy	apathy	12721	Species	Human immunodeficiency virus	HIV	is associated with	<->	0.208437	1	1	40633520
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19		Disease	PASC	PASC	increases risk of	->	0.208305	2	1	41160025
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19; SARS-CoV-2	9389	Disease	infectious anterior uveitis	infection with	causes	->	0.208157	2	1	35185890
+10359	Species	Human betaherpesvirus 5	CMV	1470	Disease	major depressive disorder	depression	increases risk of	->	0.207842	2	1	25218654
+12721	Species	Human immunodeficiency virus	HIV		Disease	CMD	CMD	increases risk of	->	0.205556	1	1	23532397
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19		Disease	STB	STB	increases risk of	->	0.205556	1	1	39019647
+9256	Disease	colorectal cancer	colorectal cancer	1351	Species	Enterococcus faecalis	Enterococcus faecalis	is associated with	<->	0.205375	1	1	35115689
+837	Species	Porphyromonas gingivalis	Porphyromonas gingivalis		Disease	depressive-like	depressive-like	causes	->	0.203879	1	1	37735127
+12721	Species	Human immunodeficiency virus	HIV		Disease	HF	HF	increases risk of	->	0.203542	1	1	26358261
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	SARS-CoV-2		Disease	PASC	PASC	leads to	->	0.20226	1	1	41160025
+12140	Disease	Chagas disease	Chagas disease	12721	Species	Human immunodeficiency virus	HIV	is associated with	<->	0.201808	1	1	24845116
+12721	Species	Human immunodeficiency virus	HIV		Disease	Psychiatric comorbidity	Psychiatric comorbidity	causes	->	0.199809	1	1	31297682
+12721	Species	Human immunodeficiency virus	HIV	0004951	Disease	susceptibility to HIV infection	HIV infection	increases risk of	->	0.199079	1	1	17099559
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19		Disease	Obsessive-Compulsive Symptoms	Obsessive-Compulsive Symptoms	leads to	->	0.198922	1	1	32987764
+12721	Species	Human immunodeficiency virus	HIV		Disease	neurocognitive impairment	neurocognitive impairment	increases risk of	->	0.198066	1	1	34981438
+	Disease	psychiatric comorbidities	psychiatric comorbidities	12721	Species	Human immunodeficiency virus	HIV	is associated with	<->	0.196386	1	1	24845116
+3052230	Species	Orthohepacivirus hominis	HCV	1883	Disease	hepatitis C	hepatitis C	causes	->	0.195462	1	1	21907062
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19	0060041	Disease	autism spectrum disorder	psychological disorders	increases risk of	->	0.19506	1	1	34062769
+10359	Species	Human betaherpesvirus 5	human cytomegalovirus	1470	Disease	major depressive disorder	depressed; MDD	causes	->	0.19433	2	1	33500556
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	SARS-CoV-2	3312	Disease	bipolar disorder	BD; bipolar disorder	leads to	->	0.193588	2	1	35185890
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19		Disease	with	with	increases risk of	->	0.192119	2	1	41160025
+0000022	Disease	depression	chronic depression	12721	Species	Human immunodeficiency virus	HIV	is associated with	<->	0.192055	1	1	25892152
+12455	Species	Borna disease virus	Borna disease virus	10554	Disease	meningoencephalitis	meningoencephalitis	causes	->	0.191876	1	1	22290118
+12721	Species	Human immunodeficiency virus	HIV	3324	Disease	mood disorder	mood disorder	increases risk of	->	0.191876	1	1	22614744
+3312	Disease	bipolar disorder	depressive disorders	12721	Species	Human immunodeficiency virus	HIV	is associated with	<->	0.191876	1	1	33888003
+239935	Species	Akkermansia muciniphila	Akkermansia muciniphila	1470	Disease	major depressive disorder	MD	increases risk of	->	0.191876	1	1	40298641
+12721	Species	Human immunodeficiency virus	HIV	2348	Disease	arteriosclerotic cardiovascular disease	cardiovascular disease	leads to	->	0.191611	7	1	26358261
+10359	Species	Human betaherpesvirus 5	Human cytomegalovirus		Disease	impaired immunity	impaired immunity	causes	->	0.190103	1	1	34493708
+	Disease	anhedonia	anhedonia	12721	Species	Human immunodeficiency virus	HIV	is associated with	<->	0.190103	1	1	40633520
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19		Disease	fear	fear	increases risk of	->	0.189418	1	1	35135505
+12455	Species	Borna disease virus	Borna disease virus	1470	Disease	major depressive disorder	major depressive disorder; MDD	causes	->	0.189171	2	1	22290118
+10646	Disease	schizotypal personality disorder	schizotypal personality disorder	2697049	Species	Severe acute respiratory syndrome coronavirus 2	SARS-CoV-2	is associated with	<->	0.188969	1	1	33634761
+3052230	Species	Orthohepacivirus hominis	HCV	0002025	Disease	psychiatric disorder	psychiatric	leads to	->	0.186824	2	1	19061674
+2081351	Species	Drosophila	Drosophila	1470	Disease	major depressive disorder	depression	increases risk of	->	0.186385	1	1	32388446
+12721	Species	Human immunodeficiency virus	HIV	12140	Disease	Chagas disease	Chagas disease	leads to	->	0.185254	1	1	24845116
+12721	Species	Human immunodeficiency virus	human immunodeficiency virus	0005798	Disease	HIV-associated nephropathy	HIV	causes	->	0.184314	1	1	20726698
+3052230	Species	Orthohepacivirus hominis	HCV		Disease	HCV mono-infected	HCV mono-infected	leads to	->	0.183912	1	1	28365538
+12721	Species	Human immunodeficiency virus	HIV	9973	Disease	substance dependence	substance use disorders	increases risk of	->	0.183689	1	1	22614744
+10566	Species	Human papillomavirus	Human Papillomavirus	1470	Disease	major depressive disorder	Major Depressive Disorder	leads to	->	0.183413	1	1	41025852
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19	0080599	Disease	Coronavirus infectious disease	coronavirus disease	increases risk of	->	0.182961	1	1	33202706
+12721	Species	Human immunodeficiency virus	HIV		Disease	neurocognitive decline	neurocognitive decline	increases risk of	->	0.181999	1	1	34565257
+3052230	Species	Orthohepacivirus hominis	HCV	8552	Disease	chronic myeloid leukemia	chronic	leads to	->	0.181957	1	1	22701688
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	SARS-CoV-2		Disease	mental illness	mental illness	increases risk of	->	0.181833	1	1	41160025
+	Disease	unipolar mood, anxiety, and trauma disorders	unipolar mood, anxiety, and trauma disorders	12721	Species	Human immunodeficiency virus	HIV	is associated with	<->	0.181273	1	1	31297682
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	SARS-CoV-2	0081008	Disease	Lodder-Merla syndrome type 1 with impaired intellectual development and cardiac arrhythmia	LOD	leads to	->	0.18113	1	1	35185890
+10566	Species	Human papillomavirus	Human Papillomavirus	3312	Disease	bipolar disorder	Bipolar Disorder	leads to	->	0.180761	1	1	41025852
+10566	Species	Human papillomavirus	Human Papillomavirus	5419	Disease	schizophrenia	Schizophrenia	leads to	->	0.179923	1	1	41025852
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19	0080599	Disease	Coronavirus infectious disease	coronavirus disease	causes	->	0.179109	1	1	34281040
+12721	Species	Human immunodeficiency virus	HIV	0043264	Disease	post-traumatic epilepsy	trauma-impacted	increases risk of	->	0.178241	1	1	24294927
+0005109	Disease	HIV infectious disease	HIV disease	12721	Species	Human immunodeficiency virus	HIV	is associated with	<->	0.178073	1	1	25892152
+10359	Species	Human betaherpesvirus 5	human cytomegalovirus	0000061	Disease	inflammation	inflammation	causes	->	0.174676	1	1	33500556
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	SARS-CoV-2	0100320	Disease	post-COVID-19 disorder	COVID-19	increases risk of	->	0.174457	1	1	41160025
+	Disease	catatonic behaviour	catatonic behaviour	2697049	Species	Severe acute respiratory syndrome coronavirus 2	SARS-CoV-2	is associated with	<->	0.173736	1	1	33634761
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	SARS-CoV-2	5419	Disease	schizophrenia	schizophrenia	leads to	->	0.173379	1	1	35185890
+784	Disease	chronic kidney disease	chronic disease	12721	Species	Human immunodeficiency virus	HIV	is associated with	<->	0.170308	1	1	26724694
+2800	Disease	acute interstitial pneumonia	interstitial pneumonia	2697049	Species	Severe acute respiratory syndrome coronavirus 2	SARS-CoV-2	is associated with	<->	0.168729	1	1	33634761
+694002	Species	Betacoronavirus	Coronavirus	1470	Disease	major depressive disorder	major depressive disorder; MDD	increases risk of	->	0.168353	2	1	36496170
+12721	Species	Human immunodeficiency virus	HIV	778	Disease	delusional disorder	psychiatric disorder	leads to	->	0.168104	1	1	18045694
+12721	Species	Human immunodeficiency virus	HIV		Disease	SUDs	SUDs	increases risk of	->	0.166317	1	1	22614744
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	SARS-CoV-2	29040	Disease	SZT2	SZ	leads to	->	0.166132	1	1	35185890
+12721	Species	Human immunodeficiency virus	HIV		Disease	posttraumatic stress disorder	posttraumatic stress disorder	increases risk of	->	0.165363	1	1	23417876
+12721	Species	Human immunodeficiency virus	HIV	1203	Disease	drug-induced mental disorder	Mental Disorders	increases risk of	->	0.165211	1	1	23417876
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19	0080848	Disease	long COVID	COVID	leads to	->	0.164391	2	1	38193771
+837	Species	Porphyromonas gingivalis	Porphyromonas gingivalis		Disease	MD-related	MD-related	causes	->	0.1639	1	1	37735127
+603	Disease	AIDS phobia	AIDS	12721	Species	Human immunodeficiency virus	HIV	is associated with	<->	0.163364	1	1	26724694
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19		Disease	central nervous system impairment	central nervous system impairment	increases risk of	->	0.16065	1	1	35578886
+0000451	Disease	septic shock	septic shock	2697049	Species	Severe acute respiratory syndrome coronavirus 2	SARS-CoV-2	is associated with	<->	0.159774	1	1	33634761
+1883	Disease	hepatitis C	hepatitis C	12721	Species	Human immunodeficiency virus	HIV	is associated with	<->	0.158449	1	1	31933016
+8986	Disease	narcolepsy	narcolepsy	114727	Species	H1N1 subtype	H1N1	is associated with	<->	0.158288	1	1	25325473
+12721	Species	Human immunodeficiency virus	HIV		Disease	HIV positive	HIV positive	increases risk of	->	0.157405	1	1	22208452
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19	9389	Disease	infectious anterior uveitis	infection	increases risk of	->	0.157265	1	1	35578886
+12721	Species	Human immunodeficiency virus	HIV		Disease	neurotoxic	neurotoxic	increases risk of	->	0.15706	1	1	22208452
+28449	Species	Neisseria subflava	Neisseria subflava	5419	Disease	schizophrenia	schizophrenia	increases risk of	->	0.156481	1	1	32334937
+4189	Disease	mutism	mutism	2697049	Species	Severe acute respiratory syndrome coronavirus 2	SARS-CoV-2	is associated with	<->	0.155638	1	1	33634761
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19	14320	Disease	generalized anxiety disorder	GAD	leads to	->	0.155638	1	1	39019647
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19		Disease	SARS-CoV-2	SARS-CoV-2	increases risk of	->	0.153991	1	1	35578886
+1678	Species	Bifidobacterium	Bifidobacterium	1470	Disease	major depressive disorder	MDD	leads to	->	0.153558	1	1	27288567
+1578	Species	Lactobacillus	Lactobacillus	1470	Disease	major depressive disorder	MDD	leads to	->	0.153321	1	1	27288567
+0019951	Disease	rigid spine syndrome	rigidity	2697049	Species	Severe acute respiratory syndrome coronavirus 2	SARS-CoV-2	is associated with	<->	0.152981	1	1	33634761
+	Disease	catalepsy	catalepsy	2697049	Species	Severe acute respiratory syndrome coronavirus 2	SARS-CoV-2	is associated with	<->	0.151358	1	1	33634761
+694002	Species	Betacoronavirus	Coronavirus	12858	Disease	Huntington's disease	psychiatric diseases	increases risk of	->	0.150711	1	1	36496170
+694002	Species	Betacoronavirus	Coronavirus	0033429	Disease	Neuroinflammation	neuroinflammation	increases risk of	->	0.150348	1	1	36496170
+	Disease	immobility	immobility	2697049	Species	Severe acute respiratory syndrome coronavirus 2	SARS-CoV-2	is associated with	<->	0.149789	1	1	33634761
+	Disease	psychiatric comorbidity	psychiatric comorbidity	114727	Species	H1N1 subtype	H1N1	is associated with	<->	0.1476	1	1	25325473
+	Disease	vascular comorbidities	vascular comorbidities	12721	Species	Human immunodeficiency virus	HIV	is associated with	<->	0.1476	1	1	31933016
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19		Disease	STB	STB	leads to	->	0.146442	1	1	39019647
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19	12858	Disease	Huntington's disease	psychiatric diseases	increases risk of	->	0.14641	1	1	36496170
+28449	Species	Neisseria subflava	Neisseria subflava		Disease	mania	mania	increases risk of	->	0.146228	1	1	32334937
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19	0033429	Disease	Neuroinflammation	neuroinflammation	increases risk of	->	0.146069	1	1	36496170
+10930	Disease	borderline personality disorder	BPD	3052230	Species	Orthohepacivirus hominis	HCV	is associated with	<->	0.145309	1	1	40653495
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19	0024614	Disease	neurotic depression	psychotic depression	increases risk of	->	0.144415	1	1	35578886
+12721	Species	Human immunodeficiency virus	HIV	778	Disease	delusional disorder	psychiatric disorder	increases risk of	->	0.14281	1	1	22272693
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19		Disease	Cotard's delusion	Cotard's delusion	increases risk of	->	0.139579	1	1	35578886
+1470	Disease	major depressive disorder	MDD	287	Species	Pseudomonas aeruginosa	Pseudomonas Aeruginosa	is associated with	<->	0.138515	1	1	18283240
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19		Disease	ideations	ideations	leads to	->	0.13832	2	1	34465319
+1470	Disease	major depressive disorder	MDD	582	Species	Morganella morganii	Morganella Morganii	is associated with	<->	0.138273	1	1	18283240
+1470	Disease	major depressive disorder	MDD	303	Species	Pseudomonas putida	Pseudomonas Putida	is associated with	<->	0.138192	1	1	18283240
+1470	Disease	major depressive disorder	MDD	545	Species	Citrobacter koseri	Citrobacter Koseri	is associated with	<->	0.138192	1	1	18283240
+1470	Disease	major depressive disorder	MDD	569	Species	Hafnia alvei	Hafnia Alvei	is associated with	<->	0.137786	1	1	18283240
+12721	Species	Human immunodeficiency virus	HIV	0060038	Disease	specific developmental disorder	mental health disorder	leads to	->	0.137702	1	1	29424787
+	Disease	HCV infection	HCV infection	3052230	Species	Orthohepacivirus hominis	HCV	is associated with	<->	0.137631	1	1	40653495
+	Disease	SCZ	SCZ	3052230	Species	Orthohepacivirus hominis	HCV	is associated with	<->	0.136723	1	1	40653495
+3052230	Species	Orthohepacivirus hominis	HCV	0000143	Disease	major depressive episode	DSM-IV major depression	causes	->	0.13546	1	1	20683942
+2697049	Species	Severe acute respiratory syndrome coronavirus 2	COVID-19	9389	Disease	infectious anterior uveitis	infection	leads to	->	0.113649	1	1	38193771

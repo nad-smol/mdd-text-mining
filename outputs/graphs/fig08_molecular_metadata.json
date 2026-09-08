@@ -1,0 +1,46 @@
+{
+  "stage": "graphs",
+  "n_nodes": 100,
+  "n_edges": 463,
+  "n_normalized_nodes": 100,
+  "filters": {
+    "predicates": [
+      "alters level of",
+      "is a biomarker of",
+      "is a therapeutic target in",
+      "is associated with susceptibility to"
+    ],
+    "max_nodes": 100,
+    "min_confidence": null,
+    "normalized_only": true,
+    "keep_multi_edges": false
+  },
+  "outputs": {
+    "xgmml": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\graphs\\fig08_molecular.xgmml",
+    "html": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\graphs\\fig08_molecular.html"
+  },
+  "predicate_edge_styles": {
+    "alters level of": {
+      "color": "#C45C26",
+      "line_style": "solid",
+      "arrow": "diamond"
+    },
+    "is a biomarker of": {
+      "color": "#CD5C5C",
+      "line_style": "dashed",
+      "arrow": "diamond"
+    },
+    "is a therapeutic target in": {
+      "color": "#D2691E",
+      "line_style": "dotted",
+      "arrow": "diamond"
+    },
+    "is associated with susceptibility to": {
+      "color": "#8B4513",
+      "line_style": "solid",
+      "arrow": "circle"
+    }
+  },
+  "input": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\associations\\unique_associations.tsv",
+  "updated_at_utc": "2026-09-08T19:43:05.834850+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "stage": "graphs",
+  "n_nodes": 80,
+  "n_edges": 1588,
+  "n_normalized_nodes": 65,
+  "filters": {
+    "predicates": [
+      "contributes to",
+      "increases risk of",
+      "is a risk factor for"
+    ],
+    "max_nodes": 80,
+    "min_confidence": null,
+    "normalized_only": false,
+    "keep_multi_edges": false
+  },
+  "outputs": {
+    "xgmml": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\graphs\\fig06_risk_factors.xgmml",
+    "html": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\graphs\\fig06_risk_factors.html"
+  },
+  "predicate_edge_styles": {
+    "contributes to": {
+      "color": "#556B2F",
+      "line_style": "dotted",
+      "arrow": "triangle"
+    },
+    "increases risk of": {
+      "color": "#556B2F",
+      "line_style": "dotted",
+      "arrow": "triangle"
+    },
+    "is a risk factor for": {
+      "color": "#4A6FA5",
+      "line_style": "solid",
+      "arrow": "triangle"
+    }
+  },
+  "input": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\associations\\unique_associations.tsv",
+  "updated_at_utc": "2026-09-08T19:43:05.074860+00:00"
+}

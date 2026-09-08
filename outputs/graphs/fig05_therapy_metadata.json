@@ -1,0 +1,28 @@
+{
+  "stage": "graphs",
+  "n_nodes": 80,
+  "n_edges": 256,
+  "n_normalized_nodes": 80,
+  "filters": {
+    "predicates": [
+      "is used in therapy of"
+    ],
+    "max_nodes": 80,
+    "min_confidence": null,
+    "normalized_only": true,
+    "keep_multi_edges": false
+  },
+  "outputs": {
+    "xgmml": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\graphs\\fig05_therapy.xgmml",
+    "html": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\graphs\\fig05_therapy.html"
+  },
+  "predicate_edge_styles": {
+    "is used in therapy of": {
+      "color": "#4682B4",
+      "line_style": "dashed",
+      "arrow": "tee"
+    }
+  },
+  "input": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\mdd-depression-text-mining\\outputs\\associations\\unique_associations.tsv",
+  "updated_at_utc": "2026-09-08T19:43:04.646382+00:00"
+}
