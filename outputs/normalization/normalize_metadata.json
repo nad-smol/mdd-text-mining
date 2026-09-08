@@ -1,0 +1,31 @@
+{
+  "stage": "normalize",
+  "n_unique_mentions_resolved_this_run": 28218,
+  "n_mentions_in_lexicon": 28218,
+  "n_mentions_ok": 18638,
+  "n_catalog_ids": 9333,
+  "n_assoc_in": 417689,
+  "n_assoc_out": 408368,
+  "n_assoc_object1_id": 345414,
+  "n_assoc_object2_id": 327061,
+  "n_assoc_both_ids": 281803,
+  "n_assoc_dropped_non_infectious_species": 4006,
+  "n_assoc_dropped_unmatched_species": 5315,
+  "n_assoc_species_pending_normalize": 0,
+  "outputs": {
+    "normalized_mentions": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\outputs\\normalization\\normalized_mentions.tsv",
+    "entity_catalog": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\outputs\\normalization\\entity_catalog.tsv",
+    "associations_normalized": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\outputs\\normalization\\associations_normalized.tsv",
+    "cache": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\outputs\\normalization\\normalize_cache.json"
+  },
+  "sources": {
+    "Chemical": "PubChem (CID, bare)",
+    "Disease": "OLS4 DOID→MONDO (bare numeric id; DbSource in catalog)",
+    "Gene": "NCBI Gene (bare GeneID)",
+    "Species": "NCBI Taxonomy taxid bare; infectious clade filter",
+    "miRNA": "local canonical",
+    "DeprTerms": "local Env_factors canonical"
+  },
+  "note": "Low ID coverage usually means normalize was only run with --max-mentions. Run full `python run_pipeline.py normalize` to resolve all unique mentions.",
+  "updated_at_utc": "2026-07-20T12:17:28.584959+00:00"
+}
