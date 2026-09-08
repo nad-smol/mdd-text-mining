@@ -1,0 +1,23 @@
+{
+  "stage": "unique-associations",
+  "n_assoc_in": 408368,
+  "n_skipped_self_loops": 24837,
+  "n_unique": 146802,
+  "n_unique_both_ids": 79542,
+  "n_unique_one_id": 54172,
+  "n_unique_no_id": 13088,
+  "max_n_sentences": 1849,
+  "max_n_pmids": 1008,
+  "confidence_formula": "geo_mean(F_sent, F_doc, N_norm, P_extr)",
+  "norm_confidence_fallback": 0.5,
+  "outputs": {
+    "unique_associations": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\outputs\\associations\\unique_associations.tsv",
+    "metadata": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\outputs\\associations\\unique_associations_metadata.json"
+  },
+  "inputs": {
+    "associations_normalized": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\outputs\\normalization\\associations_normalized.tsv",
+    "normalized_mentions": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\outputs\\normalization\\normalized_mentions.tsv",
+    "entity_catalog": "E:\\IBMC\\Подготовка статей\\Депрессия (по мотивам BGRS)\\v2\\outputs\\normalization\\entity_catalog.tsv"
+  },
+  "updated_at_utc": "2026-07-20T19:28:37.152590+00:00"
+}
