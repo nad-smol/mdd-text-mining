@@ -1,0 +1,14 @@
+# Core dependencies for MDD text-mining pipeline
+biopython>=1.83
+PyYAML>=6.0
+scikit-learn>=1.3
+scipy>=1.11
+numpy>=1.24
+flair>=0.14
+torch>=2.0.0
+
+# Notes on PyTorch & GPU:
+# If you have an NVIDIA GPU, install a CUDA-enabled build of PyTorch first:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+# CPU-only installation:
+#   pip install torch

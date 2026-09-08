@@ -1,0 +1,70 @@
+# MDD text-mining pipeline configuration
+# Paths are relative to this project directory unless absolute.
+
+project:
+  name: mdd-depression-text-mining
+  version: "0.2.0"
+  description: "Literature-scale association mining and knowledge graph extraction for Major Depressive Disorder"
+
+ncbi:
+  # Email required by NCBI Entrez policy (please replace with your own email)
+  email: "researcher@example.org"
+  # Entrez API key (optional; can also be provided via NCBI_API_KEY environment variable or --api-key CLI flag)
+  api_key: ""
+  # Request interval: 0.12s with API key (up to 10 req/s); 0.34s without key (3 req/s)
+  sleep_between_requests: 0.12
+  pmid_batch_size: 200
+
+pubmed:
+  # Entrez: Depressive Disorder, Major[Mesh] NOT Review[PT]
+  # Note: Do not quote the MeSH heading in Entrez (quoted terms may return 0 hits)
+  mesh_terms:
+    - "Depressive Disorder, Major"
+  exclude_publication_types:
+    - "Review"
+  start_year: 1960
+  end_year: null  # null = current calendar year
+  use_half_years: true
+  fetch_pmc_fulltext: false
+
+paths:
+  data_dir: "data"
+  outputs_dir: "outputs"
+  corpus_tsv: "outputs/corpus/mdd_corpus.tsv"
+  corpus_metadata: "outputs/corpus/corpus_metadata.json"
+  entities_tsv: "outputs/entities/entities.tsv"
+  associations_tsv: "outputs/associations/associations.tsv"
+  associations_by_pmid_dir: "outputs/associations/by_pmid"
+  stats_dir: "outputs/stats"
+  sif_dir: "outputs/sif"
+  graphs_dir: "outputs/graphs"
+  env_factors_tsv: "data/Env_factors.tsv"
+  env_factors_json: "data/Env_factors.json"
+  rules_txt: "data/rules.txt"
+  study_type_keywords: "data/study_type_keywords.yaml"
+  clustering_tsv: "outputs/clustering/corpus_clusters.tsv"
+  normalize_dir: "outputs/normalization"
+  unique_associations_tsv: "outputs/associations/unique_associations.tsv"
+
+corpus:
+  mode: update
+
+ner:
+  mode: full
+  prefer_gpu: true
+  text_sections:
+    - ArticleTitle
+    - Abstract
+    - Introduction
+    - Methods
+    - Results
+    - Discussion
+    - Conclusions
+    - OtherSections
+    - FullText
+
+associations:
+  max_trigger_entity_gap: null
+
+normalize:
+  sleep_s: 0.12
