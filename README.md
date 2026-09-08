@@ -317,23 +317,3 @@ python -m unittest tests.test_mirna tests.test_associations
 ```
 
 ---
-
-## Citation
-
-If you use this pipeline, code, or precomputed association data in your research, please cite:
-
-```bibtex
-@article{ibmc_mdd_textmining_2026,
-  title={Deciphering the Multifactorial Landscape of Major Depressive Disorder via Literature-Scale Text Mining and Knowledge Graphs},
-  author={Biziukova, N. Yu. and Ivanov, S. M. and Tarasova, O. A. and Poroikov, V. V.},
-  journal={Medicine},
-  year={2026},
-  publisher={Wolters Kluwer}
-}
-```
-
----
-
-## License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
