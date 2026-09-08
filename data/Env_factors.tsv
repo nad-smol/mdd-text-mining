@@ -1,0 +1,61 @@
+EnvGroup	EnvSubgroup	CanonicalTerm	Variants	Notes
+Perinatal/Early development	Developmental timing	Early postnatal period	early postnatal period; neonatal period; perinatal period	First weeks/months after birth
+Perinatal/Early development	Developmental timing	First year of life	first year of life; infancy; early infancy	Exposure during first 12 months
+Perinatal/Early development	Developmental timing	Early childhood	early childhood	Generic early childhood window (e.g., 0–5 years); bare "childhood" removed as too noisy
+Perinatal/Early development	Perinatal stress	Maternal stress during pregnancy	maternal prenatal stress; stress during pregnancy; antenatal maternal stress; prenatal maternal stress; maternal stress in pregnancy	Stress exposure in utero
+Perinatal/Early development	Perinatal complications	Perinatal complications	perinatal complications; obstetric complications; birth complications; birth trauma; perinatal adversity	Hypoxia, preeclampsia, prematurity, etc. (specific diagnoses stay as Disease)
+Childhood adversity & trauma	Childhood trauma	Childhood trauma	childhood trauma; early childhood trauma; childhood abuse; childhood maltreatment; child maltreatment; early life trauma; early life adversity; early adversity	Any severe adverse childhood experience
+Childhood adversity & trauma	ACE	Adverse childhood experiences	adverse childhood experience; adverse childhood experiences; adverse childhood experiences (ACEs); adverse childhood experiences (ACE)	ACE framework; bare ACE/ACEs removed (clash with angiotensin-converting enzyme)
+Childhood adversity & trauma	Abuse	Childhood physical abuse	physical abuse in childhood; child physical abuse; physically abused as a child; childhood physical abuse	Specific ACE subtype
+Childhood adversity & trauma	Abuse	Childhood sexual abuse	sexual abuse in childhood; child sexual abuse; sexually abused as a child; childhood sexual abuse	Specific ACE subtype (childhood only)
+Childhood adversity & trauma	Abuse	Childhood emotional abuse	emotional abuse in childhood; psychological abuse in childhood; childhood emotional abuse; emotional maltreatment	Specific ACE subtype
+Childhood adversity & trauma	Neglect	Childhood neglect	child neglect; childhood neglect; emotional neglect; physical neglect in childhood; childhood physical neglect	Neglect dimension of ACE
+Childhood adversity & trauma	Bullying	Childhood bullying	childhood bullying; bullied at school; peer victimization; peer bullying; school bullying	Bullying as specific interpersonal trauma; bare "bullying" removed as noisy
+Childhood adversity & trauma	Loss	Early parental loss	parental loss; death of a parent in childhood; parental death in childhood; early parental death; loss of a parent in childhood	Early bereavement
+Adult interpersonal trauma	Sexual abuse	Adult sexual abuse	adult sexual abuse; sexual abuse in adulthood; sexually abused as an adult; sexual assault; rape; sexual violence	Adult victimization; distinct from childhood sexual abuse. Bare "sexual abuse" avoided (age-ambiguous)
+Adult interpersonal trauma	Physical abuse	Adult physical abuse	adult physical abuse; physical abuse in adulthood; physically abused as an adult; physical assault	Adult physical victimization outside IPV framing
+Adult interpersonal trauma	Intimate partner violence	Intimate partner violence victimization	intimate partner violence; IPV victimization; partner violence; domestic violence victimization; battered woman; battered women; abuse by intimate partner; intimate partner abuse	Adult IPV as victim; bare "IPV"/"domestic violence" avoided (age/role-ambiguous)
+Attachment & family environment	Attachment style	Secure attachment	secure attachment	Adaptive reference category; bare "secure" removed
+Attachment & family environment	Attachment style	Avoidant attachment	avoidant attachment; dismissing attachment; dismissive attachment	Attachment insecurity – avoidant; bare "avoidant" removed
+Attachment & family environment	Attachment style	Anxious-ambivalent attachment	anxious-ambivalent attachment; anxious ambivalent attachment; anxious attachment; resistant attachment	Attachment insecurity – anxious; bare "anxious"/"ambivalent" removed
+Attachment & family environment	Attachment style	Disorganised attachment	disorganised attachment; disorganized attachment	Maladaptive attachment style; bare "disorganised" removed
+Attachment & family environment	Attachment relation	Attachment relationships	attachment relationships; infant-parent attachment; parent-child attachment; attachment insecurity; insecure attachment	parent-child attachment quality; bare "attachment" removed
+Attachment & family environment	Object relations	Object relations	object relations; disturbed object relations; impaired object relations	Psychoanalytic construct of internalized relations
+Attachment & family environment	Abandonment	Abandonment trauma	abandonment trauma; fear of abandonment; childhood abandonment	Specific interpersonal trauma
+Attachment & family environment	Parenting	Negative parenting	harsh parenting; authoritarian parenting; emotionally cold parenting; inconsistent parenting; dysfunctional parenting	Dysfunctional parenting styles
+Attachment & family environment	Family violence	Interparental violence	partner cruelty; partner cruelty to mother; family violence; interparental violence; witnessing domestic violence; exposure to domestic violence; parental intimate partner violence	Childhood/family exposure to violence between caregivers (not adult IPV victimization)
+Social & socioeconomic factors	Socioeconomic status	Socioeconomic disadvantage	socioeconomic disadvantage; low socioeconomic status; low SES; social disadvantage; social deprivation; socioeconomic deprivation	Persistent low SES context
+Social & socioeconomic factors	Income	Poverty	poverty; low income; financial hardship; economic stress; financial stress	Material deprivation
+Social & socioeconomic factors	Education	Low education	low education; low educational attainment; low schooling; limited education; low education level; lower education level	Educational disadvantage
+Social & socioeconomic factors	Employment	Unemployment	unemployment; joblessness; unemployed; long-term unemployment	Labour market exclusion
+Social & socioeconomic factors	Work stress	Job strain	job strain; high job strain; effort-reward imbalance; occupational stress; work stress	Chronic work stress
+Social & socioeconomic factors	Social isolation	Social isolation	social isolation; social withdrawal; living alone; lack of social contact	Low social integration
+Social & socioeconomic factors	Loneliness	Loneliness	loneliness; felt loneliness; perceived loneliness	Subjective loneliness (kept separate from structural isolation); bare "lonely" avoided
+Social & socioeconomic factors	Social support	Lack of social support	low social support; poor social support; inadequate social support; lack of social support	Perceived support deficits; bare "lack of support" removed
+Social & socioeconomic factors	Discrimination	Discrimination and stigma	discrimination; racial discrimination; ethnic discrimination; perceived discrimination; social stigma; mental health stigma; social exclusion	Chronic exposure to discrimination; bare "stigma" removed
+Social & socioeconomic factors	Migration	Migration and acculturation stress	migration stress; acculturation stress; immigrant stress; immigration stress	Stress related to migration and acculturation
+Social & socioeconomic factors	Disability	Disability	disability; physical disability; intellectual disability; living with disability; functional disability	Functional/social disability context; bare "disabled" avoided
+Stressful life events & chronic stress	Acute events	Major stressful life event	acute life event; major life event; stressful life event; severe life stress; negative life events; stressful life events	Generic acute stressor category
+Stressful life events & chronic stress	Bereavement	Bereavement	bereavement; loss of a loved one; death of spouse; death of close relative; grief after bereavement	Interpersonal loss event
+Stressful life events & chronic stress	Relationship stress	Relationship breakup	relationship breakup; marital dissolution; marital separation; relationship dissolution	Interpersonal stressor
+Stressful life events & chronic stress	Relationship stress	Divorce	divorce; divorced; marital divorce	Explicit divorce mentions
+Stressful life events & chronic stress	Interpersonal rejection	Interpersonal stress and social rejection	interpersonal stress; social rejection; interpersonal loss; ostracism	Strong proximal risk factor for MDD
+Stressful life events & chronic stress	Caregiving	Caregiving burden	caregiving burden; caregiver stress; caring for a sick relative; caregiver burden	Chronic role strain
+Stressful life events & chronic stress	Chronic stress	Chronic stress	chronic stress; chronic psychosocial stress; prolonged stress; psychosocial stress	Persistent stress exposure
+Stressful life events & chronic stress	Perceived stress	Perceived stress	perceived stress; high perceived stress; subjective stress	Self-rated stress burden
+Substance use & lifestyle	Alcohol	Alcohol misuse	alcohol misuse; alcohol abuse; alcohol dependence; hazardous drinking; heavy drinking; alcohol use disorder; alcohol use disorders; alcohol use; alcohol consumption	Alcohol-related exposure (clinical labels may also hit Disease rarely)
+Substance use & lifestyle	Cannabis	Cannabis use	cannabis use; marijuana use; cannabis abuse; cannabis dependence	Cannabis as environmental risk factor
+Substance use & lifestyle	Other substances	Other substance use	substance use; drug misuse; illicit drug use; polysubstance use; substance abuse	Non-specific psychoactive substances
+Substance use & lifestyle	Sleep	Sleep disruption	sleep disruption; sleep deprivation; irregular sleep-wake cycle; poor sleep; disturbed sleep; sleep disturbance; sleep disturbances; poor sleep quality	Circadian/sleep risk; bare "insomnia" and bare "sleep quality" avoided
+Substance use & lifestyle	Physical activity	Physical inactivity	physical inactivity; sedentary lifestyle; low physical activity; lack of physical activity; insufficient physical activity	Behavioural risk factor (not "physical activity" as protective exposure)
+Substance use & lifestyle	Diet	Poor diet	unhealthy diet; poor diet; high-fat diet; low fruit and vegetable intake	Dietary risk factor
+Substance use & lifestyle	Body weight	High body mass index	body mass index; high body mass index; elevated BMI; high BMI; overweight; obesity; obese	BMI/adiposity as lifestyle-related exposure; HunFlair rarely tags these as Disease
+Physical environment	Urbanicity	Urban environment	urbanicity; urban environment; city living; high-density urban living; urban living	Urban vs rural context
+Physical environment	Greenness	Low residential greenness	low greenness; lack of green space; low residential greenness; low access to parks	Physical environment with few green areas
+Physical environment	Pollution	Air pollution	air pollution; traffic-related air pollution; PM2.5 exposure; high pollution levels; particulate matter exposure	Environmental pollution exposure
+Physical environment	Noise	Environmental noise	traffic noise; environmental noise; chronic noise exposure	Noise stressor
+Physical environment	Housing	Overcrowded or poor housing	overcrowded housing; poor housing conditions; substandard housing; housing instability; housing insecurity	Deprived housing environment
+Physical environment	Climate	Climate and temperature extremes	heat waves; extreme cold exposure; extreme temperature; climate stress	Climate-related stressors
+Reproductive & sex-specific	Postpartum period	Postpartum period	postpartum period; postnatal period; after childbirth	Window of increased depression risk; bare "postpartum"/"postnatal" removed to avoid "postpartum depression" noise
+Reproductive & sex-specific	Postpartum stress	Stressful perinatal events	stressful perinatal events; stressful pregnancy events; stressful postpartum events	Stress cluster around childbirth
+Reproductive & sex-specific	Hormonal factors	Hormonal changes related to reproduction	perimenopause; premenstrual period; postpartum hormonal changes; reproductive hormonal changes; menopausal transition	Hormone-related risk periods

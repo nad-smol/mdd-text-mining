@@ -1,0 +1,60 @@
+Early postnatal period; neonatal period; perinatal period
+First year of life; infancy; early infancy
+Early childhood
+Maternal stress during pregnancy; maternal prenatal stress; stress during pregnancy; antenatal maternal stress; prenatal maternal stress; maternal stress in pregnancy
+Perinatal complications; obstetric complications; birth complications; birth trauma; perinatal adversity
+Childhood trauma; early childhood trauma; childhood abuse; childhood maltreatment; child maltreatment; early life trauma; early life adversity; early adversity
+Adverse childhood experiences; adverse childhood experience; adverse childhood experiences (ACEs); adverse childhood experiences (ACE)
+Childhood physical abuse; physical abuse in childhood; child physical abuse; physically abused as a child
+Childhood sexual abuse; sexual abuse in childhood; child sexual abuse; sexually abused as a child
+Childhood emotional abuse; emotional abuse in childhood; psychological abuse in childhood; emotional maltreatment
+Childhood neglect; child neglect; emotional neglect; physical neglect in childhood; childhood physical neglect
+Childhood bullying; bullied at school; peer victimization; peer bullying; school bullying
+Early parental loss; parental loss; death of a parent in childhood; parental death in childhood; early parental death; loss of a parent in childhood
+Adult sexual abuse; sexual abuse in adulthood; sexually abused as an adult; sexual assault; rape; sexual violence
+Adult physical abuse; physical abuse in adulthood; physically abused as an adult; physical assault
+Intimate partner violence victimization; intimate partner violence; IPV victimization; partner violence; domestic violence victimization; battered woman; battered women; abuse by intimate partner; intimate partner abuse
+Secure attachment
+Avoidant attachment; dismissing attachment; dismissive attachment
+Anxious-ambivalent attachment; anxious ambivalent attachment; anxious attachment; resistant attachment
+Disorganised attachment; disorganized attachment
+Attachment relationships; infant-parent attachment; parent-child attachment; attachment insecurity; insecure attachment
+Object relations; disturbed object relations; impaired object relations
+Abandonment trauma; fear of abandonment; childhood abandonment
+Negative parenting; harsh parenting; authoritarian parenting; emotionally cold parenting; inconsistent parenting; dysfunctional parenting
+Interparental violence; partner cruelty; partner cruelty to mother; family violence; witnessing domestic violence; exposure to domestic violence; parental intimate partner violence
+Socioeconomic disadvantage; low socioeconomic status; low SES; social disadvantage; social deprivation; socioeconomic deprivation
+Poverty; low income; financial hardship; economic stress; financial stress
+Low education; low educational attainment; low schooling; limited education; low education level; lower education level
+Unemployment; joblessness; unemployed; long-term unemployment
+Job strain; high job strain; effort-reward imbalance; occupational stress; work stress
+Social isolation; social withdrawal; living alone; lack of social contact
+Loneliness; felt loneliness; perceived loneliness
+Lack of social support; low social support; poor social support; inadequate social support
+Discrimination and stigma; discrimination; racial discrimination; ethnic discrimination; perceived discrimination; social stigma; mental health stigma; social exclusion
+Migration and acculturation stress; migration stress; acculturation stress; immigrant stress; immigration stress
+Disability; physical disability; intellectual disability; living with disability; functional disability
+Major stressful life event; acute life event; major life event; stressful life event; severe life stress; negative life events; stressful life events
+Bereavement; loss of a loved one; death of spouse; death of close relative; grief after bereavement
+Relationship breakup; marital dissolution; marital separation; relationship dissolution
+Divorce; divorced; marital divorce
+Interpersonal stress and social rejection; interpersonal stress; social rejection; interpersonal loss; ostracism
+Caregiving burden; caregiver stress; caring for a sick relative; caregiver burden
+Chronic stress; chronic psychosocial stress; prolonged stress; psychosocial stress
+Perceived stress; high perceived stress; subjective stress
+Alcohol misuse; alcohol abuse; alcohol dependence; hazardous drinking; heavy drinking; alcohol use disorder; alcohol use disorders; alcohol use; alcohol consumption
+Cannabis use; marijuana use; cannabis abuse; cannabis dependence
+Other substance use; substance use; drug misuse; illicit drug use; polysubstance use; substance abuse
+Sleep disruption; sleep deprivation; irregular sleep-wake cycle; poor sleep; disturbed sleep; sleep disturbance; sleep disturbances; poor sleep quality
+Physical inactivity; sedentary lifestyle; low physical activity; lack of physical activity; insufficient physical activity
+Poor diet; unhealthy diet; high-fat diet; low fruit and vegetable intake
+High body mass index; body mass index; elevated BMI; high BMI; overweight; obesity; obese
+Urban environment; urbanicity; city living; high-density urban living; urban living
+Low residential greenness; low greenness; lack of green space; low access to parks
+Air pollution; traffic-related air pollution; PM2.5 exposure; high pollution levels; particulate matter exposure
+Environmental noise; traffic noise; chronic noise exposure
+Overcrowded or poor housing; overcrowded housing; poor housing conditions; substandard housing; housing instability; housing insecurity
+Climate and temperature extremes; heat waves; extreme cold exposure; extreme temperature; climate stress
+Postpartum period; postnatal period; after childbirth
+Stressful perinatal events; stressful pregnancy events; stressful postpartum events
+Hormonal changes related to reproduction; perimenopause; premenstrual period; postpartum hormonal changes; reproductive hormonal changes; menopausal transition

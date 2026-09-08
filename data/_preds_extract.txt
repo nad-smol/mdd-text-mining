@@ -1,0 +1,66 @@
+=== UNIQUE PREDICATES ===
+acts antagonistically with
+acts synergistically with
+affects
+alters level of
+causes
+coinfects with
+contributes to
+decreases level of
+decreases risk of
+has beneficial effect on
+has no effect on
+increases level of
+increases risk of
+induces
+induces expression of
+interacts with
+is a biomarker of
+is a prodrug of
+is a risk factor for
+is a therapeutic target in
+is associated with
+is associated with susceptibility to
+is coadministered with
+is comorbid with
+is investigated regarding
+is part of
+is substrate of
+is transformed into
+is used in therapy of
+leads to
+manifests as
+may cause
+may confer resistance in
+mimics
+modulates expression of
+modulates response to
+negatively regulates
+positively regulates
+precipitates
+prevents
+regulates
+regulates pathogenesis of
+worsens
+
+Total predicates: 43
+
+=== UNIQUE EntityPair ===
+Chemical-Chemical
+Chemical-Disease
+Chemical-Gene
+Chemical-Species
+Chemical-miRNA
+DeprTerms-Chemical
+DeprTerms-Disease
+DeprTerms-Gene
+Disease-Disease
+Disease-Gene
+Gene-Gene
+Species-Disease
+Species-Gene
+Species-Species
+miRNA-Disease
+miRNA-Gene
+
+Total EntityPair: 16

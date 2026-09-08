@@ -1,0 +1,205 @@
+# Study-type keyword dictionary for coarse abstract tagging.
+# Matching is case-insensitive substring search on title+abstract.
+# Longer phrases are matched first within each type.
+#
+# Edit freely: add/remove types or keywords. Format:
+#   study_types:
+#     <type_id>:
+#       label: "Human-readable name"
+#       keywords:
+#         - "phrase one"
+#         - "phrase two"
+
+study_types:
+  randomized_controlled_trial:
+    label: "Randomized controlled trial"
+    keywords:
+      - "randomized controlled trial"
+      - "randomised controlled trial"
+      - "randomized clinical trial"
+      - "randomised clinical trial"
+      - "randomly assigned"
+      - "randomly allocated"
+      - "double-blind"
+      - "double blind"
+      - "triple-blind"
+      - "placebo-controlled"
+      - "placebo controlled"
+      - "sham-controlled"
+      - "rct"
+
+  clinical_trial_other:
+    label: "Clinical trial (non-RCT / unspecified)"
+    keywords:
+      - "clinical trial"
+      - "phase ii"
+      - "phase iii"
+      - "phase 2"
+      - "phase 3"
+      - "open-label"
+      - "open label"
+      - "single-arm"
+      - "single arm trial"
+      - "intervention trial"
+      - "treatment trial"
+
+  meta_analysis_or_systematic_review:
+    label: "Meta-analysis / systematic review"
+    keywords:
+      - "meta-analysis"
+      - "meta analysis"
+      - "systematic review"
+      - "systematic literature review"
+      - "pooled analysis"
+      - "network meta-analysis"
+
+  cohort_study:
+    label: "Cohort study"
+    keywords:
+      - "cohort study"
+      - "prospective cohort"
+      - "retrospective cohort"
+      - "longitudinal cohort"
+      - "longitudinal study"
+      - "follow-up study"
+      - "followed longitudinally"
+      - "population-based cohort"
+
+  case_control_study:
+    label: "Case-control study"
+    keywords:
+      - "case-control"
+      - "case control study"
+      - "matched controls"
+      - "controls were matched"
+
+  cross_sectional_study:
+    label: "Cross-sectional study"
+    keywords:
+      - "cross-sectional"
+      - "cross sectional study"
+      - "survey study"
+      - "questionnaire-based"
+
+  case_report_or_series:
+    label: "Case report / case series"
+    keywords:
+      - "case report"
+      - "case series"
+      - "we report a patient"
+      - "a rare case"
+
+  genetic_association_or_gwas:
+    label: "Genetic association / GWAS"
+    keywords:
+      - "genome-wide association"
+      - "gwas"
+      - "genetic association"
+      - "single nucleotide polymorphism"
+      - "candidate gene"
+      - "polygenic risk"
+      - "polygenic score"
+      - "mendelian randomization"
+      - "mendelian randomisation"
+      - "variant associated"
+      - "allelic association"
+
+  neuroimaging:
+    label: "Neuroimaging"
+    keywords:
+      - "functional mri"
+      - "fMRI"
+      - "structural mri"
+      - "magnetic resonance imaging"
+      - "diffusion tensor"
+      - "pet imaging"
+      - "positron emission tomography"
+      - "voxel-based morphometry"
+      - "resting-state"
+      - "eeg"
+      - "electroencephalography"
+      - "meg "
+      - "magnetoencephalography"
+
+  animal_in_vivo:
+    label: "Animal / in vivo"
+    keywords:
+      - "animal model"
+      - "mouse model"
+      - "mice were"
+      - "rat model"
+      - "rats were"
+      - "rodent"
+      - "knockout mice"
+      - "transgenic mice"
+      - "in vivo"
+      - "chronic mild stress"
+      - "forced swim"
+      - "tail suspension"
+
+  in_vitro_or_cellular:
+    label: "In vitro / cellular"
+    keywords:
+      - "in vitro"
+      - "cell line"
+      - "cell culture"
+      - "cultured cells"
+      - "primary neurons"
+      - "iPSC"
+      - "induced pluripotent"
+      - "organoid"
+
+  pharmacological_or_treatment:
+    label: "Pharmacological / treatment study"
+    keywords:
+      - "antidepressant treatment"
+      - "treatment response"
+      - "treatment-resistant"
+      - "treatment resistant depression"
+      - "augmentation therapy"
+      - "drug efficacy"
+      - "therapeutic efficacy"
+      - "ketamine infusion"
+      - "ssri"
+      - "snri"
+
+  psychotherapy_or_psychosocial:
+    label: "Psychotherapy / psychosocial intervention"
+    keywords:
+      - "cognitive behavioral"
+      - "cognitive behavioural"
+      - "cbt"
+      - "psychotherapy"
+      - "interpersonal therapy"
+      - "behavioral activation"
+      - "mindfulness-based"
+      - "psychosocial intervention"
+
+  biomarker_or_molecular:
+    label: "Biomarker / molecular"
+    keywords:
+      - "biomarker"
+      - "plasma levels"
+      - "serum levels"
+      - "cytokine"
+      - "inflammatory marker"
+      - "gene expression"
+      - "transcriptom"
+      - "proteom"
+      - "metabolom"
+      - "epigenetic"
+      - "dna methylation"
+      - "microrna"
+      - "mirna"
+
+  epidemiological:
+    label: "Epidemiological"
+    keywords:
+      - "prevalence"
+      - "incidence"
+      - "epidemiolog"
+      - "population-based study"
+      - "national survey"
+      - "risk factor"
+      - "comorbidity"
+      - "burden of disease"

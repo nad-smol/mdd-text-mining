@@ -1,0 +1,1558 @@
+{
+  "Early postnatal period": {
+    "env_group": "Perinatal/Early development",
+    "env_subgroup": "Developmental timing",
+    "notes": "First weeks/months after birth",
+    "patterns": [
+      {
+        "variant": "Early postnatal period",
+        "pattern": "\\bEarly\\s+postnatal\\s+period\\b"
+      },
+      {
+        "variant": "neonatal period",
+        "pattern": "\\bneonatal\\s+period\\b"
+      },
+      {
+        "variant": "perinatal period",
+        "pattern": "\\bperinatal\\s+period\\b"
+      }
+    ]
+  },
+  "First year of life": {
+    "env_group": "Perinatal/Early development",
+    "env_subgroup": "Developmental timing",
+    "notes": "Exposure during first 12 months",
+    "patterns": [
+      {
+        "variant": "First year of life",
+        "pattern": "\\bFirst\\s+year\\s+of\\s+life\\b"
+      },
+      {
+        "variant": "infancy",
+        "pattern": "\\binfancy\\b"
+      },
+      {
+        "variant": "early infancy",
+        "pattern": "\\bearly\\s+infancy\\b"
+      }
+    ]
+  },
+  "Early childhood": {
+    "env_group": "Perinatal/Early development",
+    "env_subgroup": "Developmental timing",
+    "notes": "Generic early childhood window (e.g., 0–5 years); bare \"childhood\" removed as too noisy",
+    "patterns": [
+      {
+        "variant": "Early childhood",
+        "pattern": "\\bEarly\\s+childhood\\b"
+      }
+    ]
+  },
+  "Maternal stress during pregnancy": {
+    "env_group": "Perinatal/Early development",
+    "env_subgroup": "Perinatal stress",
+    "notes": "Stress exposure in utero",
+    "patterns": [
+      {
+        "variant": "Maternal stress during pregnancy",
+        "pattern": "\\bMaternal\\s+stress\\s+during\\s+pregnancy\\b"
+      },
+      {
+        "variant": "maternal prenatal stress",
+        "pattern": "\\bmaternal\\s+prenatal\\s+stress\\b"
+      },
+      {
+        "variant": "stress during pregnancy",
+        "pattern": "\\bstress\\s+during\\s+pregnancy\\b"
+      },
+      {
+        "variant": "antenatal maternal stress",
+        "pattern": "\\bantenatal\\s+maternal\\s+stress\\b"
+      },
+      {
+        "variant": "prenatal maternal stress",
+        "pattern": "\\bprenatal\\s+maternal\\s+stress\\b"
+      },
+      {
+        "variant": "maternal stress in pregnancy",
+        "pattern": "\\bmaternal\\s+stress\\s+in\\s+pregnancy\\b"
+      }
+    ]
+  },
+  "Perinatal complications": {
+    "env_group": "Perinatal/Early development",
+    "env_subgroup": "Perinatal complications",
+    "notes": "Hypoxia, preeclampsia, prematurity, etc. (specific diagnoses stay as Disease)",
+    "patterns": [
+      {
+        "variant": "Perinatal complications",
+        "pattern": "\\bPerinatal\\s+complications\\b"
+      },
+      {
+        "variant": "obstetric complications",
+        "pattern": "\\bobstetric\\s+complications\\b"
+      },
+      {
+        "variant": "birth complications",
+        "pattern": "\\bbirth\\s+complications\\b"
+      },
+      {
+        "variant": "birth trauma",
+        "pattern": "\\bbirth\\s+trauma\\b"
+      },
+      {
+        "variant": "perinatal adversity",
+        "pattern": "\\bperinatal\\s+adversity\\b"
+      }
+    ]
+  },
+  "Childhood trauma": {
+    "env_group": "Childhood adversity & trauma",
+    "env_subgroup": "Childhood trauma",
+    "notes": "Any severe adverse childhood experience",
+    "patterns": [
+      {
+        "variant": "Childhood trauma",
+        "pattern": "\\bChildhood\\s+trauma\\b"
+      },
+      {
+        "variant": "early childhood trauma",
+        "pattern": "\\bearly\\s+childhood\\s+trauma\\b"
+      },
+      {
+        "variant": "childhood abuse",
+        "pattern": "\\bchildhood\\s+abuse\\b"
+      },
+      {
+        "variant": "childhood maltreatment",
+        "pattern": "\\bchildhood\\s+maltreatment\\b"
+      },
+      {
+        "variant": "child maltreatment",
+        "pattern": "\\bchild\\s+maltreatment\\b"
+      },
+      {
+        "variant": "early life trauma",
+        "pattern": "\\bearly\\s+life\\s+trauma\\b"
+      },
+      {
+        "variant": "early life adversity",
+        "pattern": "\\bearly\\s+life\\s+adversity\\b"
+      },
+      {
+        "variant": "early adversity",
+        "pattern": "\\bearly\\s+adversity\\b"
+      }
+    ]
+  },
+  "Adverse childhood experiences": {
+    "env_group": "Childhood adversity & trauma",
+    "env_subgroup": "ACE",
+    "notes": "ACE framework; bare ACE/ACEs removed (clash with angiotensin-converting enzyme)",
+    "patterns": [
+      {
+        "variant": "Adverse childhood experiences",
+        "pattern": "\\bAdverse\\s+childhood\\s+experiences\\b"
+      },
+      {
+        "variant": "adverse childhood experience",
+        "pattern": "\\badverse\\s+childhood\\s+experience\\b"
+      },
+      {
+        "variant": "adverse childhood experiences (ACEs)",
+        "pattern": "\\badverse\\s+childhood\\s+experiences\\ \\(ACEs\\)\\b"
+      },
+      {
+        "variant": "adverse childhood experiences (ACE)",
+        "pattern": "\\badverse\\s+childhood\\s+experiences\\ \\(ACE\\)\\b"
+      }
+    ]
+  },
+  "Childhood physical abuse": {
+    "env_group": "Childhood adversity & trauma",
+    "env_subgroup": "Abuse",
+    "notes": "Specific ACE subtype",
+    "patterns": [
+      {
+        "variant": "Childhood physical abuse",
+        "pattern": "\\bChildhood\\s+physical\\s+abuse\\b"
+      },
+      {
+        "variant": "physical abuse in childhood",
+        "pattern": "\\bphysical\\s+abuse\\s+in\\s+childhood\\b"
+      },
+      {
+        "variant": "child physical abuse",
+        "pattern": "\\bchild\\s+physical\\s+abuse\\b"
+      },
+      {
+        "variant": "physically abused as a child",
+        "pattern": "\\bphysically\\s+abused\\s+as\\s+a\\s+child\\b"
+      }
+    ]
+  },
+  "Childhood sexual abuse": {
+    "env_group": "Childhood adversity & trauma",
+    "env_subgroup": "Abuse",
+    "notes": "Specific ACE subtype (childhood only)",
+    "patterns": [
+      {
+        "variant": "Childhood sexual abuse",
+        "pattern": "\\bChildhood\\s+sexual\\s+abuse\\b"
+      },
+      {
+        "variant": "sexual abuse in childhood",
+        "pattern": "\\bsexual\\s+abuse\\s+in\\s+childhood\\b"
+      },
+      {
+        "variant": "child sexual abuse",
+        "pattern": "\\bchild\\s+sexual\\s+abuse\\b"
+      },
+      {
+        "variant": "sexually abused as a child",
+        "pattern": "\\bsexually\\s+abused\\s+as\\s+a\\s+child\\b"
+      }
+    ]
+  },
+  "Childhood emotional abuse": {
+    "env_group": "Childhood adversity & trauma",
+    "env_subgroup": "Abuse",
+    "notes": "Specific ACE subtype",
+    "patterns": [
+      {
+        "variant": "Childhood emotional abuse",
+        "pattern": "\\bChildhood\\s+emotional\\s+abuse\\b"
+      },
+      {
+        "variant": "emotional abuse in childhood",
+        "pattern": "\\bemotional\\s+abuse\\s+in\\s+childhood\\b"
+      },
+      {
+        "variant": "psychological abuse in childhood",
+        "pattern": "\\bpsychological\\s+abuse\\s+in\\s+childhood\\b"
+      },
+      {
+        "variant": "emotional maltreatment",
+        "pattern": "\\bemotional\\s+maltreatment\\b"
+      }
+    ]
+  },
+  "Childhood neglect": {
+    "env_group": "Childhood adversity & trauma",
+    "env_subgroup": "Neglect",
+    "notes": "Neglect dimension of ACE",
+    "patterns": [
+      {
+        "variant": "Childhood neglect",
+        "pattern": "\\bChildhood\\s+neglect\\b"
+      },
+      {
+        "variant": "child neglect",
+        "pattern": "\\bchild\\s+neglect\\b"
+      },
+      {
+        "variant": "emotional neglect",
+        "pattern": "\\bemotional\\s+neglect\\b"
+      },
+      {
+        "variant": "physical neglect in childhood",
+        "pattern": "\\bphysical\\s+neglect\\s+in\\s+childhood\\b"
+      },
+      {
+        "variant": "childhood physical neglect",
+        "pattern": "\\bchildhood\\s+physical\\s+neglect\\b"
+      }
+    ]
+  },
+  "Childhood bullying": {
+    "env_group": "Childhood adversity & trauma",
+    "env_subgroup": "Bullying",
+    "notes": "Bullying as specific interpersonal trauma; bare \"bullying\" removed as noisy",
+    "patterns": [
+      {
+        "variant": "Childhood bullying",
+        "pattern": "\\bChildhood\\s+bullying\\b"
+      },
+      {
+        "variant": "bullied at school",
+        "pattern": "\\bbullied\\s+at\\s+school\\b"
+      },
+      {
+        "variant": "peer victimization",
+        "pattern": "\\bpeer\\s+victimization\\b"
+      },
+      {
+        "variant": "peer bullying",
+        "pattern": "\\bpeer\\s+bullying\\b"
+      },
+      {
+        "variant": "school bullying",
+        "pattern": "\\bschool\\s+bullying\\b"
+      }
+    ]
+  },
+  "Early parental loss": {
+    "env_group": "Childhood adversity & trauma",
+    "env_subgroup": "Loss",
+    "notes": "Early bereavement",
+    "patterns": [
+      {
+        "variant": "Early parental loss",
+        "pattern": "\\bEarly\\s+parental\\s+loss\\b"
+      },
+      {
+        "variant": "parental loss",
+        "pattern": "\\bparental\\s+loss\\b"
+      },
+      {
+        "variant": "death of a parent in childhood",
+        "pattern": "\\bdeath\\s+of\\s+a\\s+parent\\s+in\\s+childhood\\b"
+      },
+      {
+        "variant": "parental death in childhood",
+        "pattern": "\\bparental\\s+death\\s+in\\s+childhood\\b"
+      },
+      {
+        "variant": "early parental death",
+        "pattern": "\\bearly\\s+parental\\s+death\\b"
+      },
+      {
+        "variant": "loss of a parent in childhood",
+        "pattern": "\\bloss\\s+of\\s+a\\s+parent\\s+in\\s+childhood\\b"
+      }
+    ]
+  },
+  "Adult sexual abuse": {
+    "env_group": "Adult interpersonal trauma",
+    "env_subgroup": "Sexual abuse",
+    "notes": "Adult victimization; distinct from childhood sexual abuse. Bare \"sexual abuse\" avoided (age-ambiguous)",
+    "patterns": [
+      {
+        "variant": "Adult sexual abuse",
+        "pattern": "\\bAdult\\s+sexual\\s+abuse\\b"
+      },
+      {
+        "variant": "sexual abuse in adulthood",
+        "pattern": "\\bsexual\\s+abuse\\s+in\\s+adulthood\\b"
+      },
+      {
+        "variant": "sexually abused as an adult",
+        "pattern": "\\bsexually\\s+abused\\s+as\\s+an\\s+adult\\b"
+      },
+      {
+        "variant": "sexual assault",
+        "pattern": "\\bsexual\\s+assault\\b"
+      },
+      {
+        "variant": "rape",
+        "pattern": "\\brape\\b"
+      },
+      {
+        "variant": "sexual violence",
+        "pattern": "\\bsexual\\s+violence\\b"
+      }
+    ]
+  },
+  "Adult physical abuse": {
+    "env_group": "Adult interpersonal trauma",
+    "env_subgroup": "Physical abuse",
+    "notes": "Adult physical victimization outside IPV framing",
+    "patterns": [
+      {
+        "variant": "Adult physical abuse",
+        "pattern": "\\bAdult\\s+physical\\s+abuse\\b"
+      },
+      {
+        "variant": "physical abuse in adulthood",
+        "pattern": "\\bphysical\\s+abuse\\s+in\\s+adulthood\\b"
+      },
+      {
+        "variant": "physically abused as an adult",
+        "pattern": "\\bphysically\\s+abused\\s+as\\s+an\\s+adult\\b"
+      },
+      {
+        "variant": "physical assault",
+        "pattern": "\\bphysical\\s+assault\\b"
+      }
+    ]
+  },
+  "Intimate partner violence victimization": {
+    "env_group": "Adult interpersonal trauma",
+    "env_subgroup": "Intimate partner violence",
+    "notes": "Adult IPV as victim; bare \"IPV\"/\"domestic violence\" avoided (age/role-ambiguous)",
+    "patterns": [
+      {
+        "variant": "Intimate partner violence victimization",
+        "pattern": "\\bIntimate\\s+partner\\s+violence\\s+victimization\\b"
+      },
+      {
+        "variant": "intimate partner violence",
+        "pattern": "\\bintimate\\s+partner\\s+violence\\b"
+      },
+      {
+        "variant": "IPV victimization",
+        "pattern": "\\bIPV\\s+victimization\\b"
+      },
+      {
+        "variant": "partner violence",
+        "pattern": "\\bpartner\\s+violence\\b"
+      },
+      {
+        "variant": "domestic violence victimization",
+        "pattern": "\\bdomestic\\s+violence\\s+victimization\\b"
+      },
+      {
+        "variant": "battered woman",
+        "pattern": "\\bbattered\\s+woman\\b"
+      },
+      {
+        "variant": "battered women",
+        "pattern": "\\bbattered\\s+women\\b"
+      },
+      {
+        "variant": "abuse by intimate partner",
+        "pattern": "\\babuse\\s+by\\s+intimate\\s+partner\\b"
+      },
+      {
+        "variant": "intimate partner abuse",
+        "pattern": "\\bintimate\\s+partner\\s+abuse\\b"
+      }
+    ]
+  },
+  "Secure attachment": {
+    "env_group": "Attachment & family environment",
+    "env_subgroup": "Attachment style",
+    "notes": "Adaptive reference category; bare \"secure\" removed",
+    "patterns": [
+      {
+        "variant": "Secure attachment",
+        "pattern": "\\bSecure\\s+attachment\\b"
+      }
+    ]
+  },
+  "Avoidant attachment": {
+    "env_group": "Attachment & family environment",
+    "env_subgroup": "Attachment style",
+    "notes": "Attachment insecurity – avoidant; bare \"avoidant\" removed",
+    "patterns": [
+      {
+        "variant": "Avoidant attachment",
+        "pattern": "\\bAvoidant\\s+attachment\\b"
+      },
+      {
+        "variant": "dismissing attachment",
+        "pattern": "\\bdismissing\\s+attachment\\b"
+      },
+      {
+        "variant": "dismissive attachment",
+        "pattern": "\\bdismissive\\s+attachment\\b"
+      }
+    ]
+  },
+  "Anxious-ambivalent attachment": {
+    "env_group": "Attachment & family environment",
+    "env_subgroup": "Attachment style",
+    "notes": "Attachment insecurity – anxious; bare \"anxious\"/\"ambivalent\" removed",
+    "patterns": [
+      {
+        "variant": "Anxious-ambivalent attachment",
+        "pattern": "\\bAnxious\\-ambivalent\\s+attachment\\b"
+      },
+      {
+        "variant": "anxious ambivalent attachment",
+        "pattern": "\\banxious\\s+ambivalent\\s+attachment\\b"
+      },
+      {
+        "variant": "anxious attachment",
+        "pattern": "\\banxious\\s+attachment\\b"
+      },
+      {
+        "variant": "resistant attachment",
+        "pattern": "\\bresistant\\s+attachment\\b"
+      }
+    ]
+  },
+  "Disorganised attachment": {
+    "env_group": "Attachment & family environment",
+    "env_subgroup": "Attachment style",
+    "notes": "Maladaptive attachment style; bare \"disorganised\" removed",
+    "patterns": [
+      {
+        "variant": "Disorganised attachment",
+        "pattern": "\\bDisorganised\\s+attachment\\b"
+      },
+      {
+        "variant": "disorganized attachment",
+        "pattern": "\\bdisorganized\\s+attachment\\b"
+      }
+    ]
+  },
+  "Attachment relationships": {
+    "env_group": "Attachment & family environment",
+    "env_subgroup": "Attachment relation",
+    "notes": "parent-child attachment quality; bare \"attachment\" removed",
+    "patterns": [
+      {
+        "variant": "Attachment relationships",
+        "pattern": "\\bAttachment\\s+relationships\\b"
+      },
+      {
+        "variant": "infant-parent attachment",
+        "pattern": "\\binfant\\-parent\\s+attachment\\b"
+      },
+      {
+        "variant": "parent-child attachment",
+        "pattern": "\\bparent\\-child\\s+attachment\\b"
+      },
+      {
+        "variant": "attachment insecurity",
+        "pattern": "\\battachment\\s+insecurity\\b"
+      },
+      {
+        "variant": "insecure attachment",
+        "pattern": "\\binsecure\\s+attachment\\b"
+      }
+    ]
+  },
+  "Object relations": {
+    "env_group": "Attachment & family environment",
+    "env_subgroup": "Object relations",
+    "notes": "Psychoanalytic construct of internalized relations",
+    "patterns": [
+      {
+        "variant": "Object relations",
+        "pattern": "\\bObject\\s+relations\\b"
+      },
+      {
+        "variant": "disturbed object relations",
+        "pattern": "\\bdisturbed\\s+object\\s+relations\\b"
+      },
+      {
+        "variant": "impaired object relations",
+        "pattern": "\\bimpaired\\s+object\\s+relations\\b"
+      }
+    ]
+  },
+  "Abandonment trauma": {
+    "env_group": "Attachment & family environment",
+    "env_subgroup": "Abandonment",
+    "notes": "Specific interpersonal trauma",
+    "patterns": [
+      {
+        "variant": "Abandonment trauma",
+        "pattern": "\\bAbandonment\\s+trauma\\b"
+      },
+      {
+        "variant": "fear of abandonment",
+        "pattern": "\\bfear\\s+of\\s+abandonment\\b"
+      },
+      {
+        "variant": "childhood abandonment",
+        "pattern": "\\bchildhood\\s+abandonment\\b"
+      }
+    ]
+  },
+  "Negative parenting": {
+    "env_group": "Attachment & family environment",
+    "env_subgroup": "Parenting",
+    "notes": "Dysfunctional parenting styles",
+    "patterns": [
+      {
+        "variant": "Negative parenting",
+        "pattern": "\\bNegative\\s+parenting\\b"
+      },
+      {
+        "variant": "harsh parenting",
+        "pattern": "\\bharsh\\s+parenting\\b"
+      },
+      {
+        "variant": "authoritarian parenting",
+        "pattern": "\\bauthoritarian\\s+parenting\\b"
+      },
+      {
+        "variant": "emotionally cold parenting",
+        "pattern": "\\bemotionally\\s+cold\\s+parenting\\b"
+      },
+      {
+        "variant": "inconsistent parenting",
+        "pattern": "\\binconsistent\\s+parenting\\b"
+      },
+      {
+        "variant": "dysfunctional parenting",
+        "pattern": "\\bdysfunctional\\s+parenting\\b"
+      }
+    ]
+  },
+  "Interparental violence": {
+    "env_group": "Attachment & family environment",
+    "env_subgroup": "Family violence",
+    "notes": "Childhood/family exposure to violence between caregivers (not adult IPV victimization)",
+    "patterns": [
+      {
+        "variant": "Interparental violence",
+        "pattern": "\\bInterparental\\s+violence\\b"
+      },
+      {
+        "variant": "partner cruelty",
+        "pattern": "\\bpartner\\s+cruelty\\b"
+      },
+      {
+        "variant": "partner cruelty to mother",
+        "pattern": "\\bpartner\\s+cruelty\\s+to\\s+mother\\b"
+      },
+      {
+        "variant": "family violence",
+        "pattern": "\\bfamily\\s+violence\\b"
+      },
+      {
+        "variant": "witnessing domestic violence",
+        "pattern": "\\bwitnessing\\s+domestic\\s+violence\\b"
+      },
+      {
+        "variant": "exposure to domestic violence",
+        "pattern": "\\bexposure\\s+to\\s+domestic\\s+violence\\b"
+      },
+      {
+        "variant": "parental intimate partner violence",
+        "pattern": "\\bparental\\s+intimate\\s+partner\\s+violence\\b"
+      }
+    ]
+  },
+  "Socioeconomic disadvantage": {
+    "env_group": "Social & socioeconomic factors",
+    "env_subgroup": "Socioeconomic status",
+    "notes": "Persistent low SES context",
+    "patterns": [
+      {
+        "variant": "Socioeconomic disadvantage",
+        "pattern": "\\bSocioeconomic\\s+disadvantage\\b"
+      },
+      {
+        "variant": "low socioeconomic status",
+        "pattern": "\\blow\\s+socioeconomic\\s+status\\b"
+      },
+      {
+        "variant": "low SES",
+        "pattern": "\\blow\\s+SES\\b"
+      },
+      {
+        "variant": "social disadvantage",
+        "pattern": "\\bsocial\\s+disadvantage\\b"
+      },
+      {
+        "variant": "social deprivation",
+        "pattern": "\\bsocial\\s+deprivation\\b"
+      },
+      {
+        "variant": "socioeconomic deprivation",
+        "pattern": "\\bsocioeconomic\\s+deprivation\\b"
+      }
+    ]
+  },
+  "Poverty": {
+    "env_group": "Social & socioeconomic factors",
+    "env_subgroup": "Income",
+    "notes": "Material deprivation",
+    "patterns": [
+      {
+        "variant": "Poverty",
+        "pattern": "\\bPoverty\\b"
+      },
+      {
+        "variant": "low income",
+        "pattern": "\\blow\\s+income\\b"
+      },
+      {
+        "variant": "financial hardship",
+        "pattern": "\\bfinancial\\s+hardship\\b"
+      },
+      {
+        "variant": "economic stress",
+        "pattern": "\\beconomic\\s+stress\\b"
+      },
+      {
+        "variant": "financial stress",
+        "pattern": "\\bfinancial\\s+stress\\b"
+      }
+    ]
+  },
+  "Low education": {
+    "env_group": "Social & socioeconomic factors",
+    "env_subgroup": "Education",
+    "notes": "Educational disadvantage",
+    "patterns": [
+      {
+        "variant": "Low education",
+        "pattern": "\\bLow\\s+education\\b"
+      },
+      {
+        "variant": "low educational attainment",
+        "pattern": "\\blow\\s+educational\\s+attainment\\b"
+      },
+      {
+        "variant": "low schooling",
+        "pattern": "\\blow\\s+schooling\\b"
+      },
+      {
+        "variant": "limited education",
+        "pattern": "\\blimited\\s+education\\b"
+      },
+      {
+        "variant": "low education level",
+        "pattern": "\\blow\\s+education\\s+level\\b"
+      },
+      {
+        "variant": "lower education level",
+        "pattern": "\\blower\\s+education\\s+level\\b"
+      }
+    ]
+  },
+  "Unemployment": {
+    "env_group": "Social & socioeconomic factors",
+    "env_subgroup": "Employment",
+    "notes": "Labour market exclusion",
+    "patterns": [
+      {
+        "variant": "Unemployment",
+        "pattern": "\\bUnemployment\\b"
+      },
+      {
+        "variant": "joblessness",
+        "pattern": "\\bjoblessness\\b"
+      },
+      {
+        "variant": "unemployed",
+        "pattern": "\\bunemployed\\b"
+      },
+      {
+        "variant": "long-term unemployment",
+        "pattern": "\\blong\\-term\\s+unemployment\\b"
+      }
+    ]
+  },
+  "Job strain": {
+    "env_group": "Social & socioeconomic factors",
+    "env_subgroup": "Work stress",
+    "notes": "Chronic work stress",
+    "patterns": [
+      {
+        "variant": "Job strain",
+        "pattern": "\\bJob\\s+strain\\b"
+      },
+      {
+        "variant": "high job strain",
+        "pattern": "\\bhigh\\s+job\\s+strain\\b"
+      },
+      {
+        "variant": "effort-reward imbalance",
+        "pattern": "\\beffort\\-reward\\s+imbalance\\b"
+      },
+      {
+        "variant": "occupational stress",
+        "pattern": "\\boccupational\\s+stress\\b"
+      },
+      {
+        "variant": "work stress",
+        "pattern": "\\bwork\\s+stress\\b"
+      }
+    ]
+  },
+  "Social isolation": {
+    "env_group": "Social & socioeconomic factors",
+    "env_subgroup": "Social isolation",
+    "notes": "Low social integration",
+    "patterns": [
+      {
+        "variant": "Social isolation",
+        "pattern": "\\bSocial\\s+isolation\\b"
+      },
+      {
+        "variant": "social withdrawal",
+        "pattern": "\\bsocial\\s+withdrawal\\b"
+      },
+      {
+        "variant": "living alone",
+        "pattern": "\\bliving\\s+alone\\b"
+      },
+      {
+        "variant": "lack of social contact",
+        "pattern": "\\black\\s+of\\s+social\\s+contact\\b"
+      }
+    ]
+  },
+  "Loneliness": {
+    "env_group": "Social & socioeconomic factors",
+    "env_subgroup": "Loneliness",
+    "notes": "Subjective loneliness (kept separate from structural isolation); bare \"lonely\" avoided",
+    "patterns": [
+      {
+        "variant": "Loneliness",
+        "pattern": "\\bLoneliness\\b"
+      },
+      {
+        "variant": "felt loneliness",
+        "pattern": "\\bfelt\\s+loneliness\\b"
+      },
+      {
+        "variant": "perceived loneliness",
+        "pattern": "\\bperceived\\s+loneliness\\b"
+      }
+    ]
+  },
+  "Lack of social support": {
+    "env_group": "Social & socioeconomic factors",
+    "env_subgroup": "Social support",
+    "notes": "Perceived support deficits; bare \"lack of support\" removed",
+    "patterns": [
+      {
+        "variant": "Lack of social support",
+        "pattern": "\\bLack\\s+of\\s+social\\s+support\\b"
+      },
+      {
+        "variant": "low social support",
+        "pattern": "\\blow\\s+social\\s+support\\b"
+      },
+      {
+        "variant": "poor social support",
+        "pattern": "\\bpoor\\s+social\\s+support\\b"
+      },
+      {
+        "variant": "inadequate social support",
+        "pattern": "\\binadequate\\s+social\\s+support\\b"
+      }
+    ]
+  },
+  "Discrimination and stigma": {
+    "env_group": "Social & socioeconomic factors",
+    "env_subgroup": "Discrimination",
+    "notes": "Chronic exposure to discrimination; bare \"stigma\" removed",
+    "patterns": [
+      {
+        "variant": "Discrimination and stigma",
+        "pattern": "\\bDiscrimination\\s+and\\s+stigma\\b"
+      },
+      {
+        "variant": "discrimination",
+        "pattern": "\\bdiscrimination\\b"
+      },
+      {
+        "variant": "racial discrimination",
+        "pattern": "\\bracial\\s+discrimination\\b"
+      },
+      {
+        "variant": "ethnic discrimination",
+        "pattern": "\\bethnic\\s+discrimination\\b"
+      },
+      {
+        "variant": "perceived discrimination",
+        "pattern": "\\bperceived\\s+discrimination\\b"
+      },
+      {
+        "variant": "social stigma",
+        "pattern": "\\bsocial\\s+stigma\\b"
+      },
+      {
+        "variant": "mental health stigma",
+        "pattern": "\\bmental\\s+health\\s+stigma\\b"
+      },
+      {
+        "variant": "social exclusion",
+        "pattern": "\\bsocial\\s+exclusion\\b"
+      }
+    ]
+  },
+  "Migration and acculturation stress": {
+    "env_group": "Social & socioeconomic factors",
+    "env_subgroup": "Migration",
+    "notes": "Stress related to migration and acculturation",
+    "patterns": [
+      {
+        "variant": "Migration and acculturation stress",
+        "pattern": "\\bMigration\\s+and\\s+acculturation\\s+stress\\b"
+      },
+      {
+        "variant": "migration stress",
+        "pattern": "\\bmigration\\s+stress\\b"
+      },
+      {
+        "variant": "acculturation stress",
+        "pattern": "\\bacculturation\\s+stress\\b"
+      },
+      {
+        "variant": "immigrant stress",
+        "pattern": "\\bimmigrant\\s+stress\\b"
+      },
+      {
+        "variant": "immigration stress",
+        "pattern": "\\bimmigration\\s+stress\\b"
+      }
+    ]
+  },
+  "Disability": {
+    "env_group": "Social & socioeconomic factors",
+    "env_subgroup": "Disability",
+    "notes": "Functional/social disability context; bare \"disabled\" avoided",
+    "patterns": [
+      {
+        "variant": "Disability",
+        "pattern": "\\bDisability\\b"
+      },
+      {
+        "variant": "physical disability",
+        "pattern": "\\bphysical\\s+disability\\b"
+      },
+      {
+        "variant": "intellectual disability",
+        "pattern": "\\bintellectual\\s+disability\\b"
+      },
+      {
+        "variant": "living with disability",
+        "pattern": "\\bliving\\s+with\\s+disability\\b"
+      },
+      {
+        "variant": "functional disability",
+        "pattern": "\\bfunctional\\s+disability\\b"
+      }
+    ]
+  },
+  "Major stressful life event": {
+    "env_group": "Stressful life events & chronic stress",
+    "env_subgroup": "Acute events",
+    "notes": "Generic acute stressor category",
+    "patterns": [
+      {
+        "variant": "Major stressful life event",
+        "pattern": "\\bMajor\\s+stressful\\s+life\\s+event\\b"
+      },
+      {
+        "variant": "acute life event",
+        "pattern": "\\bacute\\s+life\\s+event\\b"
+      },
+      {
+        "variant": "major life event",
+        "pattern": "\\bmajor\\s+life\\s+event\\b"
+      },
+      {
+        "variant": "stressful life event",
+        "pattern": "\\bstressful\\s+life\\s+event\\b"
+      },
+      {
+        "variant": "severe life stress",
+        "pattern": "\\bsevere\\s+life\\s+stress\\b"
+      },
+      {
+        "variant": "negative life events",
+        "pattern": "\\bnegative\\s+life\\s+events\\b"
+      },
+      {
+        "variant": "stressful life events",
+        "pattern": "\\bstressful\\s+life\\s+events\\b"
+      }
+    ]
+  },
+  "Bereavement": {
+    "env_group": "Stressful life events & chronic stress",
+    "env_subgroup": "Bereavement",
+    "notes": "Interpersonal loss event",
+    "patterns": [
+      {
+        "variant": "Bereavement",
+        "pattern": "\\bBereavement\\b"
+      },
+      {
+        "variant": "loss of a loved one",
+        "pattern": "\\bloss\\s+of\\s+a\\s+loved\\s+one\\b"
+      },
+      {
+        "variant": "death of spouse",
+        "pattern": "\\bdeath\\s+of\\s+spouse\\b"
+      },
+      {
+        "variant": "death of close relative",
+        "pattern": "\\bdeath\\s+of\\s+close\\s+relative\\b"
+      },
+      {
+        "variant": "grief after bereavement",
+        "pattern": "\\bgrief\\s+after\\s+bereavement\\b"
+      }
+    ]
+  },
+  "Relationship breakup": {
+    "env_group": "Stressful life events & chronic stress",
+    "env_subgroup": "Relationship stress",
+    "notes": "Interpersonal stressor",
+    "patterns": [
+      {
+        "variant": "Relationship breakup",
+        "pattern": "\\bRelationship\\s+breakup\\b"
+      },
+      {
+        "variant": "marital dissolution",
+        "pattern": "\\bmarital\\s+dissolution\\b"
+      },
+      {
+        "variant": "marital separation",
+        "pattern": "\\bmarital\\s+separation\\b"
+      },
+      {
+        "variant": "relationship dissolution",
+        "pattern": "\\brelationship\\s+dissolution\\b"
+      }
+    ]
+  },
+  "Divorce": {
+    "env_group": "Stressful life events & chronic stress",
+    "env_subgroup": "Relationship stress",
+    "notes": "Explicit divorce mentions",
+    "patterns": [
+      {
+        "variant": "Divorce",
+        "pattern": "\\bDivorce\\b"
+      },
+      {
+        "variant": "divorced",
+        "pattern": "\\bdivorced\\b"
+      },
+      {
+        "variant": "marital divorce",
+        "pattern": "\\bmarital\\s+divorce\\b"
+      }
+    ]
+  },
+  "Interpersonal stress and social rejection": {
+    "env_group": "Stressful life events & chronic stress",
+    "env_subgroup": "Interpersonal rejection",
+    "notes": "Strong proximal risk factor for MDD",
+    "patterns": [
+      {
+        "variant": "Interpersonal stress and social rejection",
+        "pattern": "\\bInterpersonal\\s+stress\\s+and\\s+social\\s+rejection\\b"
+      },
+      {
+        "variant": "interpersonal stress",
+        "pattern": "\\binterpersonal\\s+stress\\b"
+      },
+      {
+        "variant": "social rejection",
+        "pattern": "\\bsocial\\s+rejection\\b"
+      },
+      {
+        "variant": "interpersonal loss",
+        "pattern": "\\binterpersonal\\s+loss\\b"
+      },
+      {
+        "variant": "ostracism",
+        "pattern": "\\bostracism\\b"
+      }
+    ]
+  },
+  "Caregiving burden": {
+    "env_group": "Stressful life events & chronic stress",
+    "env_subgroup": "Caregiving",
+    "notes": "Chronic role strain",
+    "patterns": [
+      {
+        "variant": "Caregiving burden",
+        "pattern": "\\bCaregiving\\s+burden\\b"
+      },
+      {
+        "variant": "caregiver stress",
+        "pattern": "\\bcaregiver\\s+stress\\b"
+      },
+      {
+        "variant": "caring for a sick relative",
+        "pattern": "\\bcaring\\s+for\\s+a\\s+sick\\s+relative\\b"
+      },
+      {
+        "variant": "caregiver burden",
+        "pattern": "\\bcaregiver\\s+burden\\b"
+      }
+    ]
+  },
+  "Chronic stress": {
+    "env_group": "Stressful life events & chronic stress",
+    "env_subgroup": "Chronic stress",
+    "notes": "Persistent stress exposure",
+    "patterns": [
+      {
+        "variant": "Chronic stress",
+        "pattern": "\\bChronic\\s+stress\\b"
+      },
+      {
+        "variant": "chronic psychosocial stress",
+        "pattern": "\\bchronic\\s+psychosocial\\s+stress\\b"
+      },
+      {
+        "variant": "prolonged stress",
+        "pattern": "\\bprolonged\\s+stress\\b"
+      },
+      {
+        "variant": "psychosocial stress",
+        "pattern": "\\bpsychosocial\\s+stress\\b"
+      }
+    ]
+  },
+  "Perceived stress": {
+    "env_group": "Stressful life events & chronic stress",
+    "env_subgroup": "Perceived stress",
+    "notes": "Self-rated stress burden",
+    "patterns": [
+      {
+        "variant": "Perceived stress",
+        "pattern": "\\bPerceived\\s+stress\\b"
+      },
+      {
+        "variant": "high perceived stress",
+        "pattern": "\\bhigh\\s+perceived\\s+stress\\b"
+      },
+      {
+        "variant": "subjective stress",
+        "pattern": "\\bsubjective\\s+stress\\b"
+      }
+    ]
+  },
+  "Alcohol misuse": {
+    "env_group": "Substance use & lifestyle",
+    "env_subgroup": "Alcohol",
+    "notes": "Alcohol-related exposure (clinical labels may also hit Disease rarely)",
+    "patterns": [
+      {
+        "variant": "Alcohol misuse",
+        "pattern": "\\bAlcohol\\s+misuse\\b"
+      },
+      {
+        "variant": "alcohol abuse",
+        "pattern": "\\balcohol\\s+abuse\\b"
+      },
+      {
+        "variant": "alcohol dependence",
+        "pattern": "\\balcohol\\s+dependence\\b"
+      },
+      {
+        "variant": "hazardous drinking",
+        "pattern": "\\bhazardous\\s+drinking\\b"
+      },
+      {
+        "variant": "heavy drinking",
+        "pattern": "\\bheavy\\s+drinking\\b"
+      },
+      {
+        "variant": "alcohol use disorder",
+        "pattern": "\\balcohol\\s+use\\s+disorder\\b"
+      },
+      {
+        "variant": "alcohol use disorders",
+        "pattern": "\\balcohol\\s+use\\s+disorders\\b"
+      },
+      {
+        "variant": "alcohol use",
+        "pattern": "\\balcohol\\s+use\\b"
+      },
+      {
+        "variant": "alcohol consumption",
+        "pattern": "\\balcohol\\s+consumption\\b"
+      }
+    ]
+  },
+  "Cannabis use": {
+    "env_group": "Substance use & lifestyle",
+    "env_subgroup": "Cannabis",
+    "notes": "Cannabis as environmental risk factor",
+    "patterns": [
+      {
+        "variant": "Cannabis use",
+        "pattern": "\\bCannabis\\s+use\\b"
+      },
+      {
+        "variant": "marijuana use",
+        "pattern": "\\bmarijuana\\s+use\\b"
+      },
+      {
+        "variant": "cannabis abuse",
+        "pattern": "\\bcannabis\\s+abuse\\b"
+      },
+      {
+        "variant": "cannabis dependence",
+        "pattern": "\\bcannabis\\s+dependence\\b"
+      }
+    ]
+  },
+  "Other substance use": {
+    "env_group": "Substance use & lifestyle",
+    "env_subgroup": "Other substances",
+    "notes": "Non-specific psychoactive substances",
+    "patterns": [
+      {
+        "variant": "Other substance use",
+        "pattern": "\\bOther\\s+substance\\s+use\\b"
+      },
+      {
+        "variant": "substance use",
+        "pattern": "\\bsubstance\\s+use\\b"
+      },
+      {
+        "variant": "drug misuse",
+        "pattern": "\\bdrug\\s+misuse\\b"
+      },
+      {
+        "variant": "illicit drug use",
+        "pattern": "\\billicit\\s+drug\\s+use\\b"
+      },
+      {
+        "variant": "polysubstance use",
+        "pattern": "\\bpolysubstance\\s+use\\b"
+      },
+      {
+        "variant": "substance abuse",
+        "pattern": "\\bsubstance\\s+abuse\\b"
+      }
+    ]
+  },
+  "Sleep disruption": {
+    "env_group": "Substance use & lifestyle",
+    "env_subgroup": "Sleep",
+    "notes": "Circadian/sleep risk; bare \"insomnia\" and bare \"sleep quality\" avoided",
+    "patterns": [
+      {
+        "variant": "Sleep disruption",
+        "pattern": "\\bSleep\\s+disruption\\b"
+      },
+      {
+        "variant": "sleep deprivation",
+        "pattern": "\\bsleep\\s+deprivation\\b"
+      },
+      {
+        "variant": "irregular sleep-wake cycle",
+        "pattern": "\\birregular\\s+sleep\\-wake\\s+cycle\\b"
+      },
+      {
+        "variant": "poor sleep",
+        "pattern": "\\bpoor\\s+sleep\\b"
+      },
+      {
+        "variant": "disturbed sleep",
+        "pattern": "\\bdisturbed\\s+sleep\\b"
+      },
+      {
+        "variant": "sleep disturbance",
+        "pattern": "\\bsleep\\s+disturbance\\b"
+      },
+      {
+        "variant": "sleep disturbances",
+        "pattern": "\\bsleep\\s+disturbances\\b"
+      },
+      {
+        "variant": "poor sleep quality",
+        "pattern": "\\bpoor\\s+sleep\\s+quality\\b"
+      }
+    ]
+  },
+  "Physical inactivity": {
+    "env_group": "Substance use & lifestyle",
+    "env_subgroup": "Physical activity",
+    "notes": "Behavioural risk factor (not \"physical activity\" as protective exposure)",
+    "patterns": [
+      {
+        "variant": "Physical inactivity",
+        "pattern": "\\bPhysical\\s+inactivity\\b"
+      },
+      {
+        "variant": "sedentary lifestyle",
+        "pattern": "\\bsedentary\\s+lifestyle\\b"
+      },
+      {
+        "variant": "low physical activity",
+        "pattern": "\\blow\\s+physical\\s+activity\\b"
+      },
+      {
+        "variant": "lack of physical activity",
+        "pattern": "\\black\\s+of\\s+physical\\s+activity\\b"
+      },
+      {
+        "variant": "insufficient physical activity",
+        "pattern": "\\binsufficient\\s+physical\\s+activity\\b"
+      }
+    ]
+  },
+  "Poor diet": {
+    "env_group": "Substance use & lifestyle",
+    "env_subgroup": "Diet",
+    "notes": "Dietary risk factor",
+    "patterns": [
+      {
+        "variant": "Poor diet",
+        "pattern": "\\bPoor\\s+diet\\b"
+      },
+      {
+        "variant": "unhealthy diet",
+        "pattern": "\\bunhealthy\\s+diet\\b"
+      },
+      {
+        "variant": "high-fat diet",
+        "pattern": "\\bhigh\\-fat\\s+diet\\b"
+      },
+      {
+        "variant": "low fruit and vegetable intake",
+        "pattern": "\\blow\\s+fruit\\s+and\\s+vegetable\\s+intake\\b"
+      }
+    ]
+  },
+  "High body mass index": {
+    "env_group": "Substance use & lifestyle",
+    "env_subgroup": "Body weight",
+    "notes": "BMI/adiposity as lifestyle-related exposure; HunFlair rarely tags these as Disease",
+    "patterns": [
+      {
+        "variant": "High body mass index",
+        "pattern": "\\bHigh\\s+body\\s+mass\\s+index\\b"
+      },
+      {
+        "variant": "body mass index",
+        "pattern": "\\bbody\\s+mass\\s+index\\b"
+      },
+      {
+        "variant": "elevated BMI",
+        "pattern": "\\belevated\\s+BMI\\b"
+      },
+      {
+        "variant": "high BMI",
+        "pattern": "\\bhigh\\s+BMI\\b"
+      },
+      {
+        "variant": "overweight",
+        "pattern": "\\boverweight\\b"
+      },
+      {
+        "variant": "obesity",
+        "pattern": "\\bobesity\\b"
+      },
+      {
+        "variant": "obese",
+        "pattern": "\\bobese\\b"
+      }
+    ]
+  },
+  "Urban environment": {
+    "env_group": "Physical environment",
+    "env_subgroup": "Urbanicity",
+    "notes": "Urban vs rural context",
+    "patterns": [
+      {
+        "variant": "Urban environment",
+        "pattern": "\\bUrban\\s+environment\\b"
+      },
+      {
+        "variant": "urbanicity",
+        "pattern": "\\burbanicity\\b"
+      },
+      {
+        "variant": "city living",
+        "pattern": "\\bcity\\s+living\\b"
+      },
+      {
+        "variant": "high-density urban living",
+        "pattern": "\\bhigh\\-density\\s+urban\\s+living\\b"
+      },
+      {
+        "variant": "urban living",
+        "pattern": "\\burban\\s+living\\b"
+      }
+    ]
+  },
+  "Low residential greenness": {
+    "env_group": "Physical environment",
+    "env_subgroup": "Greenness",
+    "notes": "Physical environment with few green areas",
+    "patterns": [
+      {
+        "variant": "Low residential greenness",
+        "pattern": "\\bLow\\s+residential\\s+greenness\\b"
+      },
+      {
+        "variant": "low greenness",
+        "pattern": "\\blow\\s+greenness\\b"
+      },
+      {
+        "variant": "lack of green space",
+        "pattern": "\\black\\s+of\\s+green\\s+space\\b"
+      },
+      {
+        "variant": "low access to parks",
+        "pattern": "\\blow\\s+access\\s+to\\s+parks\\b"
+      }
+    ]
+  },
+  "Air pollution": {
+    "env_group": "Physical environment",
+    "env_subgroup": "Pollution",
+    "notes": "Environmental pollution exposure",
+    "patterns": [
+      {
+        "variant": "Air pollution",
+        "pattern": "\\bAir\\s+pollution\\b"
+      },
+      {
+        "variant": "traffic-related air pollution",
+        "pattern": "\\btraffic\\-related\\s+air\\s+pollution\\b"
+      },
+      {
+        "variant": "PM2.5 exposure",
+        "pattern": "\\bPM2\\.5\\s+exposure\\b"
+      },
+      {
+        "variant": "high pollution levels",
+        "pattern": "\\bhigh\\s+pollution\\s+levels\\b"
+      },
+      {
+        "variant": "particulate matter exposure",
+        "pattern": "\\bparticulate\\s+matter\\s+exposure\\b"
+      }
+    ]
+  },
+  "Environmental noise": {
+    "env_group": "Physical environment",
+    "env_subgroup": "Noise",
+    "notes": "Noise stressor",
+    "patterns": [
+      {
+        "variant": "Environmental noise",
+        "pattern": "\\bEnvironmental\\s+noise\\b"
+      },
+      {
+        "variant": "traffic noise",
+        "pattern": "\\btraffic\\s+noise\\b"
+      },
+      {
+        "variant": "chronic noise exposure",
+        "pattern": "\\bchronic\\s+noise\\s+exposure\\b"
+      }
+    ]
+  },
+  "Overcrowded or poor housing": {
+    "env_group": "Physical environment",
+    "env_subgroup": "Housing",
+    "notes": "Deprived housing environment",
+    "patterns": [
+      {
+        "variant": "Overcrowded or poor housing",
+        "pattern": "\\bOvercrowded\\s+or\\s+poor\\s+housing\\b"
+      },
+      {
+        "variant": "overcrowded housing",
+        "pattern": "\\bovercrowded\\s+housing\\b"
+      },
+      {
+        "variant": "poor housing conditions",
+        "pattern": "\\bpoor\\s+housing\\s+conditions\\b"
+      },
+      {
+        "variant": "substandard housing",
+        "pattern": "\\bsubstandard\\s+housing\\b"
+      },
+      {
+        "variant": "housing instability",
+        "pattern": "\\bhousing\\s+instability\\b"
+      },
+      {
+        "variant": "housing insecurity",
+        "pattern": "\\bhousing\\s+insecurity\\b"
+      }
+    ]
+  },
+  "Climate and temperature extremes": {
+    "env_group": "Physical environment",
+    "env_subgroup": "Climate",
+    "notes": "Climate-related stressors",
+    "patterns": [
+      {
+        "variant": "Climate and temperature extremes",
+        "pattern": "\\bClimate\\s+and\\s+temperature\\s+extremes\\b"
+      },
+      {
+        "variant": "heat waves",
+        "pattern": "\\bheat\\s+waves\\b"
+      },
+      {
+        "variant": "extreme cold exposure",
+        "pattern": "\\bextreme\\s+cold\\s+exposure\\b"
+      },
+      {
+        "variant": "extreme temperature",
+        "pattern": "\\bextreme\\s+temperature\\b"
+      },
+      {
+        "variant": "climate stress",
+        "pattern": "\\bclimate\\s+stress\\b"
+      }
+    ]
+  },
+  "Postpartum period": {
+    "env_group": "Reproductive & sex-specific",
+    "env_subgroup": "Postpartum period",
+    "notes": "Window of increased depression risk; bare \"postpartum\"/\"postnatal\" removed to avoid \"postpartum depression\" noise",
+    "patterns": [
+      {
+        "variant": "Postpartum period",
+        "pattern": "\\bPostpartum\\s+period\\b"
+      },
+      {
+        "variant": "postnatal period",
+        "pattern": "\\bpostnatal\\s+period\\b"
+      },
+      {
+        "variant": "after childbirth",
+        "pattern": "\\bafter\\s+childbirth\\b"
+      }
+    ]
+  },
+  "Stressful perinatal events": {
+    "env_group": "Reproductive & sex-specific",
+    "env_subgroup": "Postpartum stress",
+    "notes": "Stress cluster around childbirth",
+    "patterns": [
+      {
+        "variant": "Stressful perinatal events",
+        "pattern": "\\bStressful\\s+perinatal\\s+events\\b"
+      },
+      {
+        "variant": "stressful pregnancy events",
+        "pattern": "\\bstressful\\s+pregnancy\\s+events\\b"
+      },
+      {
+        "variant": "stressful postpartum events",
+        "pattern": "\\bstressful\\s+postpartum\\s+events\\b"
+      }
+    ]
+  },
+  "Hormonal changes related to reproduction": {
+    "env_group": "Reproductive & sex-specific",
+    "env_subgroup": "Hormonal factors",
+    "notes": "Hormone-related risk periods",
+    "patterns": [
+      {
+        "variant": "Hormonal changes related to reproduction",
+        "pattern": "\\bHormonal\\s+changes\\s+related\\s+to\\s+reproduction\\b"
+      },
+      {
+        "variant": "perimenopause",
+        "pattern": "\\bperimenopause\\b"
+      },
+      {
+        "variant": "premenstrual period",
+        "pattern": "\\bpremenstrual\\s+period\\b"
+      },
+      {
+        "variant": "postpartum hormonal changes",
+        "pattern": "\\bpostpartum\\s+hormonal\\s+changes\\b"
+      },
+      {
+        "variant": "reproductive hormonal changes",
+        "pattern": "\\breproductive\\s+hormonal\\s+changes\\b"
+      },
+      {
+        "variant": "menopausal transition",
+        "pattern": "\\bmenopausal\\s+transition\\b"
+      }
+    ]
+  }
+}
