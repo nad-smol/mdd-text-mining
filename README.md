@@ -307,13 +307,3 @@ The pipeline is topic-agnostic. To apply it to another biomedical domain (e.g., 
 3. Run `python run_all.py --mode full`.
 
 ---
-
-## Running Unit Tests
-
-Run the test suite to verify regex parsing, canonicalization, and association scoring:
-
-```bash
-python -m unittest tests.test_mirna tests.test_associations
-```
-
----
